@@ -17,7 +17,7 @@ Frozen once, never touched again. Nothing in them appears in any training set.
 | `mined_dev` | 400 | Open-world retrieval by the mining pipeline | Held out from training from the start |
 | `dfire_neg` | 1,500 | D-Fire test split, negatives only | Independent corpus, camera, geography, annotation policy |
 
-**Total 3,396 fire-free images.**
+**Total 2,596 fire-free images.**
 
 An image counts as a false alarm if **any** predicted box on it exceeds the
 operating threshold, regardless of class or location. That is the decision an
@@ -56,29 +56,20 @@ its published dataset.
 
 ---
 
-## ⚠️ Manifests are not yet generated
+## Manifests
 
-The manifest files with filenames and SHA-256 checksums must be produced on the
-machine that holds the frozen archives, which is the Colab environment where the
-zips live. They are not in this archive yet.
+`eval_suite_manifest.csv` lists every one of the 2,596 images with its SHA-256
+and byte length, so a reconstruction can be checked file by file rather than
+trusted. Generated 2026-08-08 by `code/make_eval_manifest.py`, which also
+verifies each set against its expected count.
 
-**Until they are, this directory documents provenance but does not enable exact
-reconstruction.** Generating them is a required step before the DOI is minted;
-it is one pass over four zip files.
+| | |
+|---|---|
+| rows | 2,596 |
+| manifest SHA-256 | `8139d7d0f1fc4ed61fa8fb6c0b8d7c88df45b2392a48acc57984499823d5d294` |
 
-```python
-import zipfile, hashlib, csv
-rows = []
-for zname, setname in (("hn_holdout_500.zip", "hn_holdout"),
-                       ("novel_firelike.zip", "novel"),
-                       ("mined_dev.zip", "mined_dev"),
-                       ("dfire_neg_1500.zip", "dfire_neg")):
-    z = zipfile.ZipFile(ROOT / "eval_suite_v2" / zname)
-    for n in z.namelist():
-        if n.lower().endswith((".jpg", ".jpeg", ".png")):
-            rows.append([setname, n, hashlib.sha256(z.read(n)).hexdigest()])
-with open("eval_suite_manifest.csv", "w", newline="") as f:
-    w = csv.writer(f)
-    w.writerow(["set", "filename", "sha256"])
-    w.writerows(rows)
+To rebuild it from the archives:
+
+```bash
+python code/make_eval_manifest.py <dir with the four zips> data/eval_suite_manifest.csv
 ```
