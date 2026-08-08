@@ -1,0 +1,2 @@
+model,dataset,mAP50,mAP50_95,precision,recall,f1,flame_AP50,smoke_AP50,neg_imgs,FPR@0.25,FPR@0.5
+dfire_C3_yolo26n,D-Fire (in-domain),0.7586,0.435,0.7595,0.7081,0.7329,0.6847,0.8326,1500,1.47,0.73

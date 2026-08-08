@@ -1,0 +1,9 @@
+detector,side,minutes,no_layer_per_hour,with_layer_per_hour,no_layer_alarms,with_layer_alarms
+SAFE-Fire (kd6),negative,32.2,218.17,31.7,117,17
+no-negatives baseline,negative,32.2,809.29,167.83,434,90
+SAFE-Fire (kd6),negative/FIRESENSE,14.5,,66.36,,16
+SAFE-Fire (kd6),negative/KMU,17.7,,3.39,,1
+no-negatives baseline,negative/FIRESENSE,14.5,,360.81,,87
+no-negatives baseline,negative/KMU,17.7,,10.16,,3
+SAFE-Fire (kd6),positive,14.4,0.9167,0.8333,22,20
+no-negatives baseline,positive,14.4,1.0,1.0,24,24

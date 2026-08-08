@@ -1,0 +1,5 @@
+control,question,comparison,metric,value_A,value_B,verdict
+1,negatives or just more images,random COCO bg vs mined negatives (both n=1671),FAR@0.50 pct,4.2,0.4,difficulty not volume
+2,memorised the mined classes,novel unseen fire-like categories,FAR@0.50 pct,18.27,2.17,generalises
+3,is the association causal,D-Fire with vs without its own negatives,FAR@0.50 pct,0.73,23.4,intervention reverses it
+4,architecture specific,same recipe on yolov8n and yolo11n,FAR@0.50 pct,1.0,0.4,architecture agnostic

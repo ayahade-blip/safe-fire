@@ -1,0 +1,26 @@
+{
+  "title": "SAFE-Fire: code and frozen evaluation records",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Hade, Aya",
+      "orcid": "0009-0004-3051-2004",
+      "affiliation": "Department of Computer Science, College of Computer Science and Information Technology, University of Sumer, Thi Qar, Iraq"
+    },
+    {
+      "name": "Kamil, Mustafa",
+      "affiliation": "Department of Computer Science, College of Computer Science and Information Technology, University of Sumer, Thi Qar, Iraq"
+    }
+  ],
+  "keywords": [
+    "fire detection",
+    "false alarm rate",
+    "conformal prediction",
+    "hard negative mining",
+    "edge computing",
+    "Internet of Things",
+    "Jetson Nano"
+  ],
+  "description": "Code, frozen evaluation records, device logs and figures supporting a study of false-alarm rates in indoor fire detection. Every number and figure in the associated paper traces to a file in this archive."
+}

@@ -1,0 +1,4 @@
+run,source,protocol,model,params_M,seed,P,R,mAP50,mAP5095,AP5095_flame,AP5095_smoke,FPR25_hn_holdout,FPR50_hn_holdout,FPR25_novel,FPR50_novel,FPR25_mined_dev,FPR50_mined_dev,FPR25_dfire_neg,FPR50_dfire_neg,note
+paper_YOLOv5s_reported,"Peng & Kim, IEEE Access 2025, Table 3","YOLO-HF (scratch, SGD, 300ep)",yolov5s,7.02,,0.93,0.833,0.904,0.603,,,,,,,,,,,the paper reports no false-alarm metric at all
+pos_only,"E1.8, this work","YOLO-HF (scratch, SGD, 300ep)",yolov5s,7.025,42,0.9017,0.8445,0.886,0.5517,0.5832,0.5202,47.8,39.4,45.92,38.78,43.5,33.25,23.13,13.33,home_fire positives only - the paper dataset untouched
+plus_safemine,"E1.8, this work","YOLO-HF (scratch, SGD, 300ep)",yolov5s,7.025,42,0.9308,0.8352,0.905,0.5625,0.6024,0.5225,15.6,10.4,18.88,12.24,12.0,5.5,12.87,6.07,"+1671 SAFE-Mine round-0 negatives, nothing else changed"

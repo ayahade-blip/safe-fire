@@ -1,0 +1,13 @@
+metric,value,unit,note
+mean_fps,16.28,fps,5 min soak in 30 s windows
+latency_mean,61.4,ms,
+latency_median,61.1,ms,
+latency_p95,62.1,ms,
+latency_p99,63.1,ms,
+first_window_fps,15.51,fps,camera pipeline still warming
+last_window_fps,16.36,fps,+5.5 percent over the run
+fpr_fp16,1.64,percent,18/1096 CI [0.98 2.58]
+fpr_int8,1.73,percent,19/1096 CI [1.05 2.69]
+det_fp16,85.15,percent,1107/1300 CI [83.10 87.04]
+det_int8,85.31,percent,1109/1300 CI [83.27 87.19]
+int8_engine_size_delta,6.4,percent,INT8 engine LARGER than FP16

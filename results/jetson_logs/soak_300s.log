@@ -1,0 +1,52 @@
+GST_ARGUS: Creating output stream
+CONSUMER: Waiting until producer is connected...
+GST_ARGUS: Available Sensor modes :
+GST_ARGUS: 3264 x 2464 FR = 21.000000 fps Duration = 47619048 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 3264 x 1848 FR = 28.000001 fps Duration = 35714284 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1920 x 1080 FR = 29.999999 fps Duration = 33333334 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1640 x 1232 FR = 29.999999 fps Duration = 33333334 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1280 x 720 FR = 59.999999 fps Duration = 16666667 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1280 x 720 FR = 120.000005 fps Duration = 8333333 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: Running with following settings:
+   Camera index = 0 
+   Camera mode  = 3 
+   Output Stream W = 1640 H = 1232 
+   seconds to Run    = 0 
+   Frame Rate = 29.999999 
+GST_ARGUS: Setup Complete, Starting captures for 0 seconds
+GST_ARGUS: Starting repeat capture requests.
+CONSUMER: Producer has connected; continuing.
+[ WARN:0] global /home/nvidia/host/build_opencv/nv_opencv/modules/videoio/src/cap_gstreamer.cpp (933) open OpenCV | GStreamer warning: Cannot query video position: status=0, value=-1, duration=-1
+soaking for 300 s ...
+
+  window        frames    FPS    latency ms (mean / p95 / max)   dets
+  ------------  ------  -----    ----------------------------   ----
+     0 -   30 s     466  15.51      64.5 /   62.1 / 1655.5             0
+    30 -   60 s     492  16.38      61.0 /   62.0 /   63.7             0
+    60 -   90 s     492  16.38      61.0 /   62.1 /   63.6             0
+    90 -  120 s     492  16.38      61.0 /   62.0 /   64.0             0
+   120 -  150 s     492  16.38      61.0 /   62.0 /   64.2             0
+   150 -  180 s     491  16.37      61.1 /   62.2 /   64.9             0
+   180 -  210 s     492  16.37      61.1 /   62.1 /   64.4             0
+   210 -  240 s     491  16.36      61.1 /   62.1 /   64.1             0
+   240 -  270 s     491  16.36      61.1 /   62.1 /   63.8             0
+
+==============================================================
+  SOAK SUMMARY   4886 frames over 300 s
+==============================================================
+  mean FPS        16.28
+  latency  mean 61.4  median 61.1  p95 62.1  p99 63.1  max 1655.5 ms
+  first window 15.51 FPS -> last window 16.36 FPS   (+5.5 %)
+  -> a falling trend here would be thermal. A flat one means the
+     passive heatsink is enough for continuous operation.
+  detections total 0
+==============================================================
+GST_ARGUS: Cleaning up
+CONSUMER: Done Success
+GST_ARGUS: Done Success
