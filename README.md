@@ -79,6 +79,38 @@ summary is the thing under scrutiny.
 | `fig6_qualitative_fp.png`, `recall_at_fpr1_bar.png`, `hn_ratio_curve.png` | supporting |
 | `camera_first_light.jpg` | first frame captured on the deployed device |
 
+
+### `figures/gradcam/`
+
+Where the detector looks. Grad-CAM over the three neck levels that feed the
+detection head, summed, with Eigen-CAM alongside as a gradient-free control.
+
+| File | Shows |
+|---|---|
+| `compare_candle_table.jpg` | a candle on a table, the archetypal indoor false alarm |
+| `compare_streetlamp.jpg`, `compare_trafficlight.jpg` | two of the novel categories no model saw in training |
+| `compare_flower.jpg`, `compare_shell.jpg` | fire-coloured objects that are not lights |
+| `gradcam_test_*.jpg` | detection panels on true positives, chosen by a concentration score rather than by eye |
+| `failure_test_680.jpg` | a case where the map is uninformative, kept on purpose |
+| `README.md` | method, and the trap described below |
+
+One methodological note carried over from that README, because it cost real
+time to find. Hooking a single layer before the detection head silently returns
+an empty map about a third of the time: a detection produced by the P4 head
+contributes exactly zero gradient at stride 32, which is correct arithmetic that
+looks like a broken implementation. Hooking all three levels and summing took
+the success rate from roughly two thirds to 96% over 1,285 frames.
+
+Per-image concentration scores are in `results/scores_full1285.csv`, and
+`results/negatives_scan.csv` holds the per-image top confidence over 1,096
+negatives.
+
+### `figures/false_positives/`
+
+The failures the mining was built to remove: the negative-free model firing on
+lamps, candles and fire-coloured objects. `fig6_qualitative_final.png` puts the
+before and after side by side.
+
 ---
 
 ## Reproducing the results
