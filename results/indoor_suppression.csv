@@ -1,5 +1,0 @@
-model,negatives,distilled,flame3_maxconf,flame4_maxconf,flame5_maxconf,flame2_maxconf
-tournament__yolo26n__s42,none,no,0.8145,0.8540,0.8741,0.9592
-hnratio__hn30__s42,generic,no,0.3464,0.8474,0.8716,0.9572
-safemine__sm_top__s42,mined,no,0.0058,0.0044,0.1404,0.9597
-kd__kd6__s42,mined,yes,0.0047,0.0254,0.0195,0.9360

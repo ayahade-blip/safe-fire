@@ -1,2 +1,0 @@
-model,dataset,mAP50,f1,precision,recall,neg_imgs,FPR@0.25,FPR@0.5
-dfire_posonly_yolo26n,D-Fire positives-only,0.6959,0.6816,0.6893,0.6741,1500,37.53,23.4

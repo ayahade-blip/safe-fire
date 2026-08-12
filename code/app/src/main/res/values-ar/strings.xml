@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">SAFE-Fire</string>
+
+    <string name="nav_status">الحالة</string>
+    <string name="nav_live">مباشر</string>
+    <string name="nav_history">السجل</string>
+    <string name="settings">الإعدادات</string>
+
+    <string name="level_normal">الوضع آمن</string>
+    <string name="level_watch">مراقبة</string>
+    <string name="level_alert">إنذار حريق</string>
+    <string name="level_confirmed">حريق مؤكد</string>
+    <string name="level_offline">غير متصل</string>
+
+    <string name="level_normal_desc">لا يوجد حريق. النظام يراقب بشكل طبيعي.</string>
+    <string name="level_watch_desc">قراءات الحسّاسات مرتفعة، والكاميرا لم ترَ شيئاً بعد.</string>
+    <string name="level_alert_desc">الكاميرا كشفت حريقاً. الحسّاسات لم تؤكد بعد.</string>
+    <string name="level_confirmed_desc">الكاميرا والحسّاسات كلاهما يشير إلى حريق.</string>
+    <string name="level_offline_desc">جهاز الكشف لا يرسل بيانات.</string>
+
+    <string name="last_check">آخر فحص</string>
+    <string name="detection_node">جهاز الكشف</string>
+    <string name="sensor_node">عقدة الحسّاسات</string>
+    <string name="online">متصل</string>
+    <string name="offline">غير متصل</string>
+    <string name="latest_frame">آخر لقطة</string>
+    <string name="view_live">عرض مباشر</string>
+    <string name="acknowledge">تأكيد الاطلاع</string>
+    <string name="acknowledged">تم الاطلاع</string>
+
+    <string name="temperature">الحرارة</string>
+    <string name="surface_temp">حرارة السطح</string>
+    <string name="gas">الدخان / الغاز</string>
+    <string name="flame_ir">لهب بالأشعة</string>
+    <string name="rate_of_rise">معدل الارتفاع</string>
+    <string name="last_hour">آخر ساعة</string>
+
+    <string name="live_view">العرض المباشر</string>
+    <string name="refresh">تحديث</string>
+    <string name="auto_refresh">تحديث تلقائي</string>
+    <string name="detections">الكشوفات</string>
+    <string name="no_detections">لا توجد كشوفات في هذه اللقطة</string>
+    <string name="confidence">الثقة</string>
+    <string name="inference_time">زمن الاستدلال</string>
+
+    <string name="event_history">سجل الأحداث</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_confirmed">مؤكدة</string>
+    <string name="filter_alert">إنذارات</string>
+    <string name="filter_watch">مراقبة</string>
+    <string name="no_events">لا توجد أحداث</string>
+    <string name="no_events_desc">ستظهر الأحداث هنا عندما يكشف النظام شيئاً.</string>
+    <string name="today">اليوم</string>
+    <string name="yesterday">أمس</string>
+    <string name="earlier">أقدم</string>
+
+    <string name="event_detail">تفاصيل الحدث</string>
+    <string name="why_triggered">سبب الإنذار</string>
+    <string name="evidence">الأدلة</string>
+    <string name="vision_channel">الكاميرا</string>
+    <string name="sensor_channel">الحسّاسات</string>
+    <string name="decision">القرار</string>
+    <string name="sensor_snapshot">قراءات الحسّاسات وقت الحدث</string>
+
+    <string name="notifications">الإشعارات</string>
+    <string name="notify_confirmed">الإنذارات المؤكدة</string>
+    <string name="notify_alert">إنذارات الكاميرا</string>
+    <string name="notify_watch">تنبيهات المراقبة</string>
+    <string name="confidence_threshold">عتبة الثقة</string>
+    <string name="connection">الاتصال</string>
+    <string name="data_source">مصدر البيانات</string>
+    <string name="demo_mode">بيانات تجريبية</string>
+    <string name="demo_mode_desc">يعمل على أحداث محاكاة. اربط Firebase للتشغيل الحقيقي.</string>
+    <string name="about">عن التطبيق</string>
+    <string name="about_desc">كشف حريق خفيف وموثوق لأنظمة إنترنت الأشياء.</string>
+    <string name="model_info">النموذج</string>
+    <string name="edge_device">جهاز الحافة</string>
+
+    <string name="just_now">الآن</string>
+    <string name="minutes_ago">قبل %1$d دقيقة</string>
+    <string name="hours_ago">قبل %1$d ساعة</string>
+    <string name="back">رجوع</string>
+    <string name="simulate">محاكاة حدث</string>
+
+    <string name="link_connecting">جارٍ الاتصال…</string>
+    <string name="link_cached">تعرض بيانات محفوظة</string>
+    <string name="link_offline">غير متصل</string>
+
+    <string name="appearance">المظهر</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="haptics">اهتزاز عند الإنذار</string>
+    <string name="tap_to_zoom">المس اللقطة للتكبير</string>
+
+    <string name="nav_analytics">التحليلات</string>
+    <string name="nav_devices">الأجهزة</string>
+    <string name="reliability">الموثوقية</string>
+    <string name="alarms_7d">إنذارات هذا الأسبوع</string>
+    <string name="by_trigger">ما الذي أطلقها</string>
+    <string name="trigger_vision">الكاميرا فقط</string>
+    <string name="trigger_sensor">الحسّاسات فقط</string>
+    <string name="trigger_both">اتفاق الاثنين</string>
+    <string name="edge_perf">أداء جهاز الحافة</string>
+    <string name="sensor_trends">اتجاهات الحسّاسات</string>
+    <string name="no_data_yet">لا توجد بيانات كافية</string>
+    <string name="no_data_desc">تمتلئ الرسوم البيانية مع استمرار عمل النظام.</string>
+
+    <string name="device_health">حالة الأجهزة</string>
+    <string name="last_seen">آخر ظهور</string>
+    <string name="uptime">مدة التشغيل</string>
+    <string name="request_frame">اطلب لقطة</string>
+    <string name="cloud_link">الاتصال بالسحابة</string>
+    <string name="link_live_desc">يبث مباشرة من السحابة.</string>
+    <string name="link_cached_desc">لا يوجد اتصال. تُعرض آخر بيانات محفوظة على الهاتف.</string>
+    <string name="link_connecting_desc">جارٍ الاتصال بالسحابة…</string>
+    <string name="attached_sensors">الحسّاسات الموصولة</string>
+
+    <string name="sensitivity">حساسية الإنذار</string>
+    <string name="sens_sensitive">حسّاس</string>
+    <string name="sens_standard">قياسي</string>
+    <string name="sens_quiet">هادئ</string>
+    <string name="sens_validated">كل وضع نقطة تشغيل مقاسة، وليست قيمة تُضبط اعتباطاً. الأرقام أدناه من مجموعة التقييم المجمّدة.</string>
+    <string name="op_recall">معدل الكشف</string>
+    <string name="op_fpr_hard">إنذارات كاذبة · مصابيح وشموع</string>
+    <string name="op_fpr_novel">إنذارات كاذبة · فئات جديدة</string>
+    <string name="op_fpr_open">إنذارات كاذبة · مشاهد يومية</string>
+    <string name="op_threshold">عتبة الثقة</string>
+    <string name="op_declared">نقطة التشغيل المعلَنة</string>
+
+    <string name="tile_air">حرارة الهواء</string>
+    <string name="tile_surface">حرارة السطح</string>
+    <string name="tile_gas">الغاز</string>
+    <string name="tile_infrared">اللهب بالأشعة</string>
+
+    <string name="tile_air_cap">هواء الغرفة حول العقدة</string>
+    <string name="tile_surface_cap">بلا تلامس. الارتفاع عن الهواء %1$s</string>
+    <string name="tile_gas_cap">‏Rs/R0 الآن %1$s، حيث 1.0 هواء نظيف</string>
+    <string name="tile_infrared_cap">الخرج ينخفض عند اللهب. مقدار الانخفاض %1$s</string>
+
+    <string name="unit_celsius">°C</string>
+    <string name="unit_percent" formatted="false">%</string>
+    <string name="unit_ratio">Rs/R0</string>
+    <string name="unit_millivolt">mV</string>
+
+    <string name="channel_down">الحسّاس لا يرسل قراءة</string>
+    <string name="channel_never_calibrated">لم يُعايَر في هواء نظيف بعد</string>
+    <string name="reading_missing_hint">الشرطة تعني أن الحسّاس لم يرسل قراءة، وليست قراءة بقيمة صفر.</string>
+
+    <string name="banner_since">منذ %1$s</string>
+    <string name="banner_acknowledge">تأكيد الاطلاع</string>
+    <string name="banner_acknowledged">تم الاطلاع</string>
+
+    <string name="sensors_stale">القراءات قديمة</string>
+    <string name="sensors_stale_age">آخر قراءة قبل %1$s</string>
+    <string name="node_silent">عقدة الحسّاسات صامتة</string>
+    <string name="node_silent_hint">لم تصل أي بيانات من العقدة، لذلك لا توجد قيمة تُعرض. تأكد من التغذية ومن الاتصال بالشبكة.</string>
+
+    <string name="live_connecting">جارٍ الاتصال بالكاميرا</string>
+    <string name="live_reconnecting">انقطع الاتصال، جارٍ إعادة المحاولة</string>
+    <string name="live_no_stream">لا يوجد بث مباشر</string>
+    <string name="live_stream_hint">البث المباشر يحتاج تشغيل الكاشف على Jetson ووجود الهاتف على نفس الشبكة.</string>
+
+    <string name="live_fps">%1$s إطار/ثانية</string>
+    <string name="live_resolution">%1$s × %2$s</string>
+    <string name="live_source_jetson">بث مباشر من Jetson Nano</string>
+    <string name="live_open_failed">تعذّر فتح البث</string>
+
+    <string name="health_ds">DS18B20</string>
+    <string name="health_mlx">MLX90614</string>
+    <string name="health_mq2">MQ-2</string>
+    <string name="health_flame">حسّاس اللهب</string>
+    <string name="conclusion_normal">لا شيء يتجاوز العتبة على أي من القناتين.</string>
+    <string name="conclusion_watch">قراءات الحسّاسات مرتفعة والكاميرا خالية. هذا ليس إنذاراً: الحسّاسات وحدها لا ترفع إنذاراً أبداً.</string>
+    <string name="conclusion_alert">الكاميرا كشفت حريقاً. هذا يرفع إنذاراً وحده، حتى لا يفوت حريق بعيد عن عقدة الحسّاسات.</string>
+    <string name="conclusion_confirmed">القناتان المستقلتان متفقتان. أعلى أولوية.</string>
+    <string name="conclusion_offline">الكشف منقوص؛ قناة الحسّاسات تراقب وحدها.</string>
+    <string name="badge_live">مباشر</string>
+    <string name="vision_sustained">الكشف استمر عبر قاعدة الاستمرارية.</string>
+    <string name="vision_none">لا يوجد كشف فوق العتبة المعايرة.</string>
+    <string name="vision_pipeline_down">مسار الكاميرا غير مشتغل.</string>
+    <string name="sensors_no_sample">لا توجد عينة من الحسّاسات: العقدة صامتة أو بياناتها قديمة.</string>
+    <string name="sensors_none_elevated">العقدة ترسل، ولا قناة مرتفعة.</string>
+    <string name="sensors_part_surface">السطح %1$s °م فوق خط الأساس</string>
+    <string name="sensors_part_gas">‏Rs/R0 %1$s</string>
+    <string name="sensors_part_ir">انخفاض الأشعة %1$s ملي فولت</string>
+    <string name="list_separator">؛ </string>
+    <string name="sensors_said">%1$s.</string>
+    <string name="delete_event">حذف</string>
+    <string name="delete_event_title">حذف هذا الحدث؟</string>
+    <string name="delete_event_body">يُحذف السجل وصورته من كل الأجهزة. لا يمكن التراجع.</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="last_alert">آخر إنذار</string>
+    <string name="last_alert_none">لم يُرفع أي إنذار حتى الآن.</string>
+    <string name="readings_at_alert">القراءات وقت رفعه</string>
+    <string name="live_readings">الحسّاسات الآن</string>
+    <string name="throughput">معدل المعالجة</string>
+    <string name="ack_failed">لم يصل تأكيد الاطلاع إلى السحابة</string>
+    <string name="ack_failed_body">الإنذار ما زال بلا رد على الأجهزة الأخرى. تحقق من الاتصال ومن قواعد قاعدة البيانات ثم أعد المحاولة.</string>
+    <string name="alert_snapshot">الكاميرا في تلك اللحظة</string>
+    <string name="evidence_camera">الكاميرا</string>
+    <string name="evidence_sensors">الحسّاسات</string>
+    <string name="evidence_both">الكاميرا والحسّاسات</string>
+    <string name="evidence_none">لا قناة تجاوزت العتبة</string>
+    <string name="based_on">رُفع بناءً على</string>
+    <string name="no_alert_yet">لم يُرفع أي إنذار</string>
+    <string name="no_alert_yet_body">عند رفع أي إنذار، تحتفظ هذه الشاشة باللقطة وبالقراءات من اللحظة التي حدث فيها.</string>
+    <string name="shield_clear_24h">لا إنذارات خلال آخر 24 ساعة</string>
+    <string name="shield_alerts_24h">الإنذارات خلال آخر 24 ساعة: %1$s</string>
+    <string name="shield_ring_legend">الحلقة: أعلى مستوى بلغته تلك النافذة</string>
+</resources>

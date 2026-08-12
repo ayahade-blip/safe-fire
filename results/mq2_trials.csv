@@ -1,5 +1,0 @@
-trial,source,distance_cm,Vo0_V,min_Rs_R0,time_to_min_s,recovery_to_0.95_s,recovery_to_0.98_s,detected
-pilot,burning paper (uncontrolled),unknown,0.3700,0.698,3.2,23.4,,yes
-1,smouldering paper strip,10,0.3824,0.835,3.0,10.9,16.9,yes
-2,smouldering paper strip,10,0.3846,NA,NA,NA,NA,NO - airflow carried plume away
-3,smouldering paper strip,10,0.3866,0.894,2.8,4.8,8.1,yes

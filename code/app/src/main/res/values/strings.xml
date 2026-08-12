@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">SAFE-Fire</string>
+
+    <string name="nav_status">Status</string>
+    <string name="nav_live">Live</string>
+    <string name="nav_history">History</string>
+    <string name="settings">Settings</string>
+
+    <string name="level_normal">All Clear</string>
+    <string name="level_watch">Watch</string>
+    <string name="level_alert">Fire Alert</string>
+    <string name="level_confirmed">Fire Confirmed</string>
+    <string name="level_offline">Offline</string>
+
+    <string name="level_normal_desc">No fire detected. System monitoring normally.</string>
+    <string name="level_watch_desc">Sensors elevated, camera sees nothing yet.</string>
+    <string name="level_alert_desc">The camera detected fire. Sensors have not confirmed.</string>
+    <string name="level_confirmed_desc">Camera and sensors both indicate fire.</string>
+    <string name="level_offline_desc">The detection node is not reporting.</string>
+
+    <string name="last_check">Last check</string>
+    <string name="detection_node">Detection node</string>
+    <string name="sensor_node">Sensor node</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="latest_frame">Latest frame</string>
+    <string name="view_live">View live</string>
+    <string name="acknowledge">Acknowledge</string>
+    <string name="acknowledged">Acknowledged</string>
+
+    <string name="temperature">Temperature</string>
+    <string name="surface_temp">Surface temp</string>
+    <string name="gas">Smoke / Gas</string>
+    <string name="flame_ir">Flame IR</string>
+    <string name="rate_of_rise">Rate of rise</string>
+    <string name="last_hour">Last hour</string>
+
+    <string name="live_view">Live view</string>
+    <string name="refresh">Refresh</string>
+    <string name="auto_refresh">Auto refresh</string>
+    <string name="detections">Detections</string>
+    <string name="no_detections">No detections in this frame</string>
+    <string name="confidence">Confidence</string>
+    <string name="inference_time">Inference</string>
+
+    <string name="event_history">Event history</string>
+    <string name="filter_all">All</string>
+    <string name="filter_confirmed">Confirmed</string>
+    <string name="filter_alert">Alerts</string>
+    <string name="filter_watch">Watch</string>
+    <string name="no_events">No events recorded</string>
+    <string name="no_events_desc">Events will appear here when the system detects something.</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="earlier">Earlier</string>
+
+    <string name="event_detail">Event detail</string>
+    <string name="why_triggered">Why this triggered</string>
+    <string name="evidence">Evidence</string>
+    <string name="vision_channel">Camera</string>
+    <string name="sensor_channel">Sensors</string>
+    <string name="decision">Decision</string>
+    <string name="sensor_snapshot">Sensor readings at the time</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="notify_confirmed">Confirmed alarms</string>
+    <string name="notify_alert">Camera alerts</string>
+    <string name="notify_watch">Sensor watch</string>
+    <string name="confidence_threshold">Confidence threshold</string>
+    <string name="connection">Connection</string>
+    <string name="data_source">Data source</string>
+    <string name="demo_mode">Demo data</string>
+    <string name="demo_mode_desc">Running on simulated events. Connect Firebase to go live.</string>
+    <string name="about">About</string>
+    <string name="about_desc">Reliable lightweight fire detection for IoT systems.</string>
+    <string name="model_info">Model</string>
+    <string name="edge_device">Edge device</string>
+
+    <string name="just_now">just now</string>
+    <string name="minutes_ago">%1$d min ago</string>
+    <string name="hours_ago">%1$d h ago</string>
+    <string name="back">Back</string>
+    <string name="simulate">Simulate event</string>
+
+    <string name="link_connecting">Connecting…</string>
+    <string name="link_cached">Showing saved data</string>
+    <string name="link_offline">Offline</string>
+
+    <string name="appearance">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="haptics">Vibrate on alarm</string>
+    <string name="tap_to_zoom">Tap the frame to zoom</string>
+
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_devices">Devices</string>
+    <string name="reliability">Reliability</string>
+    <string name="alarms_7d">Alarms this week</string>
+    <string name="by_trigger">What raised them</string>
+    <string name="trigger_vision">Camera only</string>
+    <string name="trigger_sensor">Sensors only</string>
+    <string name="trigger_both">Both agreed</string>
+    <string name="edge_perf">Edge performance</string>
+    <string name="sensor_trends">Sensor trends</string>
+    <string name="no_data_yet">Not enough data yet</string>
+    <string name="no_data_desc">Charts fill in as the system runs.</string>
+
+    <string name="device_health">Device health</string>
+    <string name="last_seen">Last seen</string>
+    <string name="uptime">Uptime</string>
+    <string name="request_frame">Request a frame</string>
+    <string name="cloud_link">Cloud link</string>
+    <string name="link_live_desc">Streaming live from the cloud.</string>
+    <string name="link_cached_desc">No connection. Showing the last data saved on this phone.</string>
+    <string name="link_connecting_desc">Contacting the cloud…</string>
+    <string name="attached_sensors">Attached sensors</string>
+
+    <string name="sensitivity">Alarm sensitivity</string>
+    <string name="sens_sensitive">Sensitive</string>
+    <string name="sens_standard">Standard</string>
+    <string name="sens_quiet">Quiet</string>
+    <string name="sens_validated">Each setting is a measured operating point, not a free dial. The numbers below come from the frozen evaluation set.</string>
+    <string name="op_recall">Detection rate</string>
+    <string name="op_fpr_hard">False alarms · lamps and candles</string>
+    <string name="op_fpr_novel">False alarms · unseen fire-like</string>
+    <string name="op_fpr_open">False alarms · everyday scenes</string>
+    <string name="op_threshold">Confidence threshold</string>
+    <string name="op_declared">Declared operating point</string>
+
+    <string name="tile_air">Air temperature</string>
+    <string name="tile_surface">Surface temperature</string>
+    <string name="tile_gas">Gas</string>
+    <string name="tile_infrared">Infrared flame</string>
+
+    <string name="tile_air_cap">Ambient air around the node</string>
+    <string name="tile_surface_cap">Non-contact. Rise above air %1$s</string>
+    <string name="tile_gas_cap">Rs/R0 now %1$s, where 1.0 is clean air</string>
+    <string name="tile_infrared_cap">Output falls on flame. Drop %1$s</string>
+
+    <string name="unit_celsius">°C</string>
+    <string name="unit_percent" formatted="false">%</string>
+    <string name="unit_ratio">Rs/R0</string>
+    <string name="unit_millivolt">mV</string>
+
+    <string name="channel_down">Sensor not reporting</string>
+    <string name="channel_never_calibrated">Not baselined in clean air yet</string>
+    <string name="reading_missing_hint">A dash means the sensor sent no reading, not a reading of zero.</string>
+
+    <string name="banner_since">Since %1$s</string>
+    <string name="banner_acknowledge">Acknowledge</string>
+    <string name="banner_acknowledged">Acknowledged</string>
+
+    <string name="sensors_stale">Readings are out of date</string>
+    <string name="sensors_stale_age">Last reading %1$s ago</string>
+    <string name="node_silent">Sensor node is silent</string>
+    <string name="node_silent_hint">Nothing has arrived from the node, so there is no value to show. Check its power and its network.</string>
+
+    <string name="live_connecting">Connecting to the camera</string>
+    <string name="live_reconnecting">Connection dropped, trying again</string>
+    <string name="live_no_stream">No live stream</string>
+    <string name="live_stream_hint">Live video needs the detector running on the Jetson with this phone on the same network.</string>
+
+    <string name="live_fps">%1$s fps</string>
+    <string name="live_resolution">%1$s × %2$s</string>
+    <string name="live_source_jetson">Live from Jetson Nano</string>
+    <string name="live_open_failed">Could not open the stream</string>
+
+    <string name="health_ds">DS18B20</string>
+    <string name="health_mlx">MLX90614</string>
+    <string name="health_mq2">MQ-2</string>
+    <string name="health_flame">Flame IR</string>
+    <string name="conclusion_normal">Nothing above threshold on either channel.</string>
+    <string name="conclusion_watch">Sensors elevated while the camera is clear. Not an alarm: sensors alone never raise one.</string>
+    <string name="conclusion_alert">Camera detected fire. This alarms on its own, so a fire far from the sensor node is not missed.</string>
+    <string name="conclusion_confirmed">Both independent channels agree. Highest priority.</string>
+    <string name="conclusion_offline">Detection is degraded; the sensor channel is watching alone.</string>
+    <string name="badge_live">LIVE</string>
+    <string name="vision_sustained">Detection sustained through the persistence rule.</string>
+    <string name="vision_none">No detection above the calibrated threshold.</string>
+    <string name="vision_pipeline_down">Camera pipeline is not running.</string>
+    <string name="sensors_no_sample">No sensor sample: the node is silent or its data is stale.</string>
+    <string name="sensors_none_elevated">Node reporting, no channel elevated.</string>
+    <string name="sensors_part_surface">surface %1$s °C above baseline</string>
+    <string name="sensors_part_gas">Rs/R0 %1$s</string>
+    <string name="sensors_part_ir">infrared drop %1$s mV</string>
+    <string name="list_separator">; </string>
+    <string name="sensors_said">%1$s.</string>
+    <string name="delete_event">Delete</string>
+    <string name="delete_event_title">Delete this event?</string>
+    <string name="delete_event_body">The record and its frame are removed from every device. This cannot be undone.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="last_alert">Last alert</string>
+    <string name="last_alert_none">No alert has been raised yet.</string>
+    <string name="readings_at_alert">Readings when it was raised</string>
+    <string name="live_readings">Sensors now</string>
+    <string name="throughput">Throughput</string>
+    <string name="ack_failed">Acknowledgement did not reach the cloud</string>
+    <string name="ack_failed_body">The alarm is still unanswered on other devices. Check the connection and the database rules, then try again.</string>
+    <string name="alert_snapshot">Camera at that moment</string>
+    <string name="evidence_camera">Camera</string>
+    <string name="evidence_sensors">Sensors</string>
+    <string name="evidence_both">Camera and sensors</string>
+    <string name="evidence_none">No channel above threshold</string>
+    <string name="based_on">Raised by</string>
+    <string name="no_alert_yet">Nothing has been raised</string>
+    <string name="no_alert_yet_body">When an alarm is raised, this screen keeps the frame and the readings from the moment it happened.</string>
+    <string name="shield_clear_24h">No alerts in the last 24 hours</string>
+    <string name="shield_alerts_24h">Alerts in the last 24 hours: %1$s</string>
+    <string name="shield_ring_legend">Ring: highest level reached in that window</string>
+</resources>

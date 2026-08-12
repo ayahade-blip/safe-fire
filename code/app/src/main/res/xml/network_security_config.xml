@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android has blocked cleartext HTTP by default since API 28, and the Jetson
+    serves its MJPEG video over plain HTTP on the local network. Without this
+    file the live view fails to connect with no useful error.
+
+    The Jetson's address is discovered at runtime through Firestore, so it
+    cannot be named here: a domain-config entry takes a hostname or a literal
+    IP, and there is no CIDR form to permit the private ranges as a group.
+    Permitting cleartext generally is therefore the only workable option.
+
+    What this does not weaken: Firestore and Cloud Messaging are reached through
+    https URLs, so they keep certificate validation and stay encrypted. The only
+    cleartext traffic this app generates is the video stream, and it never
+    leaves the house network.
+
+    Known limitation worth stating in the thesis: anyone already on the same
+    WLAN can read that video stream. Closing it properly means terminating TLS
+    on the Jetson with a certificate the phone trusts, which is out of scope for
+    the prototype but is the correct fix for a deployed installation.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

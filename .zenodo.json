@@ -22,5 +22,5 @@
     "Internet of Things",
     "Jetson Nano"
   ],
-  "description": "Code, frozen evaluation records, device logs and figures supporting a study of false-alarm rates in indoor fire detection. Every number and figure in the associated paper traces to a file in this archive."
+  "description": "Code, frozen evaluation records and figures supporting a study of false-alarm rates in indoor fire detection."
 }

@@ -1,6 +1,0 @@
-run,arch,seed,ds,lam,round,map50,map5095,precision,recall,f1,FPR@0.25,FPR@0.5,devFPR@0.25,devFPR@0.5,train_min,ts,weights
-old_bg00__yolo26n__s42,yolo26n,42,bg00,0.0,,0.9431,0.6472,0.9555,0.9036,0.9288,26.0,20.4,64.65,38.38,,2026-07-09T16:43:05,/content/drive/MyDrive/AYA_THESIS/weights/bg00__yolo26n__s42__best.pt
-old_bg15__yolo26n__s42,yolo26n,42,bg15,0.0,,0.9392,0.6415,0.9383,0.9139,0.926,2.8,1.6,20.96,10.61,,2026-07-09T16:44:22,/content/drive/MyDrive/AYA_THESIS/weights/bg15__yolo26n__s42__best.pt
-old_bg30__yolo26n__s42,yolo26n,42,bg30,0.0,,0.9452,0.6456,0.9456,0.9024,0.9235,1.0,0.2,11.36,7.07,,2026-07-09T16:44:47,/content/drive/MyDrive/AYA_THESIS/weights/bg30__yolo26n__s42__best.pt
-smdata__yolo26n__s42,yolo26n,42,SMCOV,0.0,0,0.9418,0.6458,0.934,0.9071,0.9204,2.6,1.8,2.02,0.51,115.3,2026-07-09T18:42:58,/content/drive/MyDrive/AYA_THESIS/weights/smdata__yolo26n__s42__best.pt
-smfull__yolo26n__s42,yolo26n,42,SMCOV,1.0,0,0.9459,0.644,0.9343,0.9023,0.918,3.0,2.0,2.78,1.26,113.0,2026-07-09T20:36:23,/content/drive/MyDrive/AYA_THESIS/weights/smfull__yolo26n__s42__best.pt
