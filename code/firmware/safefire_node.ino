@@ -342,7 +342,22 @@ static void emitJson() {
   Serial.print(F(",\"mlx\":"));          Serial.print(okMlx ? 1 : 0);
   Serial.print(F(",\"mq2\":"));          Serial.print(okMq2 ? 1 : 0);
   Serial.print(F(",\"flame\":"));        Serial.print(okFlame ? 1 : 0);
-  Serial.print(F("},\"calAgeS\":"));     Serial.print(baseEpoch ? (millis() / 1000 - baseEpoch) : 0);
+  /* calAgeS is null unless the baseline was taken during THIS boot.
+   *
+   * baseEpoch is millis()/1000 at calibration time and is persisted to NVS, but
+   * millis() restarts at zero on every boot. After a reboot the subtraction runs
+   * in unsigned arithmetic against a larger number and wraps: measured on the
+   * bench as 4294967292, which is 2^32 - 4, and would have reached the app as a
+   * calibration age of 136 years.
+   *
+   * The node has no real time clock, so the age of a baseline taken before this
+   * boot is genuinely unknown. Unknown is null, never a number, which is the
+   * same rule every other channel here follows. Zero was wrong too: it claims
+   * the baseline was taken this instant. */
+  Serial.print(F("},\"calAgeS\":"));
+  uint32_t nowS = millis() / 1000;
+  if (baseEpoch && nowS >= baseEpoch) Serial.print(nowS - baseEpoch);
+  else                                Serial.print(F("null"));
   Serial.println(F("}"));
 }
 

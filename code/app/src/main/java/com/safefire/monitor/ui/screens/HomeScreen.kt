@@ -115,11 +115,30 @@ fun StatusScreen(
     ) {
         item(key = "shield") {
             SystemShield(
-                // Fill is now. A summary of the day cannot speak for this
-                // second, and neither can a level nobody has refreshed: a
-                // frozen document is not a verdict about the house, so it draws
-                // as OFFLINE rather than keeping the colour it stopped on.
-                level = if (state.stale) AlarmLevel.OFFLINE else state.level,
+                // Fill is now, and three different things can make now unknown.
+                //
+                // A level nobody has refreshed is not a verdict about the house,
+                // so a frozen document draws as OFFLINE rather than keeping the
+                // colour it stopped on.
+                //
+                // A silent node draws as OFFLINE too. Measured with the node
+                // unplugged: the edge publishes NORMAL, correctly, because the
+                // camera is watching and the ladder lets vision alarm alone. But
+                // a green shield is read across a room as "all four channels
+                // agree", and half the sensing was absent. Green has to mean
+                // everything is watching, or it means nothing.
+                // Order matters, and this order is the safety argument.
+                // A frozen document is never a verdict. A live alarm is never
+                // masked by a missing node, because the camera alarms alone by
+                // design and a red shield hidden behind a grey one is the worst
+                // failure this screen could have. Only a quiet, live, one-eyed
+                // system draws grey.
+                level = when {
+                    state.stale -> AlarmLevel.OFFLINE
+                    state.level.isAlarming -> state.level
+                    !state.sensors.present -> AlarmLevel.OFFLINE
+                    else -> state.level
+                },
                 worst24h = window.worst,
                 alerts24h = window.count,
                 since = state.since,
