@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-03T04:31:51+00:00",
+  "seconds": 208.4,
+  "imgsz": 640,
+  "weights": "/content/drive/MyDrive/SAFE_FIRE/weights/hero__combo__s123__best.pt",
+  "fresh_scored": [
+    "F_cross",
+    "F_hard",
+    "F_novel"
+  ]
+}

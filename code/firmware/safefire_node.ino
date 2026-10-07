@@ -327,16 +327,22 @@ static void emitJson() {
   /* flameIr is normalised 0..1 with 1 meaning strong infrared, because that is
    * what the app's gauge expects. The sensor moves the other way, so the sign is
    * flipped here rather than in the app. */
-  float irNorm = flameBaseMv
-      ? constrain((float)((int)flameBaseMv - (int)flameMinMv) / 1000.0f, 0.0f, 1.0f)
-      : 0.0f;
+  /* v1.1: the two derived flame fields follow the same rule as every other
+   * channel. Without a baseline, or with the channel unhealthy, the drop is
+   * unknown, so it is null and never 0. v1.0 printed 0 here, which a consumer
+   * could not tell apart from a measured "no infrared". */
+  bool flameKnown = okFlame && flameBaseMv;
   Serial.print(F(",\"flameMv\":"));      Serial.print(flameMv);
   Serial.print(F(",\"flameMinMv\":"));   Serial.print(flameMinMv);
   Serial.print(F(",\"flameDips\":"));    Serial.print(flameDips);
   Serial.print(F(",\"flameP2pMv\":"));   Serial.print(flameP2p);
-  Serial.print(F(",\"flameDropMv\":")); Serial.print(flameBaseMv ?
-      (int)flameBaseMv - (int)flameMinMv : 0);
-  Serial.print(F(",\"flameIr\":"));      Serial.print(irNorm, 3);
+  Serial.print(F(",\"flameDropMv\":"));
+  if (flameKnown) Serial.print((int)flameBaseMv - (int)flameMinMv); else Serial.print(F("null"));
+  Serial.print(F(",\"flameIr\":"));
+  if (flameKnown)
+    Serial.print(constrain((float)((int)flameBaseMv - (int)flameMinMv) / 1000.0f, 0.0f, 1.0f), 3);
+  else
+    Serial.print(F("null"));
   Serial.print(F(",\"level\":\""));      Serial.print(nodeLevel());
   Serial.print(F("\",\"ok\":{\"ds\":")); Serial.print(okDs ? 1 : 0);
   Serial.print(F(",\"mlx\":"));          Serial.print(okMlx ? 1 : 0);

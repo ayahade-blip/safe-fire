@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-03T03:58:27+00:00",
+  "seconds": 230.8,
+  "imgsz": 640,
+  "weights": "/content/drive/MyDrive/SAFE_FIRE/weights/tournament__yolo26n__s42__best.pt",
+  "fresh_scored": [
+    "F_cross",
+    "F_hard",
+    "F_novel"
+  ]
+}

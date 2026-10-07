@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-03T04:48:29+00:00",
+  "seconds": 186.1,
+  "imgsz": 640,
+  "weights": "/content/drive/MyDrive/SAFE_FIRE/paper/runs/b_ultra_bg/weights/best.pt",
+  "fresh_scored": [
+    "F_cross",
+    "F_hard",
+    "F_novel"
+  ]
+}

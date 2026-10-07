@@ -1,0 +1,16 @@
+decision,data_consulted
+Best checkpoint of each training run,home_fire validation split
+Winning architecture (yolo26n),home_fire test split: mean mAP50-95 of three seeds
+Negative proportion of the original proportion study,"hard negatives (500) and test positives, by R at FPR 1%"
+Mining strategy (top confidence against cluster coverage),hard negatives (500) and test split
+Negative source of the deployed model (L-ratio and M-top union),hard negatives and test split; then mining-development FPR; then test mAP50
+Input resolution (640 pixels),hard negatives and test split
+Teacher (yolo26s at 960 pixels) and distillation weight (6 against 12),test mAP50
+Matched-budget thresholds,hard negatives (single-budget tables); pooled suite (matched-budget table)
+"Conformal threshold, original analysis",250-image calibration half of the hard negatives (one random split per target)
+"Conformal threshold, extended analysis",all 500 hard negatives; verification on the frozen suite only
+Persistence rule (3 of 5),the same 35 negative and 24 positive clips that are reported
+Mining-development subset (400 images),drawn from the mining corpus (25 per cluster); excluded from selection
+Positive-aware exclusion rule,training-split flames and L-ratio images only; fixed before any positive-aware model was trained
+Factorial study (51 runs),no selection: every condition and seed is trained and reported
+Never consulted by any decision,"novel subset (196), cross-corpus subset (1,500), frozen suite (1,662)"

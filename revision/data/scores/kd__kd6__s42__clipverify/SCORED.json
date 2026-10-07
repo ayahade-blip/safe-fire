@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-03T04:57:34+00:00",
+  "weights": "/content/drive/MyDrive/SAFE_FIRE/weights/kd__kd6__s42__best.pt",
+  "topk": 10,
+  "context": 2.0,
+  "prompts_fire": [
+    "a photo of fire",
+    "a photo of flames",
+    "a photo of smoke"
+  ],
+  "prompts_other": [
+    "a photo of a lamp",
+    "a photo of a light bulb",
+    "a photo of a candle",
+    "a photo of a sunset",
+    "a photo of a glowing screen",
+    "a photo of a street light",
+    "a photo of a light reflection",
+    "a photo of an orange object",
+    "a photo of a person",
+    "a photo of a room"
+  ],
+  "fresh_scored": [
+    "F_cross",
+    "F_hard",
+    "F_novel"
+  ]
+}

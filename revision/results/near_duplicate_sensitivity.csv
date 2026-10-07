@@ -1,0 +1,13 @@
+﻿model,subset,dropped,FPR50_full,FPR50_without_near_dups
+L-ratio,hard,2,1.13 ± 0.31,1.14 ± 0.31
+L-ratio,novel,1,4.25 ± 2.99,4.27 ± 3.00
+L-ratio,cross-corpus,9,7.84 ± 0.60,7.82 ± 0.64
+M-top,hard,2,1.13 ± 0.46,1.14 ± 0.46
+M-top,novel,1,1.53 ± 0.00,1.54 ± 0.00
+M-top,cross-corpus,9,3.71 ± 1.30,3.62 ± 1.18
+"Union 3,276",hard,2,0.20 ± 0.00,0.20 ± 0.00
+"Union 3,276",novel,1,1.02 ± 0.88,1.03 ± 0.89
+"Union 3,276",cross-corpus,9,3.02 ± 0.58,3.02 ± 0.61
+"Union 3,276 + KD",hard,2,0.87 ± 0.42,0.87 ± 0.42
+"Union 3,276 + KD",novel,1,2.72 ± 1.06,2.74 ± 1.07
+"Union 3,276 + KD",cross-corpus,9,2.24 ± 0.71,2.26 ± 0.71

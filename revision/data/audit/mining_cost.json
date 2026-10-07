@@ -1,0 +1,18 @@
+{
+  "hardware": {
+    "cpu_count": 12,
+    "ram_gb": 56.9,
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA L4",
+    "gpu_gb": 23.7,
+    "capability": "8.9",
+    "ultralytics": "8.4.90"
+  },
+  "detector_ms_per_image": 20.93,
+  "clip_ms_per_image": 13.95,
+  "kmeans_16_seconds": 6.3,
+  "estimate_score_76183_corpus_min": 26.6,
+  "estimate_embed_9854_hits_min": 2.3,
+  "note": "measured on 2,000 round-0 hits with batch-1 prediction as in the original mining; corpus time extrapolated"
+}

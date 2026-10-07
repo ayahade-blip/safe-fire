@@ -112,11 +112,15 @@ def read_dets(path):
     return per, times
 
 
-def run_video(det_csv, K, N, iou_min, conf, onset_s=None):
+def run_video(det_csv, K, N, iou_min, conf, onset_s=None, hold_s=0.0):
     """Play one video through the layer.
 
     onset_s = the second at which fire first becomes visible, from the video's
     annotation. Required for time-to-alarm; leave None for negative clips.
+
+    hold_s (v1.1) = minimum alarm hold. A track that fires within hold_s seconds
+    of the last frame in which an alarmed track was alive is merged into the
+    alarm already raised instead of counting as a new one. 0 reproduces v1.0.
     """
     per, times = read_dets(det_csv)
     if not times:
@@ -125,9 +129,16 @@ def run_video(det_csv, K, N, iou_min, conf, onset_s=None):
     layer = TemporalAlarm(K, N, iou_min, conf)
 
     alarms = []                                # (frame, time_s)
+    last_alarmed = None                        # time an alarmed track was last alive
     for fr in frames:
+        now = times[fr]
         for t in layer.update(fr, per.get(fr, [])):
-            alarms.append((fr, times[fr]))
+            merged = (hold_s > 0 and last_alarmed is not None
+                      and now - last_alarmed <= hold_s)
+            if not merged:
+                alarms.append((fr, now))
+        if any(t.alarmed for t in layer.tracks):
+            last_alarmed = now
 
     dur = times[frames[-1]] - times[frames[0]]
     raw = sum(1 for fr in frames

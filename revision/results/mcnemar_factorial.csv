@@ -1,0 +1,337 @@
+﻿contrast,seed,subset,n,A,B,alarms_A,alarms_B,only_A,only_B,p_two_sided
+"distillation, no negatives",42,hard,500,N0__KD__yolo26n__s42,N0__noKD__yolo26n__s42,138,139,40,41,1.0
+"distillation, no negatives",42,novel,196,N0__KD__yolo26n__s42,N0__noKD__yolo26n__s42,41,36,17,12,0.4583
+"distillation, no negatives",42,mining-dev,400,N0__KD__yolo26n__s42,N0__noKD__yolo26n__s42,102,126,36,60,0.0184
+"distillation, no negatives",42,cross-corpus,1500,N0__KD__yolo26n__s42,N0__noKD__yolo26n__s42,151,181,90,120,0.0451
+"distillation, no negatives",42,fresh hard,101,N0__KD__yolo26n__s42,N0__noKD__yolo26n__s42,32,38,7,13,0.2632
+"distillation, no negatives",42,fresh novel,61,N0__KD__yolo26n__s42,N0__noKD__yolo26n__s42,13,17,5,9,0.424
+"distillation, no negatives",42,fresh cross-corpus,1500,N0__KD__yolo26n__s42,N0__noKD__yolo26n__s42,171,200,93,122,0.0559
+"distillation, no negatives",123,hard,500,N0__KD__yolo26n__s123,N0__noKD__yolo26n__s123,123,140,29,46,0.0639
+"distillation, no negatives",123,novel,196,N0__KD__yolo26n__s123,N0__noKD__yolo26n__s123,38,31,18,11,0.2649
+"distillation, no negatives",123,mining-dev,400,N0__KD__yolo26n__s123,N0__noKD__yolo26n__s123,107,103,52,48,0.7644
+"distillation, no negatives",123,cross-corpus,1500,N0__KD__yolo26n__s123,N0__noKD__yolo26n__s123,142,170,69,97,0.0358
+"distillation, no negatives",123,fresh hard,101,N0__KD__yolo26n__s123,N0__noKD__yolo26n__s123,33,44,3,14,0.0127
+"distillation, no negatives",123,fresh novel,61,N0__KD__yolo26n__s123,N0__noKD__yolo26n__s123,12,15,4,7,0.5488
+"distillation, no negatives",123,fresh cross-corpus,1500,N0__KD__yolo26n__s123,N0__noKD__yolo26n__s123,150,143,87,80,0.6426
+"distillation, no negatives",2024,hard,500,N0__KD__yolo26n__s2024,N0__noKD__yolo26n__s2024,124,127,41,44,0.8284
+"distillation, no negatives",2024,novel,196,N0__KD__yolo26n__s2024,N0__noKD__yolo26n__s2024,42,39,19,16,0.7359
+"distillation, no negatives",2024,mining-dev,400,N0__KD__yolo26n__s2024,N0__noKD__yolo26n__s2024,105,104,56,55,1.0
+"distillation, no negatives",2024,cross-corpus,1500,N0__KD__yolo26n__s2024,N0__noKD__yolo26n__s2024,137,193,59,115,0.0
+"distillation, no negatives",2024,fresh hard,101,N0__KD__yolo26n__s2024,N0__noKD__yolo26n__s2024,26,40,4,18,0.0043
+"distillation, no negatives",2024,fresh novel,61,N0__KD__yolo26n__s2024,N0__noKD__yolo26n__s2024,7,9,4,6,0.7539
+"distillation, no negatives",2024,fresh cross-corpus,1500,N0__KD__yolo26n__s2024,N0__noKD__yolo26n__s2024,143,154,78,89,0.4391
+"distillation, L-ratio",42,hard,500,L__KD__yolo26n__s42,L__noKD__yolo26n__s42,9,6,4,1,0.375
+"distillation, L-ratio",42,novel,196,L__KD__yolo26n__s42,L__noKD__yolo26n__s42,10,6,7,3,0.3437
+"distillation, L-ratio",42,mining-dev,400,L__KD__yolo26n__s42,L__noKD__yolo26n__s42,58,46,34,22,0.1409
+"distillation, L-ratio",42,cross-corpus,1500,L__KD__yolo26n__s42,L__noKD__yolo26n__s42,158,127,91,60,0.0144
+"distillation, L-ratio",42,fresh hard,101,L__KD__yolo26n__s42,L__noKD__yolo26n__s42,0,1,0,1,1.0
+"distillation, L-ratio",42,fresh novel,61,L__KD__yolo26n__s42,L__noKD__yolo26n__s42,4,2,2,0,0.5
+"distillation, L-ratio",42,fresh cross-corpus,1500,L__KD__yolo26n__s42,L__noKD__yolo26n__s42,135,111,76,52,0.0416
+"distillation, L-ratio",123,hard,500,L__KD__yolo26n__s123,L__noKD__yolo26n__s123,11,7,7,3,0.3437
+"distillation, L-ratio",123,novel,196,L__KD__yolo26n__s123,L__noKD__yolo26n__s123,10,15,7,12,0.3593
+"distillation, L-ratio",123,mining-dev,400,L__KD__yolo26n__s123,L__noKD__yolo26n__s123,38,40,20,22,0.8776
+"distillation, L-ratio",123,cross-corpus,1500,L__KD__yolo26n__s123,L__noKD__yolo26n__s123,100,117,56,73,0.1587
+"distillation, L-ratio",123,fresh hard,101,L__KD__yolo26n__s123,L__noKD__yolo26n__s123,0,0,0,0,1.0
+"distillation, L-ratio",123,fresh novel,61,L__KD__yolo26n__s123,L__noKD__yolo26n__s123,2,2,1,1,1.0
+"distillation, L-ratio",123,fresh cross-corpus,1500,L__KD__yolo26n__s123,L__noKD__yolo26n__s123,83,121,47,85,0.0012
+"distillation, L-ratio",2024,hard,500,L__KD__yolo26n__s2024,L__noKD__yolo26n__s2024,13,4,10,1,0.0117
+"distillation, L-ratio",2024,novel,196,L__KD__yolo26n__s2024,L__noKD__yolo26n__s2024,12,4,9,1,0.0215
+"distillation, L-ratio",2024,mining-dev,400,L__KD__yolo26n__s2024,L__noKD__yolo26n__s2024,45,34,31,20,0.1608
+"distillation, L-ratio",2024,cross-corpus,1500,L__KD__yolo26n__s2024,L__noKD__yolo26n__s2024,89,109,53,73,0.0901
+"distillation, L-ratio",2024,fresh hard,101,L__KD__yolo26n__s2024,L__noKD__yolo26n__s2024,0,0,0,0,1.0
+"distillation, L-ratio",2024,fresh novel,61,L__KD__yolo26n__s2024,L__noKD__yolo26n__s2024,2,5,1,4,0.375
+"distillation, L-ratio",2024,fresh cross-corpus,1500,L__KD__yolo26n__s2024,L__noKD__yolo26n__s2024,91,81,61,51,0.3952
+"distillation, M-top",42,hard,500,M__KD__yolo26n__s42,M__noKD__yolo26n__s42,10,7,9,6,0.6072
+"distillation, M-top",42,novel,196,M__KD__yolo26n__s42,M__noKD__yolo26n__s42,6,3,4,1,0.375
+"distillation, M-top",42,mining-dev,400,M__KD__yolo26n__s42,M__noKD__yolo26n__s42,9,2,7,0,0.0156
+"distillation, M-top",42,cross-corpus,1500,M__KD__yolo26n__s42,M__noKD__yolo26n__s42,38,36,14,12,0.845
+"distillation, M-top",42,fresh hard,101,M__KD__yolo26n__s42,M__noKD__yolo26n__s42,1,2,1,2,1.0
+"distillation, M-top",42,fresh novel,61,M__KD__yolo26n__s42,M__noKD__yolo26n__s42,2,2,1,1,1.0
+"distillation, M-top",42,fresh cross-corpus,1500,M__KD__yolo26n__s42,M__noKD__yolo26n__s42,22,24,16,18,0.8642
+"distillation, M-top",123,hard,500,M__KD__yolo26n__s123,M__noKD__yolo26n__s123,14,7,12,5,0.1435
+"distillation, M-top",123,novel,196,M__KD__yolo26n__s123,M__noKD__yolo26n__s123,5,3,3,1,0.625
+"distillation, M-top",123,mining-dev,400,M__KD__yolo26n__s123,M__noKD__yolo26n__s123,9,3,7,1,0.0703
+"distillation, M-top",123,cross-corpus,1500,M__KD__yolo26n__s123,M__noKD__yolo26n__s123,56,75,29,48,0.0395
+"distillation, M-top",123,fresh hard,101,M__KD__yolo26n__s123,M__noKD__yolo26n__s123,2,2,2,2,1.0
+"distillation, M-top",123,fresh novel,61,M__KD__yolo26n__s123,M__noKD__yolo26n__s123,2,1,2,1,1.0
+"distillation, M-top",123,fresh cross-corpus,1500,M__KD__yolo26n__s123,M__noKD__yolo26n__s123,37,27,28,18,0.1839
+"distillation, M-top",2024,hard,500,M__KD__yolo26n__s2024,M__noKD__yolo26n__s2024,10,3,8,1,0.0391
+"distillation, M-top",2024,novel,196,M__KD__yolo26n__s2024,M__noKD__yolo26n__s2024,11,3,9,1,0.0215
+"distillation, M-top",2024,mining-dev,400,M__KD__yolo26n__s2024,M__noKD__yolo26n__s2024,8,2,7,1,0.0703
+"distillation, M-top",2024,cross-corpus,1500,M__KD__yolo26n__s2024,M__noKD__yolo26n__s2024,42,56,21,35,0.0814
+"distillation, M-top",2024,fresh hard,101,M__KD__yolo26n__s2024,M__noKD__yolo26n__s2024,3,1,3,1,0.625
+"distillation, M-top",2024,fresh novel,61,M__KD__yolo26n__s2024,M__noKD__yolo26n__s2024,2,0,2,0,0.5
+"distillation, M-top",2024,fresh cross-corpus,1500,M__KD__yolo26n__s2024,M__noKD__yolo26n__s2024,24,19,20,15,0.4996
+"distillation, union 1,638",42,hard,500,U1638__KD__yolo26n__s42,U1638__noKD__yolo26n__s42,10,10,6,6,1.0
+"distillation, union 1,638",42,novel,196,U1638__KD__yolo26n__s42,U1638__noKD__yolo26n__s42,6,3,5,2,0.4531
+"distillation, union 1,638",42,mining-dev,400,U1638__KD__yolo26n__s42,U1638__noKD__yolo26n__s42,9,6,4,1,0.375
+"distillation, union 1,638",42,cross-corpus,1500,U1638__KD__yolo26n__s42,U1638__noKD__yolo26n__s42,41,64,20,43,0.0052
+"distillation, union 1,638",42,fresh hard,101,U1638__KD__yolo26n__s42,U1638__noKD__yolo26n__s42,1,0,1,0,1.0
+"distillation, union 1,638",42,fresh novel,61,U1638__KD__yolo26n__s42,U1638__noKD__yolo26n__s42,1,1,1,1,1.0
+"distillation, union 1,638",42,fresh cross-corpus,1500,U1638__KD__yolo26n__s42,U1638__noKD__yolo26n__s42,26,29,21,24,0.766
+"distillation, union 1,638",123,hard,500,U1638__KD__yolo26n__s123,U1638__noKD__yolo26n__s123,5,2,4,1,0.375
+"distillation, union 1,638",123,novel,196,U1638__KD__yolo26n__s123,U1638__noKD__yolo26n__s123,5,2,4,1,0.375
+"distillation, union 1,638",123,mining-dev,400,U1638__KD__yolo26n__s123,U1638__noKD__yolo26n__s123,13,10,10,7,0.6291
+"distillation, union 1,638",123,cross-corpus,1500,U1638__KD__yolo26n__s123,U1638__noKD__yolo26n__s123,52,49,30,27,0.7914
+"distillation, union 1,638",123,fresh hard,101,U1638__KD__yolo26n__s123,U1638__noKD__yolo26n__s123,0,0,0,0,1.0
+"distillation, union 1,638",123,fresh novel,61,U1638__KD__yolo26n__s123,U1638__noKD__yolo26n__s123,3,1,3,1,0.625
+"distillation, union 1,638",123,fresh cross-corpus,1500,U1638__KD__yolo26n__s123,U1638__noKD__yolo26n__s123,36,25,32,21,0.169
+"distillation, union 1,638",2024,hard,500,U1638__KD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,8,3,7,2,0.1797
+"distillation, union 1,638",2024,novel,196,U1638__KD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,5,6,3,4,1.0
+"distillation, union 1,638",2024,mining-dev,400,U1638__KD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,13,10,11,8,0.6476
+"distillation, union 1,638",2024,cross-corpus,1500,U1638__KD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,52,54,22,24,0.883
+"distillation, union 1,638",2024,fresh hard,101,U1638__KD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,1,1,1,1,1.0
+"distillation, union 1,638",2024,fresh novel,61,U1638__KD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,2,1,1,0,1.0
+"distillation, union 1,638",2024,fresh cross-corpus,1500,U1638__KD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,29,35,18,24,0.4408
+"distillation, union 3,276",42,hard,500,U3276__KD__yolo26n__s42,U3276__noKD__yolo26n__s42,5,1,5,1,0.2188
+"distillation, union 3,276",42,novel,196,U3276__KD__yolo26n__s42,U3276__noKD__yolo26n__s42,6,1,5,0,0.0625
+"distillation, union 3,276",42,mining-dev,400,U3276__KD__yolo26n__s42,U3276__noKD__yolo26n__s42,7,2,5,0,0.0625
+"distillation, union 3,276",42,cross-corpus,1500,U3276__KD__yolo26n__s42,U3276__noKD__yolo26n__s42,45,43,15,13,0.8506
+"distillation, union 3,276",42,fresh hard,101,U3276__KD__yolo26n__s42,U3276__noKD__yolo26n__s42,0,1,0,1,1.0
+"distillation, union 3,276",42,fresh novel,61,U3276__KD__yolo26n__s42,U3276__noKD__yolo26n__s42,2,1,2,1,1.0
+"distillation, union 3,276",42,fresh cross-corpus,1500,U3276__KD__yolo26n__s42,U3276__noKD__yolo26n__s42,29,15,25,11,0.0288
+"distillation, union 3,276",123,hard,500,U3276__KD__yolo26n__s123,U3276__noKD__yolo26n__s123,6,1,6,1,0.125
+"distillation, union 3,276",123,novel,196,U3276__KD__yolo26n__s123,U3276__noKD__yolo26n__s123,7,4,4,1,0.375
+"distillation, union 3,276",123,mining-dev,400,U3276__KD__yolo26n__s123,U3276__noKD__yolo26n__s123,13,6,11,4,0.1185
+"distillation, union 3,276",123,cross-corpus,1500,U3276__KD__yolo26n__s123,U3276__noKD__yolo26n__s123,32,55,18,41,0.0038
+"distillation, union 3,276",123,fresh hard,101,U3276__KD__yolo26n__s123,U3276__noKD__yolo26n__s123,0,0,0,0,1.0
+"distillation, union 3,276",123,fresh novel,61,U3276__KD__yolo26n__s123,U3276__noKD__yolo26n__s123,2,0,2,0,0.5
+"distillation, union 3,276",123,fresh cross-corpus,1500,U3276__KD__yolo26n__s123,U3276__noKD__yolo26n__s123,33,37,22,26,0.6655
+"distillation, union 3,276",2024,hard,500,U3276__KD__yolo26n__s2024,U3276__noKD__yolo26n__s2024,2,1,2,1,1.0
+"distillation, union 3,276",2024,novel,196,U3276__KD__yolo26n__s2024,U3276__noKD__yolo26n__s2024,3,1,2,0,0.5
+"distillation, union 3,276",2024,mining-dev,400,U3276__KD__yolo26n__s2024,U3276__noKD__yolo26n__s2024,5,8,3,6,0.5078
+"distillation, union 3,276",2024,cross-corpus,1500,U3276__KD__yolo26n__s2024,U3276__noKD__yolo26n__s2024,24,38,22,36,0.0869
+"distillation, union 3,276",2024,fresh hard,101,U3276__KD__yolo26n__s2024,U3276__noKD__yolo26n__s2024,0,0,0,0,1.0
+"distillation, union 3,276",2024,fresh novel,61,U3276__KD__yolo26n__s2024,U3276__noKD__yolo26n__s2024,1,0,1,0,1.0
+"distillation, union 3,276",2024,fresh cross-corpus,1500,U3276__KD__yolo26n__s2024,U3276__noKD__yolo26n__s2024,25,22,23,20,0.7608
+"distillation, PA",42,hard,500,PA__KD__yolo26n__s42,PA__noKD__yolo26n__s42,6,4,4,2,0.6875
+"distillation, PA",42,novel,196,PA__KD__yolo26n__s42,PA__noKD__yolo26n__s42,7,4,4,1,0.375
+"distillation, PA",42,mining-dev,400,PA__KD__yolo26n__s42,PA__noKD__yolo26n__s42,8,6,6,4,0.7539
+"distillation, PA",42,cross-corpus,1500,PA__KD__yolo26n__s42,PA__noKD__yolo26n__s42,88,29,77,18,0.0
+"distillation, PA",42,fresh hard,101,PA__KD__yolo26n__s42,PA__noKD__yolo26n__s42,0,1,0,1,1.0
+"distillation, PA",42,fresh novel,61,PA__KD__yolo26n__s42,PA__noKD__yolo26n__s42,1,1,0,0,1.0
+"distillation, PA",42,fresh cross-corpus,1500,PA__KD__yolo26n__s42,PA__noKD__yolo26n__s42,28,28,17,17,1.0
+"distillation, PA",123,hard,500,PA__KD__yolo26n__s123,PA__noKD__yolo26n__s123,5,8,5,8,0.5811
+"distillation, PA",123,novel,196,PA__KD__yolo26n__s123,PA__noKD__yolo26n__s123,8,6,4,2,0.6875
+"distillation, PA",123,mining-dev,400,PA__KD__yolo26n__s123,PA__noKD__yolo26n__s123,8,8,6,6,1.0
+"distillation, PA",123,cross-corpus,1500,PA__KD__yolo26n__s123,PA__noKD__yolo26n__s123,69,53,38,22,0.0519
+"distillation, PA",123,fresh hard,101,PA__KD__yolo26n__s123,PA__noKD__yolo26n__s123,0,0,0,0,1.0
+"distillation, PA",123,fresh novel,61,PA__KD__yolo26n__s123,PA__noKD__yolo26n__s123,0,1,0,1,1.0
+"distillation, PA",123,fresh cross-corpus,1500,PA__KD__yolo26n__s123,PA__noKD__yolo26n__s123,39,26,30,17,0.0789
+"distillation, PA",2024,hard,500,PA__KD__yolo26n__s2024,PA__noKD__yolo26n__s2024,11,3,9,1,0.0215
+"distillation, PA",2024,novel,196,PA__KD__yolo26n__s2024,PA__noKD__yolo26n__s2024,6,5,3,2,1.0
+"distillation, PA",2024,mining-dev,400,PA__KD__yolo26n__s2024,PA__noKD__yolo26n__s2024,12,8,8,4,0.3877
+"distillation, PA",2024,cross-corpus,1500,PA__KD__yolo26n__s2024,PA__noKD__yolo26n__s2024,53,38,27,12,0.0237
+"distillation, PA",2024,fresh hard,101,PA__KD__yolo26n__s2024,PA__noKD__yolo26n__s2024,1,0,1,0,1.0
+"distillation, PA",2024,fresh novel,61,PA__KD__yolo26n__s2024,PA__noKD__yolo26n__s2024,2,0,2,0,0.5
+"distillation, PA",2024,fresh cross-corpus,1500,PA__KD__yolo26n__s2024,PA__noKD__yolo26n__s2024,39,20,31,12,0.0054
+M-top vs L-ratio,42,hard,500,M__noKD__yolo26n__s42,L__noKD__yolo26n__s42,7,6,6,5,1.0
+M-top vs L-ratio,42,novel,196,M__noKD__yolo26n__s42,L__noKD__yolo26n__s42,3,6,1,4,0.375
+M-top vs L-ratio,42,mining-dev,400,M__noKD__yolo26n__s42,L__noKD__yolo26n__s42,2,46,1,45,0.0
+M-top vs L-ratio,42,cross-corpus,1500,M__noKD__yolo26n__s42,L__noKD__yolo26n__s42,36,127,12,103,0.0
+M-top vs L-ratio,42,fresh hard,101,M__noKD__yolo26n__s42,L__noKD__yolo26n__s42,2,1,2,1,1.0
+M-top vs L-ratio,42,fresh novel,61,M__noKD__yolo26n__s42,L__noKD__yolo26n__s42,2,2,1,1,1.0
+M-top vs L-ratio,42,fresh cross-corpus,1500,M__noKD__yolo26n__s42,L__noKD__yolo26n__s42,24,111,15,102,0.0
+M-top vs L-ratio,123,hard,500,M__noKD__yolo26n__s123,L__noKD__yolo26n__s123,7,7,7,7,1.0
+M-top vs L-ratio,123,novel,196,M__noKD__yolo26n__s123,L__noKD__yolo26n__s123,3,15,0,12,0.0005
+M-top vs L-ratio,123,mining-dev,400,M__noKD__yolo26n__s123,L__noKD__yolo26n__s123,3,40,1,38,0.0
+M-top vs L-ratio,123,cross-corpus,1500,M__noKD__yolo26n__s123,L__noKD__yolo26n__s123,75,117,37,79,0.0001
+M-top vs L-ratio,123,fresh hard,101,M__noKD__yolo26n__s123,L__noKD__yolo26n__s123,2,0,2,0,0.5
+M-top vs L-ratio,123,fresh novel,61,M__noKD__yolo26n__s123,L__noKD__yolo26n__s123,1,2,1,2,1.0
+M-top vs L-ratio,123,fresh cross-corpus,1500,M__noKD__yolo26n__s123,L__noKD__yolo26n__s123,27,121,15,109,0.0
+M-top vs L-ratio,2024,hard,500,M__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,3,4,2,3,1.0
+M-top vs L-ratio,2024,novel,196,M__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,3,4,2,3,1.0
+M-top vs L-ratio,2024,mining-dev,400,M__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,2,34,1,33,0.0
+M-top vs L-ratio,2024,cross-corpus,1500,M__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,56,109,17,70,0.0
+M-top vs L-ratio,2024,fresh hard,101,M__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,1,0,1,0,1.0
+M-top vs L-ratio,2024,fresh novel,61,M__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,0,5,0,5,0.0625
+M-top vs L-ratio,2024,fresh cross-corpus,1500,M__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,19,81,11,73,0.0
+M-top vs random,42,hard,500,M__noKD__yolo26n__s42,R__noKD__yolo26n__s42,7,35,2,30,0.0
+M-top vs random,42,novel,196,M__noKD__yolo26n__s42,R__noKD__yolo26n__s42,3,8,1,6,0.125
+M-top vs random,42,mining-dev,400,M__noKD__yolo26n__s42,R__noKD__yolo26n__s42,2,29,0,27,0.0
+M-top vs random,42,cross-corpus,1500,M__noKD__yolo26n__s42,R__noKD__yolo26n__s42,36,67,23,54,0.0005
+M-top vs random,42,fresh hard,101,M__noKD__yolo26n__s42,R__noKD__yolo26n__s42,2,24,1,23,0.0
+M-top vs random,42,fresh novel,61,M__noKD__yolo26n__s42,R__noKD__yolo26n__s42,2,3,1,2,1.0
+M-top vs random,42,fresh cross-corpus,1500,M__noKD__yolo26n__s42,R__noKD__yolo26n__s42,24,74,11,61,0.0
+M-top vs random,123,hard,500,M__noKD__yolo26n__s123,R__noKD__yolo26n__s123,7,47,3,43,0.0
+M-top vs random,123,novel,196,M__noKD__yolo26n__s123,R__noKD__yolo26n__s123,3,12,0,9,0.0039
+M-top vs random,123,mining-dev,400,M__noKD__yolo26n__s123,R__noKD__yolo26n__s123,3,27,0,24,0.0
+M-top vs random,123,cross-corpus,1500,M__noKD__yolo26n__s123,R__noKD__yolo26n__s123,75,82,44,51,0.5384
+M-top vs random,123,fresh hard,101,M__noKD__yolo26n__s123,R__noKD__yolo26n__s123,2,21,1,20,0.0
+M-top vs random,123,fresh novel,61,M__noKD__yolo26n__s123,R__noKD__yolo26n__s123,1,3,1,3,0.625
+M-top vs random,123,fresh cross-corpus,1500,M__noKD__yolo26n__s123,R__noKD__yolo26n__s123,27,65,14,52,0.0
+M-top vs random,2024,hard,500,M__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,3,52,0,49,0.0
+M-top vs random,2024,novel,196,M__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,3,14,1,12,0.0034
+M-top vs random,2024,mining-dev,400,M__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,2,28,1,27,0.0
+M-top vs random,2024,cross-corpus,1500,M__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,56,72,31,47,0.0888
+M-top vs random,2024,fresh hard,101,M__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,1,27,1,27,0.0
+M-top vs random,2024,fresh novel,61,M__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,0,5,0,5,0.0625
+M-top vs random,2024,fresh cross-corpus,1500,M__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,19,65,10,56,0.0
+L-ratio vs random,42,hard,500,L__noKD__yolo26n__s42,R__noKD__yolo26n__s42,6,35,4,33,0.0
+L-ratio vs random,42,novel,196,L__noKD__yolo26n__s42,R__noKD__yolo26n__s42,6,8,3,5,0.7266
+L-ratio vs random,42,mining-dev,400,L__noKD__yolo26n__s42,R__noKD__yolo26n__s42,46,29,35,18,0.027
+L-ratio vs random,42,cross-corpus,1500,L__noKD__yolo26n__s42,R__noKD__yolo26n__s42,127,67,99,39,0.0
+L-ratio vs random,42,fresh hard,101,L__noKD__yolo26n__s42,R__noKD__yolo26n__s42,1,24,0,23,0.0
+L-ratio vs random,42,fresh novel,61,L__noKD__yolo26n__s42,R__noKD__yolo26n__s42,2,3,1,2,1.0
+L-ratio vs random,42,fresh cross-corpus,1500,L__noKD__yolo26n__s42,R__noKD__yolo26n__s42,111,74,74,37,0.0006
+L-ratio vs random,123,hard,500,L__noKD__yolo26n__s123,R__noKD__yolo26n__s123,7,47,5,45,0.0
+L-ratio vs random,123,novel,196,L__noKD__yolo26n__s123,R__noKD__yolo26n__s123,15,12,9,6,0.6072
+L-ratio vs random,123,mining-dev,400,L__noKD__yolo26n__s123,R__noKD__yolo26n__s123,40,27,28,15,0.066
+L-ratio vs random,123,cross-corpus,1500,L__noKD__yolo26n__s123,R__noKD__yolo26n__s123,117,82,76,41,0.0016
+L-ratio vs random,123,fresh hard,101,L__noKD__yolo26n__s123,R__noKD__yolo26n__s123,0,21,0,21,0.0
+L-ratio vs random,123,fresh novel,61,L__noKD__yolo26n__s123,R__noKD__yolo26n__s123,2,3,1,2,1.0
+L-ratio vs random,123,fresh cross-corpus,1500,L__noKD__yolo26n__s123,R__noKD__yolo26n__s123,121,65,95,39,0.0
+L-ratio vs random,2024,hard,500,L__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,4,52,0,48,0.0
+L-ratio vs random,2024,novel,196,L__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,4,14,2,12,0.0129
+L-ratio vs random,2024,mining-dev,400,L__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,34,28,22,16,0.4177
+L-ratio vs random,2024,cross-corpus,1500,L__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,109,72,69,32,0.0003
+L-ratio vs random,2024,fresh hard,101,L__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,0,27,0,27,0.0
+L-ratio vs random,2024,fresh novel,61,L__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,5,5,3,3,1.0
+L-ratio vs random,2024,fresh cross-corpus,1500,L__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,81,65,57,41,0.1293
+M-top vs coverage,42,hard,500,M__noKD__yolo26n__s42,C__noKD__yolo26n__s42,7,21,4,18,0.0043
+M-top vs coverage,42,novel,196,M__noKD__yolo26n__s42,C__noKD__yolo26n__s42,3,7,1,5,0.2188
+M-top vs coverage,42,mining-dev,400,M__noKD__yolo26n__s42,C__noKD__yolo26n__s42,2,8,1,7,0.0703
+M-top vs coverage,42,cross-corpus,1500,M__noKD__yolo26n__s42,C__noKD__yolo26n__s42,36,59,9,32,0.0004
+M-top vs coverage,42,fresh hard,101,M__noKD__yolo26n__s42,C__noKD__yolo26n__s42,2,7,2,7,0.1797
+M-top vs coverage,42,fresh novel,61,M__noKD__yolo26n__s42,C__noKD__yolo26n__s42,2,1,1,0,1.0
+M-top vs coverage,42,fresh cross-corpus,1500,M__noKD__yolo26n__s42,C__noKD__yolo26n__s42,24,16,14,6,0.1153
+M-top vs coverage,123,hard,500,M__noKD__yolo26n__s123,C__noKD__yolo26n__s123,7,22,4,19,0.0026
+M-top vs coverage,123,novel,196,M__noKD__yolo26n__s123,C__noKD__yolo26n__s123,3,7,1,5,0.2188
+M-top vs coverage,123,mining-dev,400,M__noKD__yolo26n__s123,C__noKD__yolo26n__s123,3,8,1,6,0.125
+M-top vs coverage,123,cross-corpus,1500,M__noKD__yolo26n__s123,C__noKD__yolo26n__s123,75,53,45,23,0.0103
+M-top vs coverage,123,fresh hard,101,M__noKD__yolo26n__s123,C__noKD__yolo26n__s123,2,2,2,2,1.0
+M-top vs coverage,123,fresh novel,61,M__noKD__yolo26n__s123,C__noKD__yolo26n__s123,1,2,1,2,1.0
+M-top vs coverage,123,fresh cross-corpus,1500,M__noKD__yolo26n__s123,C__noKD__yolo26n__s123,27,32,20,25,0.5515
+M-top vs coverage,2024,hard,500,M__noKD__yolo26n__s2024,C__noKD__yolo26n__s2024,3,17,2,16,0.0013
+M-top vs coverage,2024,novel,196,M__noKD__yolo26n__s2024,C__noKD__yolo26n__s2024,3,6,0,3,0.25
+M-top vs coverage,2024,mining-dev,400,M__noKD__yolo26n__s2024,C__noKD__yolo26n__s2024,2,6,1,5,0.2188
+M-top vs coverage,2024,cross-corpus,1500,M__noKD__yolo26n__s2024,C__noKD__yolo26n__s2024,56,60,24,28,0.6778
+M-top vs coverage,2024,fresh hard,101,M__noKD__yolo26n__s2024,C__noKD__yolo26n__s2024,1,6,1,6,0.125
+M-top vs coverage,2024,fresh novel,61,M__noKD__yolo26n__s2024,C__noKD__yolo26n__s2024,0,2,0,2,0.5
+M-top vs coverage,2024,fresh cross-corpus,1500,M__noKD__yolo26n__s2024,C__noKD__yolo26n__s2024,19,30,12,23,0.0895
+Places-only vs L-ratio,42,hard,500,P__noKD__yolo26n__s42,L__noKD__yolo26n__s42,19,6,18,5,0.0106
+Places-only vs L-ratio,42,novel,196,P__noKD__yolo26n__s42,L__noKD__yolo26n__s42,9,6,6,3,0.5078
+Places-only vs L-ratio,42,mining-dev,400,P__noKD__yolo26n__s42,L__noKD__yolo26n__s42,11,46,4,39,0.0
+Places-only vs L-ratio,42,cross-corpus,1500,P__noKD__yolo26n__s42,L__noKD__yolo26n__s42,53,127,21,95,0.0
+Places-only vs L-ratio,42,fresh hard,101,P__noKD__yolo26n__s42,L__noKD__yolo26n__s42,12,1,11,0,0.001
+Places-only vs L-ratio,42,fresh novel,61,P__noKD__yolo26n__s42,L__noKD__yolo26n__s42,2,2,1,1,1.0
+Places-only vs L-ratio,42,fresh cross-corpus,1500,P__noKD__yolo26n__s42,L__noKD__yolo26n__s42,24,111,9,96,0.0
+Places-only vs L-ratio,123,hard,500,P__noKD__yolo26n__s123,L__noKD__yolo26n__s123,20,7,19,6,0.0146
+Places-only vs L-ratio,123,novel,196,P__noKD__yolo26n__s123,L__noKD__yolo26n__s123,7,15,2,10,0.0386
+Places-only vs L-ratio,123,mining-dev,400,P__noKD__yolo26n__s123,L__noKD__yolo26n__s123,11,40,7,36,0.0
+Places-only vs L-ratio,123,cross-corpus,1500,P__noKD__yolo26n__s123,L__noKD__yolo26n__s123,61,117,26,82,0.0
+Places-only vs L-ratio,123,fresh hard,101,P__noKD__yolo26n__s123,L__noKD__yolo26n__s123,14,0,14,0,0.0001
+Places-only vs L-ratio,123,fresh novel,61,P__noKD__yolo26n__s123,L__noKD__yolo26n__s123,2,2,2,2,1.0
+Places-only vs L-ratio,123,fresh cross-corpus,1500,P__noKD__yolo26n__s123,L__noKD__yolo26n__s123,27,121,17,111,0.0
+Places-only vs L-ratio,2024,hard,500,P__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,21,4,20,3,0.0005
+Places-only vs L-ratio,2024,novel,196,P__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,7,4,6,3,0.5078
+Places-only vs L-ratio,2024,mining-dev,400,P__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,5,34,2,31,0.0
+Places-only vs L-ratio,2024,cross-corpus,1500,P__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,31,109,5,83,0.0
+Places-only vs L-ratio,2024,fresh hard,101,P__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,13,0,13,0,0.0002
+Places-only vs L-ratio,2024,fresh novel,61,P__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,2,5,2,5,0.4531
+Places-only vs L-ratio,2024,fresh cross-corpus,1500,P__noKD__yolo26n__s2024,L__noKD__yolo26n__s2024,9,81,4,76,0.0
+Places-only vs random,42,hard,500,P__noKD__yolo26n__s42,R__noKD__yolo26n__s42,19,35,10,26,0.0113
+Places-only vs random,42,novel,196,P__noKD__yolo26n__s42,R__noKD__yolo26n__s42,9,8,5,4,1.0
+Places-only vs random,42,mining-dev,400,P__noKD__yolo26n__s42,R__noKD__yolo26n__s42,11,29,5,23,0.0009
+Places-only vs random,42,cross-corpus,1500,P__noKD__yolo26n__s42,R__noKD__yolo26n__s42,53,67,36,50,0.1606
+Places-only vs random,42,fresh hard,101,P__noKD__yolo26n__s42,R__noKD__yolo26n__s42,12,24,2,14,0.0042
+Places-only vs random,42,fresh novel,61,P__noKD__yolo26n__s42,R__noKD__yolo26n__s42,2,3,0,1,1.0
+Places-only vs random,42,fresh cross-corpus,1500,P__noKD__yolo26n__s42,R__noKD__yolo26n__s42,24,74,12,62,0.0
+Places-only vs random,123,hard,500,P__noKD__yolo26n__s123,R__noKD__yolo26n__s123,20,47,6,33,0.0
+Places-only vs random,123,novel,196,P__noKD__yolo26n__s123,R__noKD__yolo26n__s123,7,12,2,7,0.1797
+Places-only vs random,123,mining-dev,400,P__noKD__yolo26n__s123,R__noKD__yolo26n__s123,11,27,6,22,0.0037
+Places-only vs random,123,cross-corpus,1500,P__noKD__yolo26n__s123,R__noKD__yolo26n__s123,61,82,31,52,0.0275
+Places-only vs random,123,fresh hard,101,P__noKD__yolo26n__s123,R__noKD__yolo26n__s123,14,21,4,11,0.1185
+Places-only vs random,123,fresh novel,61,P__noKD__yolo26n__s123,R__noKD__yolo26n__s123,2,3,2,3,1.0
+Places-only vs random,123,fresh cross-corpus,1500,P__noKD__yolo26n__s123,R__noKD__yolo26n__s123,27,65,19,57,0.0
+Places-only vs random,2024,hard,500,P__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,21,52,5,36,0.0
+Places-only vs random,2024,novel,196,P__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,7,14,0,7,0.0156
+Places-only vs random,2024,mining-dev,400,P__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,5,28,2,25,0.0
+Places-only vs random,2024,cross-corpus,1500,P__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,31,72,7,48,0.0
+Places-only vs random,2024,fresh hard,101,P__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,13,27,2,16,0.0013
+Places-only vs random,2024,fresh novel,61,P__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,2,5,0,3,0.25
+Places-only vs random,2024,fresh cross-corpus,1500,P__noKD__yolo26n__s2024,R__noKD__yolo26n__s2024,9,65,4,60,0.0
+PA vs M-top,42,hard,500,PA__noKD__yolo26n__s42,M__noKD__yolo26n__s42,4,7,4,7,0.5488
+PA vs M-top,42,novel,196,PA__noKD__yolo26n__s42,M__noKD__yolo26n__s42,4,3,2,1,1.0
+PA vs M-top,42,mining-dev,400,PA__noKD__yolo26n__s42,M__noKD__yolo26n__s42,6,2,5,1,0.2188
+PA vs M-top,42,cross-corpus,1500,PA__noKD__yolo26n__s42,M__noKD__yolo26n__s42,29,36,20,27,0.3817
+PA vs M-top,42,fresh hard,101,PA__noKD__yolo26n__s42,M__noKD__yolo26n__s42,1,2,1,2,1.0
+PA vs M-top,42,fresh novel,61,PA__noKD__yolo26n__s42,M__noKD__yolo26n__s42,1,2,0,1,1.0
+PA vs M-top,42,fresh cross-corpus,1500,PA__noKD__yolo26n__s42,M__noKD__yolo26n__s42,28,24,19,15,0.6076
+PA vs M-top,123,hard,500,PA__noKD__yolo26n__s123,M__noKD__yolo26n__s123,8,7,6,5,1.0
+PA vs M-top,123,novel,196,PA__noKD__yolo26n__s123,M__noKD__yolo26n__s123,6,3,3,0,0.25
+PA vs M-top,123,mining-dev,400,PA__noKD__yolo26n__s123,M__noKD__yolo26n__s123,8,3,7,2,0.1797
+PA vs M-top,123,cross-corpus,1500,PA__noKD__yolo26n__s123,M__noKD__yolo26n__s123,53,75,26,48,0.0141
+PA vs M-top,123,fresh hard,101,PA__noKD__yolo26n__s123,M__noKD__yolo26n__s123,0,2,0,2,0.5
+PA vs M-top,123,fresh novel,61,PA__noKD__yolo26n__s123,M__noKD__yolo26n__s123,1,1,1,1,1.0
+PA vs M-top,123,fresh cross-corpus,1500,PA__noKD__yolo26n__s123,M__noKD__yolo26n__s123,26,27,16,17,1.0
+PA vs M-top,2024,hard,500,PA__noKD__yolo26n__s2024,M__noKD__yolo26n__s2024,3,3,3,3,1.0
+PA vs M-top,2024,novel,196,PA__noKD__yolo26n__s2024,M__noKD__yolo26n__s2024,5,3,3,1,0.625
+PA vs M-top,2024,mining-dev,400,PA__noKD__yolo26n__s2024,M__noKD__yolo26n__s2024,8,2,7,1,0.0703
+PA vs M-top,2024,cross-corpus,1500,PA__noKD__yolo26n__s2024,M__noKD__yolo26n__s2024,38,56,15,33,0.0133
+PA vs M-top,2024,fresh hard,101,PA__noKD__yolo26n__s2024,M__noKD__yolo26n__s2024,0,1,0,1,1.0
+PA vs M-top,2024,fresh novel,61,PA__noKD__yolo26n__s2024,M__noKD__yolo26n__s2024,0,0,0,0,1.0
+PA vs M-top,2024,fresh cross-corpus,1500,PA__noKD__yolo26n__s2024,M__noKD__yolo26n__s2024,20,19,16,15,1.0
+"union 3,276 vs union 1,638",42,hard,500,U3276__noKD__yolo26n__s42,U1638__noKD__yolo26n__s42,1,10,0,9,0.0039
+"union 3,276 vs union 1,638",42,novel,196,U3276__noKD__yolo26n__s42,U1638__noKD__yolo26n__s42,1,3,0,2,0.5
+"union 3,276 vs union 1,638",42,mining-dev,400,U3276__noKD__yolo26n__s42,U1638__noKD__yolo26n__s42,2,6,0,4,0.125
+"union 3,276 vs union 1,638",42,cross-corpus,1500,U3276__noKD__yolo26n__s42,U1638__noKD__yolo26n__s42,43,64,9,30,0.0011
+"union 3,276 vs union 1,638",42,fresh hard,101,U3276__noKD__yolo26n__s42,U1638__noKD__yolo26n__s42,1,0,1,0,1.0
+"union 3,276 vs union 1,638",42,fresh novel,61,U3276__noKD__yolo26n__s42,U1638__noKD__yolo26n__s42,1,1,1,1,1.0
+"union 3,276 vs union 1,638",42,fresh cross-corpus,1500,U3276__noKD__yolo26n__s42,U1638__noKD__yolo26n__s42,15,29,12,26,0.0336
+"union 3,276 vs union 1,638",123,hard,500,U3276__noKD__yolo26n__s123,U1638__noKD__yolo26n__s123,1,2,1,2,1.0
+"union 3,276 vs union 1,638",123,novel,196,U3276__noKD__yolo26n__s123,U1638__noKD__yolo26n__s123,4,2,3,1,0.625
+"union 3,276 vs union 1,638",123,mining-dev,400,U3276__noKD__yolo26n__s123,U1638__noKD__yolo26n__s123,6,10,3,7,0.3437
+"union 3,276 vs union 1,638",123,cross-corpus,1500,U3276__noKD__yolo26n__s123,U1638__noKD__yolo26n__s123,55,49,25,19,0.4514
+"union 3,276 vs union 1,638",123,fresh hard,101,U3276__noKD__yolo26n__s123,U1638__noKD__yolo26n__s123,0,0,0,0,1.0
+"union 3,276 vs union 1,638",123,fresh novel,61,U3276__noKD__yolo26n__s123,U1638__noKD__yolo26n__s123,0,1,0,1,1.0
+"union 3,276 vs union 1,638",123,fresh cross-corpus,1500,U3276__noKD__yolo26n__s123,U1638__noKD__yolo26n__s123,37,25,29,17,0.1038
+"union 3,276 vs union 1,638",2024,hard,500,U3276__noKD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,1,3,1,3,0.625
+"union 3,276 vs union 1,638",2024,novel,196,U3276__noKD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,1,6,0,5,0.0625
+"union 3,276 vs union 1,638",2024,mining-dev,400,U3276__noKD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,8,10,7,9,0.8036
+"union 3,276 vs union 1,638",2024,cross-corpus,1500,U3276__noKD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,38,54,8,24,0.007
+"union 3,276 vs union 1,638",2024,fresh hard,101,U3276__noKD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,0,1,0,1,1.0
+"union 3,276 vs union 1,638",2024,fresh novel,61,U3276__noKD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,0,1,0,1,1.0
+"union 3,276 vs union 1,638",2024,fresh cross-corpus,1500,U3276__noKD__yolo26n__s2024,U1638__noKD__yolo26n__s2024,22,35,13,26,0.0533
+"union+KD vs random 3,276+KD",42,hard,500,U3276__KD__yolo26n__s42,R3276__KD__yolo26n__s42,5,35,2,32,0.0
+"union+KD vs random 3,276+KD",42,novel,196,U3276__KD__yolo26n__s42,R3276__KD__yolo26n__s42,6,11,2,7,0.1797
+"union+KD vs random 3,276+KD",42,mining-dev,400,U3276__KD__yolo26n__s42,R3276__KD__yolo26n__s42,7,20,1,14,0.001
+"union+KD vs random 3,276+KD",42,cross-corpus,1500,U3276__KD__yolo26n__s42,R3276__KD__yolo26n__s42,45,50,27,32,0.6029
+"union+KD vs random 3,276+KD",42,fresh hard,101,U3276__KD__yolo26n__s42,R3276__KD__yolo26n__s42,0,13,0,13,0.0002
+"union+KD vs random 3,276+KD",42,fresh novel,61,U3276__KD__yolo26n__s42,R3276__KD__yolo26n__s42,2,4,0,2,0.5
+"union+KD vs random 3,276+KD",42,fresh cross-corpus,1500,U3276__KD__yolo26n__s42,R3276__KD__yolo26n__s42,29,52,17,40,0.0032
+"union+KD vs random 3,276+KD",123,hard,500,U3276__KD__yolo26n__s123,R3276__KD__yolo26n__s123,6,37,2,33,0.0
+"union+KD vs random 3,276+KD",123,novel,196,U3276__KD__yolo26n__s123,R3276__KD__yolo26n__s123,7,11,2,6,0.2891
+"union+KD vs random 3,276+KD",123,mining-dev,400,U3276__KD__yolo26n__s123,R3276__KD__yolo26n__s123,13,23,5,15,0.0414
+"union+KD vs random 3,276+KD",123,cross-corpus,1500,U3276__KD__yolo26n__s123,R3276__KD__yolo26n__s123,32,80,15,63,0.0
+"union+KD vs random 3,276+KD",123,fresh hard,101,U3276__KD__yolo26n__s123,R3276__KD__yolo26n__s123,0,14,0,14,0.0001
+"union+KD vs random 3,276+KD",123,fresh novel,61,U3276__KD__yolo26n__s123,R3276__KD__yolo26n__s123,2,2,1,1,1.0
+"union+KD vs random 3,276+KD",123,fresh cross-corpus,1500,U3276__KD__yolo26n__s123,R3276__KD__yolo26n__s123,33,59,17,43,0.0011
+"union+KD vs random 3,276+KD",2024,hard,500,U3276__KD__yolo26n__s2024,R3276__KD__yolo26n__s2024,2,41,0,39,0.0
+"union+KD vs random 3,276+KD",2024,novel,196,U3276__KD__yolo26n__s2024,R3276__KD__yolo26n__s2024,3,15,1,13,0.0018
+"union+KD vs random 3,276+KD",2024,mining-dev,400,U3276__KD__yolo26n__s2024,R3276__KD__yolo26n__s2024,5,23,1,19,0.0
+"union+KD vs random 3,276+KD",2024,cross-corpus,1500,U3276__KD__yolo26n__s2024,R3276__KD__yolo26n__s2024,24,53,15,44,0.0002
+"union+KD vs random 3,276+KD",2024,fresh hard,101,U3276__KD__yolo26n__s2024,R3276__KD__yolo26n__s2024,0,16,0,16,0.0
+"union+KD vs random 3,276+KD",2024,fresh novel,61,U3276__KD__yolo26n__s2024,R3276__KD__yolo26n__s2024,1,2,0,1,1.0
+"union+KD vs random 3,276+KD",2024,fresh cross-corpus,1500,U3276__KD__yolo26n__s2024,R3276__KD__yolo26n__s2024,25,64,17,56,0.0
+random vs background 10%,42,hard,500,R__noKD__yolo26n__s42,BG10__noKD__yolo26n__s42,35,101,7,73,0.0
+random vs background 10%,42,novel,196,R__noKD__yolo26n__s42,BG10__noKD__yolo26n__s42,8,26,1,19,0.0
+random vs background 10%,42,mining-dev,400,R__noKD__yolo26n__s42,BG10__noKD__yolo26n__s42,29,60,14,45,0.0001
+random vs background 10%,42,cross-corpus,1500,R__noKD__yolo26n__s42,BG10__noKD__yolo26n__s42,67,97,42,72,0.0064
+random vs background 10%,42,fresh hard,101,R__noKD__yolo26n__s42,BG10__noKD__yolo26n__s42,24,34,4,14,0.0309
+random vs background 10%,42,fresh novel,61,R__noKD__yolo26n__s42,BG10__noKD__yolo26n__s42,3,9,1,7,0.0703
+random vs background 10%,42,fresh cross-corpus,1500,R__noKD__yolo26n__s42,BG10__noKD__yolo26n__s42,74,93,39,58,0.0671
+random vs background 10%,123,hard,500,R__noKD__yolo26n__s123,BG10__noKD__yolo26n__s123,47,75,10,38,0.0001
+random vs background 10%,123,novel,196,R__noKD__yolo26n__s123,BG10__noKD__yolo26n__s123,12,25,1,14,0.001
+random vs background 10%,123,mining-dev,400,R__noKD__yolo26n__s123,BG10__noKD__yolo26n__s123,27,48,13,34,0.0031
+random vs background 10%,123,cross-corpus,1500,R__noKD__yolo26n__s123,BG10__noKD__yolo26n__s123,82,113,37,68,0.0032
+random vs background 10%,123,fresh hard,101,R__noKD__yolo26n__s123,BG10__noKD__yolo26n__s123,21,30,4,13,0.049
+random vs background 10%,123,fresh novel,61,R__noKD__yolo26n__s123,BG10__noKD__yolo26n__s123,3,8,1,6,0.125
+random vs background 10%,123,fresh cross-corpus,1500,R__noKD__yolo26n__s123,BG10__noKD__yolo26n__s123,65,95,35,65,0.0035
+random vs background 10%,2024,hard,500,R__noKD__yolo26n__s2024,BG10__noKD__yolo26n__s2024,52,70,13,31,0.0096
+random vs background 10%,2024,novel,196,R__noKD__yolo26n__s2024,BG10__noKD__yolo26n__s2024,14,20,4,10,0.1796
+random vs background 10%,2024,mining-dev,400,R__noKD__yolo26n__s2024,BG10__noKD__yolo26n__s2024,28,49,8,29,0.0008
+random vs background 10%,2024,cross-corpus,1500,R__noKD__yolo26n__s2024,BG10__noKD__yolo26n__s2024,72,106,41,75,0.002
+random vs background 10%,2024,fresh hard,101,R__noKD__yolo26n__s2024,BG10__noKD__yolo26n__s2024,27,29,7,9,0.8036
+random vs background 10%,2024,fresh novel,61,R__noKD__yolo26n__s2024,BG10__noKD__yolo26n__s2024,5,5,3,3,1.0
+random vs background 10%,2024,fresh cross-corpus,1500,R__noKD__yolo26n__s2024,BG10__noKD__yolo26n__s2024,65,97,35,67,0.002

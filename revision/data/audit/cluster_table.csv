@@ -1,0 +1,17 @@
+cluster,label,n,mean_conf,n_in_M_top,n_in_coverage,n_in_mining_dev,n_fire_like_excluded,label_mix,stored_label,stored_cluster_id
+0,reflection or glare,775,0.4438,96,107,25,0,reflection or glare 32% / person 29% / orange or red clothing 17%,reflection or glare,0
+1,reflection or glare,1108,0.4629,196,134,25,8,reflection or glare 33% / orange or red clothing 15% / fog or steam 14%,reflection or glare,1
+2,orange vehicle or object,681,0.4245,84,96,25,2,orange vehicle or object 31% / reflection or glare 20% / fireplace 11%,orange vehicle or object,2
+3,bright window or indoor light,626,0.4192,77,91,25,0,bright window or indoor light 31% / fireplace 19% / lamp or light fixture 17%,bright window or indoor light,3
+4,red or orange flower,624,0.4319,103,93,25,0,red or orange flower 55% / food or fruit 15% / reflection or glare 6%,red or orange flower,4
+5,person,871,0.4417,118,113,25,1,person 40% / orange or red clothing 16% / glowing screen or monitor 8%,person,5
+6,person,664,0.4416,92,98,25,0,person 63% / reflection or glare 15% / orange or red clothing 7%,person,6
+7,person,693,0.4307,106,97,25,7,person 36% / orange or red clothing 21% / reflection or glare 16%,person,7
+8,glowing screen or monitor,1092,0.446,175,130,25,1,glowing screen or monitor 15% / reflection or glare 12% / lit candle 10%,glowing screen or monitor,8
+9,lamp or light fixture,636,0.4091,66,90,25,0,lamp or light fixture 16% / neon or LED sign 13% / orange or red clothing 12%,lamp or light fixture,9
+10,orange or red clothing,632,0.447,96,97,25,1,orange or red clothing 20% / reflection or glare 18% / chandelier 15%,orange or red clothing,10
+11,orange vehicle or object,415,0.423,51,75,25,3,orange vehicle or object 50% / reflection or glare 13% / person 8%,orange vehicle or object,11
+12,orange vehicle or object,886,0.4397,98,114,25,4,orange vehicle or object 88% / reflection or glare 4% / glowing screen or monitor 2%,orange vehicle or object,12
+13,person,833,0.421,95,105,25,2,person 44% / orange or red clothing 28% / glowing screen or monitor 6%,person,13
+14,orange vehicle or object,922,0.4426,117,114,25,23,orange vehicle or object 38% / orange or red clothing 10% / reflection or glare 10%,orange vehicle or object,14
+15,food or fruit,594,0.397,68,84,25,0,food or fruit 79% / lit candle 8% / orange or red clothing 2%,food or fruit,15

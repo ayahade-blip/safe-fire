@@ -1,0 +1,23 @@
+{
+  "run_id": "U3276__KD__yolo26n__s123",
+  "at": "2026-10-04T09:00:00+00:00",
+  "eval_s": 136.4,
+  "best_epoch": 133,
+  "epochs_run": 183,
+  "train_wall_s": 18566.1,
+  "hardware": {
+    "cpu_count": 48,
+    "ram_gb": 189.9,
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "gpu_gb": 102.0,
+    "capability": "12.0",
+    "ultralytics": "8.4.90"
+  },
+  "fresh_scored": [
+    "F_cross",
+    "F_hard",
+    "F_novel"
+  ]
+}

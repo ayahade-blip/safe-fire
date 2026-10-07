@@ -113,9 +113,16 @@ class TemporalAlarm(object):
     C3_TEMPORAL/temporal_alarm.py, so the measured rates carry over.
     """
 
-    def __init__(self, k=K, n=N, iou_min=IOU_MIN, conf=CONF_DEFAULT):
+    def __init__(self, k=K, n=N, iou_min=IOU_MIN, conf=CONF_DEFAULT, hold_s=0.0):
         self.k, self.n, self.iou_min, self.conf = k, n, iou_min, conf
         self.tracks = []
+        # v1.1 minimum hold time. Once an alarm is active it stays active for
+        # hold_s seconds after the last frame in which an alarmed track was
+        # alive, so a flickering flame or a drifting plume that breaks the
+        # track does not drop the level and re-raise it as a new event.
+        # 0 reproduces v1.0, the behaviour measured in the paper's room trials.
+        self.hold_s = float(hold_s)
+        self._last_alarmed_t = None
 
     def update(self, idx, dets):
         dets = [d for d in dets if d[4] >= self.conf]
@@ -143,10 +150,15 @@ class TemporalAlarm(object):
             if not t.alarmed and len(t.hits) >= self.k:
                 t.alarmed = True
                 fired.append(t)
+        if any(t.alarmed for t in self.tracks):
+            self._last_alarmed_t = time.time()
         return fired
 
     def active(self):
-        return any(t.alarmed for t in self.tracks)
+        if any(t.alarmed for t in self.tracks):
+            return True
+        return (self.hold_s > 0 and self._last_alarmed_t is not None
+                and time.time() - self._last_alarmed_t <= self.hold_s)
 
 
 # ------------------------------------------------------------------- main
@@ -243,7 +255,9 @@ def main(a):
             print("push alerts off: set SAFEFIRE_FCM_KEY to enable")
             notifier = None
 
-    layer = TemporalAlarm(a.k, a.n, IOU_MIN, conf)
+    layer = TemporalAlarm(a.k, a.n, IOU_MIN, conf, hold_s=a.hold_s)
+    if a.hold_s > 0:
+        print("minimum alarm hold %.1f s" % a.hold_s)
     t_all = []
     frames = alarms = 0
     last_level = None
@@ -400,6 +414,8 @@ if __name__ == "__main__":
                     help="use the conformal threshold for this alpha: 0.01 or 0.05")
     ap.add_argument("--k", type=int, default=K)
     ap.add_argument("--n", type=int, default=N)
+    ap.add_argument("--hold-s", type=float, default=0.0,
+                    help="minimum alarm hold in seconds (v1.1); 0 = v1.0 behaviour, 30 recommended")
     ap.add_argument("--port", default=None, help="serial port of the sensor node")
     ap.add_argument("--seconds", type=float, default=None)
     ap.add_argument("--no-node", action="store_true")

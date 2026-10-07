@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-03T04:31:54+00:00",
+  "seconds": 226.0,
+  "imgsz": 640,
+  "weights": "/content/drive/MyDrive/SAFE_FIRE/weights/safemine__sm_top_yolov8n__s42__best.pt",
+  "fresh_scored": [
+    "F_cross",
+    "F_hard",
+    "F_novel"
+  ]
+}

@@ -1,0 +1,17 @@
+﻿cluster,label,size,mean_conf,in_M_top,fire_like_excluded,PA_excluded,FPR50_No negatives,FPR50_L-ratio,FPR50_M-top,"FPR50_Union 3,276",FPR50_Deployed kd6,FPR50_Positive-aware
+0,reflection or glare,775,0.4438,96,0,254,37.3,14.7,0.0,1.3,4.0,0.0
+1,reflection or glare,1108,0.4629,196,8,424,28.0,9.3,0.0,1.3,4.0,1.3
+2,orange vehicle or object,681,0.4245,84,2,142,26.7,17.3,0.0,1.3,4.0,1.3
+3,bright window or indoor light,626,0.4192,77,0,174,22.7,16.0,0.0,2.7,4.0,9.3
+4,red or orange flower,624,0.4319,103,0,36,30.7,2.7,0.0,0.0,0.0,0.0
+5,person,871,0.4417,118,1,144,34.7,6.7,0.0,4.0,4.0,2.7
+6,person,664,0.4416,92,0,78,29.3,8.0,0.0,1.3,0.0,0.0
+7,person,693,0.4307,106,7,207,25.3,16.0,0.0,1.3,0.0,4.0
+8,glowing screen or monitor,1092,0.446,175,1,165,24.0,8.0,1.3,0.0,4.0,4.0
+9,lamp or light fixture,636,0.4091,66,0,180,18.7,2.7,1.3,1.3,8.0,2.7
+10,orange or red clothing,632,0.447,96,1,91,34.7,8.0,0.0,1.3,0.0,0.0
+11,orange vehicle or object,415,0.423,51,3,149,28.0,9.3,1.3,0.0,0.0,0.0
+12,orange vehicle or object,886,0.4397,98,4,186,26.7,13.3,0.0,0.0,0.0,0.0
+13,person,833,0.421,95,2,189,22.7,5.3,1.3,0.0,4.0,1.3
+14,orange vehicle or object,922,0.4426,117,23,339,33.3,20.0,4.0,5.3,8.0,2.7
+15,food or fruit,594,0.397,68,0,68,21.3,2.7,0.0,0.0,0.0,0.0

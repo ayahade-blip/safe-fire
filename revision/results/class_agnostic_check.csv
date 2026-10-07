@@ -1,0 +1,5 @@
+﻿model,flame_n,flame_recall_any_class,flame_recall_same_class,flame_hits_only_by_other_class,smoke_n,smoke_recall_any_class,smoke_recall_same_class,smoke_hits_only_by_other_class
+No negatives s42,897,0.8595,0.8595,0,689,0.8113,0.8113,0
+M-top s42,897,0.7949,0.7949,0,689,0.8128,0.8128,0
+"Union 3,276 s42",897,0.8428,0.8428,0,689,0.82,0.82,0
+Deployed kd6,897,0.806,0.806,0,689,0.8055,0.8055,0

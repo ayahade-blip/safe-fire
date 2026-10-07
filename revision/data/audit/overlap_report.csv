@@ -1,0 +1,37 @@
+training_set,evaluation_set,n_train,n_eval,exact_sha256_matches,near_duplicates_dhash_le4
+L-ratio,hn_holdout,1638,500,0,4
+L-ratio,novel,1638,196,0,0
+L-ratio,dfire_neg,1638,1500,0,9
+L-ratio,mined_dev,1638,400,0,3
+L-ratio,home_fire test (positives),1638,1300,0,3
+L-ratio,home_fire val (positives),1638,1300,0,3
+M-top,hn_holdout,1638,500,0,3
+M-top,novel,1638,196,0,2
+M-top,dfire_neg,1638,1500,0,7
+M-top,mined_dev,1638,400,0,1
+M-top,home_fire test (positives),1638,1300,0,2
+M-top,home_fire val (positives),1638,1300,0,2
+Cluster-coverage,hn_holdout,1638,500,0,3
+Cluster-coverage,novel,1638,196,0,2
+Cluster-coverage,dfire_neg,1638,1500,0,6
+Cluster-coverage,mined_dev,1638,400,0,1
+Cluster-coverage,home_fire test (positives),1638,1300,0,3
+Cluster-coverage,home_fire val (positives),1638,1300,0,4
+Random,hn_holdout,1638,500,0,0
+Random,novel,1638,196,0,0
+Random,dfire_neg,1638,1500,0,0
+Random,mined_dev,1638,400,0,0
+Random,home_fire test (positives),1638,1300,0,0
+Random,home_fire val (positives),1638,1300,0,0
+E1.8 negatives,hn_holdout,1671,500,0,0
+E1.8 negatives,novel,1671,196,0,0
+E1.8 negatives,dfire_neg,1671,1500,0,4
+E1.8 negatives,mined_dev,1671,400,32,34
+E1.8 negatives,home_fire test (positives),1671,1300,0,1
+E1.8 negatives,home_fire val (positives),1671,1300,0,0
+Background 10% (b_ultra_bg),hn_holdout,390,500,0,0
+Background 10% (b_ultra_bg),novel,390,196,0,0
+Background 10% (b_ultra_bg),dfire_neg,390,1500,0,0
+Background 10% (b_ultra_bg),mined_dev,390,400,0,0
+Background 10% (b_ultra_bg),home_fire test (positives),390,1300,0,0
+Background 10% (b_ultra_bg),home_fire val (positives),390,1300,0,0

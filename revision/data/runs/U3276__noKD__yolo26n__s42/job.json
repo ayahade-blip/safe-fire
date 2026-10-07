@@ -1,0 +1,14 @@
+{
+  "run_id": "U3276__noKD__yolo26n__s42",
+  "neg_set": "U3276",
+  "kd": false,
+  "arch": "yolo26n",
+  "base": "yolo26n.pt",
+  "seed": 42,
+  "imgsz": 640,
+  "batch": 32,
+  "priority": 1,
+  "why": "factorial / controls",
+  "n_negatives": 3276,
+  "data_yaml": "/content/sfs/jobs/U3276__noKD__yolo26n__s42/data/data.yaml"
+}

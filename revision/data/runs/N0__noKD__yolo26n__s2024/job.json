@@ -1,0 +1,14 @@
+{
+  "run_id": "N0__noKD__yolo26n__s2024",
+  "neg_set": "N0",
+  "kd": false,
+  "arch": "yolo26n",
+  "base": "yolo26n.pt",
+  "seed": 2024,
+  "imgsz": 640,
+  "batch": 32,
+  "priority": 1,
+  "why": "factorial / controls",
+  "n_negatives": 0,
+  "data_yaml": "/content/sfs/jobs/N0__noKD__yolo26n__s2024/data/data.yaml"
+}

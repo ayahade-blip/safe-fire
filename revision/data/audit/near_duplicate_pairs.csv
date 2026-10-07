@@ -1,0 +1,98 @@
+training_set,evaluation_set,train_image,eval_image,hamming
+L-ratio,hn_holdout,Light_bulb_3460bb762e27d064.jpg,Light_bulb_3e88c10c1f7ae5da.jpg,4
+L-ratio,hn_holdout,Light_bulb_800b908f96a7ee87.jpg,Light_bulb_3e88c10c1f7ae5da.jpg,3
+L-ratio,hn_holdout,Light_bulb_2e2b6e92da4e691f.jpg,Light_bulb_3e88c10c1f7ae5da.jpg,4
+L-ratio,hn_holdout,Lamp_0ec5579c6aefd3f1.jpg,Lamp_06c2c17f30837fdd.jpg,4
+L-ratio,dfire_neg,Light_bulb_55912abfc7922ef3.jpg,dfneg_WEB10009.jpg,4
+L-ratio,dfire_neg,Light_bulb_3460bb762e27d064.jpg,dfneg_WEB10012.jpg,3
+L-ratio,dfire_neg,Light_bulb_332366f345709ce8.jpg,dfneg_WEB10124.jpg,4
+L-ratio,dfire_neg,Lamp_a44034cae8cf3ffd.jpg,dfneg_AoF07582.jpg,2
+L-ratio,dfire_neg,Lamp_5d068c4e35f0daea.jpg,dfneg_WEB10008.jpg,2
+L-ratio,dfire_neg,Lamp_d3de018864c8158d.jpg,dfneg_AoF07579.jpg,2
+L-ratio,dfire_neg,Light_bulb_800b908f96a7ee87.jpg,dfneg_WEB10124.jpg,2
+L-ratio,dfire_neg,Lamp_a39d5117f4fd9816.jpg,dfneg_AoF07584.jpg,4
+L-ratio,dfire_neg,Light_bulb_2e2b6e92da4e691f.jpg,dfneg_WEB10124.jpg,3
+L-ratio,mined_dev,Lamp_5b3cfcc431755494.jpg,Places365_val_00008010.jpg,4
+L-ratio,mined_dev,Lamp_5a5241dc5a24eb83.jpg,685c77c8a2a77833.jpg,4
+L-ratio,mined_dev,Light_bulb_14880ac858b1ea88.jpg,Places365_val_00008010.jpg,3
+L-ratio,home_fire test (positives),Light_bulb_3460bb762e27d064.jpg,test_26.jpg,4
+L-ratio,home_fire test (positives),Light_bulb_332366f345709ce8.jpg,test_1026.jpg,4
+L-ratio,home_fire test (positives),Lamp_7373eaaa666fbe6c.jpg,test_1069.jpg,4
+L-ratio,home_fire val (positives),Lamp_7373eaaa666fbe6c.jpg,val_45.jpg,4
+L-ratio,home_fire val (positives),Lamp_f3b2658589408d44.jpg,val_1029.jpg,4
+L-ratio,home_fire val (positives),Light_bulb_800b908f96a7ee87.jpg,val_1028.jpg,4
+M-top,hn_holdout,f82c61de14b2e685.jpg,Light_bulb_3e88c10c1f7ae5da.jpg,3
+M-top,hn_holdout,Places365_val_00029297.jpg,Light_bulb_3e88c10c1f7ae5da.jpg,3
+M-top,hn_holdout,Places365_val_00019059.jpg,Light_bulb_3e88c10c1f7ae5da.jpg,2
+M-top,novel,f5e515d1634cbd41.jpg,nv_Street_light_00864269f824363a.jpg,4
+M-top,novel,Places365_val_00029297.jpg,nv_Street_light_00864269f824363a.jpg,4
+M-top,dfire_neg,f82c61de14b2e685.jpg,dfneg_WEB10124.jpg,4
+M-top,dfire_neg,f5e515d1634cbd41.jpg,dfneg_WEB10124.jpg,4
+M-top,dfire_neg,7ecf536f88270a93.jpg,dfneg_WEB10009.jpg,4
+M-top,dfire_neg,80fd535ae0854070.jpg,dfneg_WEB10017.jpg,3
+M-top,dfire_neg,Places365_val_00035090.jpg,dfneg_AoF07577.jpg,3
+M-top,dfire_neg,Places365_val_00029297.jpg,dfneg_WEB10124.jpg,2
+M-top,dfire_neg,Places365_val_00019059.jpg,dfneg_WEB10124.jpg,1
+M-top,mined_dev,80fd535ae0854070.jpg,Places365_val_00008010.jpg,1
+M-top,home_fire test (positives),f5e515d1634cbd41.jpg,test_1084.jpg,3
+M-top,home_fire test (positives),Places365_val_00019059.jpg,test_1026.jpg,3
+M-top,home_fire val (positives),Places365_val_00029297.jpg,val_1028.jpg,4
+M-top,home_fire val (positives),Places365_val_00019059.jpg,val_1028.jpg,3
+Cluster-coverage,hn_holdout,Places365_val_00030608.jpg,Light_bulb_3e88c10c1f7ae5da.jpg,1
+Cluster-coverage,hn_holdout,Places365_val_00029297.jpg,Light_bulb_3e88c10c1f7ae5da.jpg,3
+Cluster-coverage,hn_holdout,Places365_val_00019059.jpg,Light_bulb_3e88c10c1f7ae5da.jpg,2
+Cluster-coverage,novel,Places365_val_00030608.jpg,nv_Street_light_00864269f824363a.jpg,4
+Cluster-coverage,novel,Places365_val_00029297.jpg,nv_Street_light_00864269f824363a.jpg,4
+Cluster-coverage,dfire_neg,e337605fd1349c1a.jpg,dfneg_WEB10124.jpg,4
+Cluster-coverage,dfire_neg,Places365_val_00030608.jpg,dfneg_WEB10124.jpg,0
+Cluster-coverage,dfire_neg,Places365_val_00029297.jpg,dfneg_WEB10124.jpg,2
+Cluster-coverage,dfire_neg,Places365_val_00019059.jpg,dfneg_WEB10124.jpg,1
+Cluster-coverage,dfire_neg,01cfafc72de12dba.jpg,dfneg_WEB10017.jpg,4
+Cluster-coverage,dfire_neg,Places365_val_00031495.jpg,dfneg_WEB10124.jpg,4
+Cluster-coverage,mined_dev,01cfafc72de12dba.jpg,Places365_val_00008010.jpg,2
+Cluster-coverage,home_fire test (positives),Places365_val_00030608.jpg,test_1069.jpg,3
+Cluster-coverage,home_fire test (positives),Places365_val_00019059.jpg,test_1026.jpg,3
+Cluster-coverage,home_fire test (positives),Places365_val_00031495.jpg,test_1069.jpg,3
+Cluster-coverage,home_fire val (positives),Places365_val_00030608.jpg,val_1028.jpg,2
+Cluster-coverage,home_fire val (positives),Places365_val_00029297.jpg,val_1028.jpg,4
+Cluster-coverage,home_fire val (positives),Places365_val_00019059.jpg,val_1028.jpg,3
+Cluster-coverage,home_fire val (positives),Places365_val_00031495.jpg,val_45.jpg,3
+E1.8 negatives,dfire_neg,80fd535ae0854070.jpg,dfneg_WEB10017.jpg,3
+E1.8 negatives,dfire_neg,Places365_val_00008376.jpg,dfneg_WEB10124.jpg,4
+E1.8 negatives,dfire_neg,Places365_val_00017327.jpg,dfneg_WEB10017.jpg,4
+E1.8 negatives,dfire_neg,Places365_val_00035090.jpg,dfneg_AoF07577.jpg,3
+E1.8 negatives,mined_dev,Places365_val_00029358.jpg,Places365_val_00029358.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00011532.jpg,Places365_val_00011532.jpg,0
+E1.8 negatives,mined_dev,d5c2be3835621879.jpg,d5c2be3835621879.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00022796.jpg,Places365_val_00022796.jpg,0
+E1.8 negatives,mined_dev,d7765a4bba735733.jpg,d7765a4bba735733.jpg,0
+E1.8 negatives,mined_dev,8f178c44daefc424.jpg,8f178c44daefc424.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00008526.jpg,Places365_val_00008526.jpg,0
+E1.8 negatives,mined_dev,ed3e06b002baa247.jpg,ed3e06b002baa247.jpg,0
+E1.8 negatives,mined_dev,9ead6ca3c980564b.jpg,9ead6ca3c980564b.jpg,0
+E1.8 negatives,mined_dev,04c20ed653143606.jpg,04c20ed653143606.jpg,0
+E1.8 negatives,mined_dev,0b81d01a5604ac3b.jpg,0b81d01a5604ac3b.jpg,0
+E1.8 negatives,mined_dev,8e9308a1df5d5912.jpg,8e9308a1df5d5912.jpg,0
+E1.8 negatives,mined_dev,45117780de31459a.jpg,45117780de31459a.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00035729.jpg,Places365_val_00035729.jpg,0
+E1.8 negatives,mined_dev,5d1a16322d826c12.jpg,5d1a16322d826c12.jpg,0
+E1.8 negatives,mined_dev,a21093132630d7a2.jpg,a21093132630d7a2.jpg,0
+E1.8 negatives,mined_dev,7af8bd036889ff9e.jpg,7af8bd036889ff9e.jpg,0
+E1.8 negatives,mined_dev,80fd535ae0854070.jpg,Places365_val_00008010.jpg,1
+E1.8 negatives,mined_dev,1356967d306c775d.jpg,1356967d306c775d.jpg,0
+E1.8 negatives,mined_dev,3c8c937a6b672c5f.jpg,3c8c937a6b672c5f.jpg,0
+E1.8 negatives,mined_dev,91aedd8b11fd0d18.jpg,91aedd8b11fd0d18.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00016979.jpg,Places365_val_00016979.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00034187.jpg,Places365_val_00034187.jpg,0
+E1.8 negatives,mined_dev,e44173375bc3fd82.jpg,e44173375bc3fd82.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00026793.jpg,Places365_val_00026793.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00017351.jpg,Places365_val_00017351.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00021320.jpg,Places365_val_00021320.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00022545.jpg,Places365_val_00022545.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00017327.jpg,Places365_val_00008010.jpg,2
+E1.8 negatives,mined_dev,Places365_val_00010464.jpg,Places365_val_00010464.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00011912.jpg,Places365_val_00011912.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00015286.jpg,Places365_val_00015286.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00019556.jpg,Places365_val_00019556.jpg,0
+E1.8 negatives,mined_dev,Places365_val_00012557.jpg,Places365_val_00012557.jpg,0
+E1.8 negatives,home_fire test (positives),Places365_val_00008376.jpg,test_933.jpg,4

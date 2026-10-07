@@ -1,0 +1,15 @@
+﻿method,seeds,LAMR,LAMR_mean
+No negatives,3,0.265 ± 0.005,0.2651
+Background 10% (433),3,0.209 ± 0.007,0.209
+"Random, 1,638",3,0.179 ± 0.001,0.1793
+"L-ratio, 1,638",3,0.169 ± 0.022,0.1687
+"M-top, 1,638",3,0.136 ± 0.016,0.1359
+"Cluster coverage, 1,638",3,0.127 ± 0.014,0.1272
+"Places365-only, 1,638",3,0.128 ± 0.003,0.1277
+"Positive-aware, 1,638",3,0.114 ± 0.015,0.1144
+"Union, 3,276",3,0.111 ± 0.009,0.1109
+"Union, 3,276 + KD",3,0.117 ± 0.005,0.117
+"Random, 3,276 + KD",3,0.175 ± 0.001,0.1754
+Deployed kd6 (paper model),1,0.102,0.1017
+No negatives (paper model),1,0.284,0.2838
+Background 10% (paper model),1,0.192,0.1918

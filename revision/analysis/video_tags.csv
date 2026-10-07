@@ -1,0 +1,54 @@
+key,scene,onset_s,note
+KMU_like__smoke_or_flame_like_object_1,indoor,,office with a person in red clothing
+KMU_like__smoke_or_flame_like_object_10,outdoor,,clouds over hills
+KMU_like__smoke_or_flame_like_object_2,outdoor,,illuminated sign at night
+KMU_like__smoke_or_flame_like_object_3,indoor,,office with a television and a person
+KMU_like__smoke_or_flame_like_object_4,outdoor,,cloudy sky over hills
+KMU_like__smoke_or_flame_like_object_5,outdoor,,fog over buildings
+KMU_like__smoke_or_flame_like_object_6,outdoor,,fog over trees
+KMU_like__smoke_or_flame_like_object_7,outdoor,,fog beside a building
+KMU_like__smoke_or_flame_like_object_8,outdoor,,clouds over a city
+KMU_like__smoke_or_flame_like_object_9,outdoor,,haze over a city
+FS_fire__negsVideo1.858,mixed,,montage: caption card, canyon road, restaurant interior
+FS_fire__negsVideo12.1074,outdoor,,motorway bridge and cars
+FS_fire__negsVideo16.1077,outdoor,,lake shore with a person in red
+FS_fire__negsVideo2.859,outdoor,,street at night with headlights
+FS_fire__negsVideo3.860,outdoor,,street at night with headlights
+FS_fire__negsVideo4.861,indoor,,child with red toys on a floor
+FS_fire__negsVideo5.862,outdoor,,playground with coloured tricycles
+FS_fire__negsVideo6.863,outdoor,,handheld walk along a street
+FS_fire__negsVideo7.864,indoor,,defocused decorative lights
+FS_fire__negsVideo8.865,outdoor,,street with police cars
+FS_fire__negsVideo9.866,outdoor,,garden at dusk
+FS_smoke__testneg01.807,outdoor,,tree and sky
+FS_smoke__testneg02.808,outdoor,,people in a car park
+FS_smoke__testneg03.809,indoor,,laboratory with a person walking
+FS_smoke__testneg04.810,outdoor,,garden
+FS_smoke__testneg05.811,outdoor,,reeds
+FS_smoke__testneg06.812,outdoor,,motorway traffic
+FS_smoke__testneg07.813,outdoor,,trees and clouds
+FS_smoke__testneg08.814,outdoor,,flags
+FS_smoke__testneg09.815,outdoor,,motorway traffic
+FS_fire__posVideo1.868,outdoor,0,tyre fire
+FS_fire__posVideo10.869,outdoor,0,forest fire
+FS_fire__posVideo11.870,outdoor,0,small flames in a forest
+FS_fire__posVideo2.871,indoor,0,kitchen sink fire
+FS_fire__posVideo3.872,outdoor,0,brush fire
+FS_fire__posVideo4.873,indoor,0,fireplace
+FS_fire__posVideo5.874,indoor,0,fireplace
+FS_fire__posVideo6.875,outdoor,2,fire lit in a field
+FS_fire__posVideo7.876,outdoor,0,small fire in snow
+FS_fire__posVideo8.877,outdoor,0,close flames at night
+FS_fire__posVideo9.878,outdoor,0,fire pit
+FS_smoke__testpos01.817,outdoor,1,smoke grenade on grass
+FS_smoke__testpos02.818,outdoor,0,building fire with smoke
+FS_smoke__testpos04.820,outdoor,0,smoke grenade
+FS_smoke__testpos05.821,indoor,,warehouse camera; smoke not visible in the preview tiles
+FS_smoke__testpos06.822,outdoor,0,smoke from a bucket
+FS_smoke__testpos07.823,outdoor,0,smoke from a bucket
+FS_smoke__testpos08.824,outdoor,1,smoke grenade in a garden
+FS_smoke__testpos09.825,outdoor,0,smoke on grass
+FS_smoke__testpos10.826,outdoor,0,smoke on soil
+FS_smoke__testpos11.827,outdoor,1,smoke from a barrel
+FS_smoke__testpos12.828,outdoor,0,smoke near a fence
+FS_smoke__testpos13.829,outdoor,0,smoke in a garden

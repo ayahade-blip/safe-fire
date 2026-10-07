@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-03T04:44:47+00:00",
+  "seconds": 543.7,
+  "imgsz": 960,
+  "weights": "/content/drive/MyDrive/SAFE_FIRE/weights/showcase__xs960__s123__best.pt",
+  "fresh_scored": [
+    "F_cross",
+    "F_hard",
+    "F_novel"
+  ]
+}

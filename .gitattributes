@@ -1,0 +1,3 @@
+# Records are stored byte for byte, so that every SHA-256 recorded in them stays valid.
+revision/** -text
+weights/** binary

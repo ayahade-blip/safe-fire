@@ -1,0 +1,43 @@
+{
+  "ultralytics": "8.4.90",
+  "workers": 8,
+  "sync_every_s": 180,
+  "eval_dfire": true,
+  "recipe": {
+    "imgsz": 640,
+    "batch": 32,
+    "epochs": 300,
+    "patience": 50,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "lrf": 0.01,
+    "weight_decay": 0.05,
+    "warmup_epochs": 3.0,
+    "cos_lr": true,
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "copy_paste": 0.1,
+    "close_mosaic": 10,
+    "hsv_h": 0.015,
+    "hsv_s": 0.7,
+    "hsv_v": 0.4,
+    "fliplr": 0.5,
+    "flipud": 0.0,
+    "erasing": 0.4,
+    "amp": true,
+    "cache": "ram"
+  },
+  "kd_dis": 6.0,
+  "teacher": "showcase__xs960__s42",
+  "created_utc": "2026-10-03T11:55:56+00:00",
+  "created_on": {
+    "cpu_count": 48,
+    "ram_gb": 189.9,
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "gpu_gb": 102.0,
+    "capability": "12.0",
+    "ultralytics": "8.4.90"
+  }
+}

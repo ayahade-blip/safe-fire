@@ -1,0 +1,7 @@
+{
+  "cpu_count": 2,
+  "ram_gb": 13.6,
+  "torch": "2.11.0+cpu",
+  "cuda": null,
+  "ultralytics": "8.4.90"
+}
