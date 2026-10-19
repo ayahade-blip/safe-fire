@@ -1,0 +1,9 @@
+﻿contrast,TPR_diff,ci95,excludes_0
+M-top vs L-ratio,-0.0178,"[-0.0420, 0.0123]",no
+M-top vs random,-0.092,"[-0.1159, -0.0574]",yes
+M-top vs random corpus,-0.0272,"[-0.0475, -0.0071]",yes
+M-top vs no negatives,0.008,"[-0.0187, 0.0340]",no
+L-ratio vs no negatives,0.0258,"[-0.0006, 0.0458]",no
+audited M-top vs M-top,0.0219,"[0.0058, 0.0372]",yes
+union+KD vs union,0.059,"[0.0300, 0.0740]",yes
+union vs M-top,-0.0191,"[-0.0333, 0.0012]",no

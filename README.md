@@ -15,7 +15,7 @@ Archived on Zenodo (all versions): https://doi.org/10.5281/zenodo.21845339
 | Path | What |
 |---|---|
 | `SAFE_FIRE_MASTER_CLEAN.ipynb` | the original study, both halves |
-| `revision/` | the extended study: 51 new training runs (17 conditions x 3 seeds), every earlier run re-scored with one protocol, a test suite frozen before any model was scored, negative-set manifests, per-image scores, threshold sweeps and the scripts that regenerate every table ([details](revision/README.md)) |
+| `revision/` | the extended study: 63 training runs (21 conditions x 3 seeds), every earlier run re-scored with one protocol, a test suite frozen before any model was scored, negative-set manifests, per-image scores, threshold sweeps and the scripts that regenerate every table ([details](revision/README.md)) |
 | `weights/` | trained weights of the baseline, the teacher and the deployed student ([details](weights/README.md)) |
 | `code/edge/` | the four scripts that run on the Jetson |
 | `code/firmware/` | what is flashed onto the ESP32 node |

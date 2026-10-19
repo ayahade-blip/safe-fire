@@ -1,0 +1,14 @@
+{
+  "run_id": "UC__noKD__yolo26n__s42",
+  "neg_set": "UC",
+  "kd": false,
+  "arch": "yolo26n",
+  "base": "yolo26n.pt",
+  "seed": 42,
+  "imgsz": 640,
+  "batch": 32,
+  "priority": 1,
+  "why": "round 2: audited union",
+  "n_negatives": 3276,
+  "data_yaml": "/content/sfs/jobs/UC__noKD__yolo26n__s42/data/data.yaml"
+}

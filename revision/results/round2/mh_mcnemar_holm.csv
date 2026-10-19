@@ -1,0 +1,209 @@
+﻿contrast,A,B,subset,n_images,FPR_A,FPR_B,diff_pp,diff_ci95,only_A,only_B,OR_MH,p_MH,seeds_A_lower_sig,seeds_A_higher_sig,p_Holm,verdict
+"distillation, no negatives",N0+KD,N0,hard,500,25.67,27.07,-1.4,"[-3.60, 0.67]",110,131,0.84,0.1975,0,0,1.0,no significant difference
+"distillation, no negatives",N0+KD,N0,novel,196,20.58,18.03,2.55,"[-0.85, 6.29]",54,39,1.385,0.1462,0,0,1.0,no significant difference
+"distillation, no negatives",N0+KD,N0,mining-dev,400,26.17,27.75,-1.58,"[-4.75, 1.67]",144,163,0.883,0.3043,1,0,1.0,no significant difference
+"distillation, no negatives",N0+KD,N0,cross-corpus,1500,9.56,12.09,-2.53,"[-3.67, -1.40]",218,332,0.657,1.333e-06,3,0,0.0002026,A lower
+"distillation, no negatives",N0+KD,N0,fresh hard,101,30.03,40.26,-10.23,"[-16.50, -4.29]",14,45,0.311,6.531e-05,2,0,0.009469,A lower
+"distillation, no negatives",N0+KD,N0,fresh novel,61,17.49,22.4,-4.92,"[-13.11, 2.73]",13,22,0.591,0.1755,0,0,1.0,no significant difference
+"distillation, no negatives",N0+KD,N0,fresh cross-corpus,1500,10.31,11.04,-0.73,"[-1.87, 0.40]",258,291,0.887,0.172,0,0,1.0,no significant difference
+"distillation, no negatives",N0+KD,N0,domestic (SUN RGB-D),1500,4.69,4.09,0.6,"[-0.11, 1.29]",136,109,1.248,0.0965,0,2,1.0,no significant difference
+"distillation, L-ratio",L+KD,L,hard,500,2.2,1.13,1.07,"[0.27, 2.00]",21,5,4.2,0.002494,0,1,0.3267,no significant difference
+"distillation, L-ratio",L+KD,L,novel,196,5.44,4.25,1.19,"[-1.02, 3.57]",23,16,1.438,0.3368,0,1,1.0,no significant difference
+"distillation, L-ratio",L+KD,L,mining-dev,400,11.75,10.0,1.75,"[-0.42, 3.92]",85,64,1.328,0.101,0,0,1.0,no significant difference
+"distillation, L-ratio",L+KD,L,cross-corpus,1500,7.71,7.84,-0.13,"[-1.11, 0.82]",200,206,0.971,0.8041,0,1,1.0,no significant difference
+"distillation, L-ratio",L+KD,L,fresh hard,101,0.0,0.33,-0.33,"[-0.99, 0.00]",0,1,0.0,1.0,0,0,1.0,no significant difference
+"distillation, L-ratio",L+KD,L,fresh novel,61,4.37,4.92,-0.55,"[-3.83, 2.19]",4,5,0.8,1.0,0,0,1.0,no significant difference
+"distillation, L-ratio",L+KD,L,fresh cross-corpus,1500,6.87,6.96,-0.09,"[-0.96, 0.78]",184,188,0.979,0.8764,1,1,1.0,no significant difference
+"distillation, L-ratio",L+KD,L,domestic (SUN RGB-D),1500,1.0,0.8,0.2,"[-0.18, 0.56]",35,26,1.346,0.3057,0,0,1.0,no significant difference
+"distillation, M-top",M+KD,M,hard,500,2.27,1.13,1.13,"[0.20, 2.13]",29,12,2.417,0.01151,0,1,1.0,no significant difference
+"distillation, M-top",M+KD,M,novel,196,3.74,1.53,2.21,"[0.85, 3.91]",16,3,5.333,0.004425,0,1,0.5531,no significant difference
+"distillation, M-top",M+KD,M,mining-dev,400,2.17,0.58,1.58,"[0.67, 2.67]",21,2,10.5,6.604e-05,0,1,0.00951,A higher
+"distillation, M-top",M+KD,M,cross-corpus,1500,3.02,3.71,-0.69,"[-1.36, -0.07]",64,95,0.674,0.01708,1,0,1.0,no significant difference
+"distillation, M-top",M+KD,M,fresh hard,101,1.98,1.65,0.33,"[-1.32, 1.98]",6,5,1.2,1.0,0,0,1.0,no significant difference
+"distillation, M-top",M+KD,M,fresh novel,61,3.28,1.64,1.64,"[-0.55, 4.92]",5,2,2.5,0.4531,0,0,1.0,no significant difference
+"distillation, M-top",M+KD,M,fresh cross-corpus,1500,1.84,1.56,0.29,"[-0.27, 0.84]",64,51,1.255,0.2631,0,0,1.0,no significant difference
+"distillation, M-top",M+KD,M,domestic (SUN RGB-D),1500,0.71,0.29,0.42,"[0.13, 0.73]",28,9,3.111,0.002563,0,0,0.3332,no significant difference
+"distillation, union 1,638",U1638+KD,U1638,hard,500,1.53,1.0,0.53,"[-0.20, 1.33]",17,9,1.889,0.1686,0,0,1.0,no significant difference
+"distillation, union 1,638",U1638+KD,U1638,novel,196,2.72,1.87,0.85,"[-1.02, 2.72]",12,7,1.714,0.3593,0,0,1.0,no significant difference
+"distillation, union 1,638",U1638+KD,U1638,mining-dev,400,2.92,2.17,0.75,"[-0.33, 1.92]",25,16,1.562,0.211,0,0,1.0,no significant difference
+"distillation, union 1,638",U1638+KD,U1638,cross-corpus,1500,3.22,3.71,-0.49,"[-1.07, 0.09]",72,94,0.766,0.1028,1,0,1.0,no significant difference
+"distillation, union 1,638",U1638+KD,U1638,fresh hard,101,0.66,0.33,0.33,"[-0.66, 1.65]",2,1,2.0,1.0,0,0,1.0,no significant difference
+"distillation, union 1,638",U1638+KD,U1638,fresh novel,61,3.28,1.64,1.64,"[-0.55, 4.92]",5,2,2.5,0.4531,0,0,1.0,no significant difference
+"distillation, union 1,638",U1638+KD,U1638,fresh cross-corpus,1500,2.02,1.98,0.04,"[-0.53, 0.62]",71,69,1.029,0.9327,0,0,1.0,no significant difference
+"distillation, union 1,638",U1638+KD,U1638,domestic (SUN RGB-D),1500,0.53,0.2,0.33,"[0.04, 0.64]",24,9,2.667,0.01353,0,0,1.0,no significant difference
+"distillation, union 3,276",U3276+KD,U3276,hard,500,0.87,0.2,0.67,"[0.07, 1.40]",13,3,4.333,0.02127,0,0,1.0,no significant difference
+"distillation, union 3,276",U3276+KD,U3276,novel,196,2.72,1.02,1.7,"[0.51, 3.06]",11,1,11.0,0.006348,0,0,0.7617,no significant difference
+"distillation, union 3,276",U3276+KD,U3276,mining-dev,400,2.08,1.33,0.75,"[-0.17, 1.67]",19,10,1.9,0.136,0,0,1.0,no significant difference
+"distillation, union 3,276",U3276+KD,U3276,cross-corpus,1500,2.24,3.02,-0.78,"[-1.38, -0.20]",55,90,0.611,0.004581,1,0,0.5681,no significant difference
+"distillation, union 3,276",U3276+KD,U3276,fresh hard,101,0.0,0.33,-0.33,"[-0.99, 0.00]",0,1,0.0,1.0,0,0,1.0,no significant difference
+"distillation, union 3,276",U3276+KD,U3276,fresh novel,61,2.73,0.55,2.19,"[-1.09, 6.56]",5,1,5.0,0.2188,0,0,1.0,no significant difference
+"distillation, union 3,276",U3276+KD,U3276,fresh cross-corpus,1500,1.93,1.64,0.29,"[-0.20, 0.82]",70,57,1.228,0.2869,0,1,1.0,no significant difference
+"distillation, union 3,276",U3276+KD,U3276,domestic (SUN RGB-D),1500,0.51,0.31,0.2,"[-0.04, 0.44]",19,10,1.9,0.136,0,0,1.0,no significant difference
+"distillation, PA",PA+KD,PA,hard,500,1.47,1.0,0.47,"[-0.33, 1.33]",18,11,1.636,0.2649,0,1,1.0,no significant difference
+"distillation, PA",PA+KD,PA,novel,196,3.57,2.55,1.02,"[-0.34, 2.38]",11,5,2.2,0.2101,0,0,1.0,no significant difference
+"distillation, PA",PA+KD,PA,mining-dev,400,2.33,1.83,0.5,"[-0.67, 1.67]",20,14,1.429,0.3915,0,0,1.0,no significant difference
+"distillation, PA",PA+KD,PA,cross-corpus,1500,4.67,2.67,2.0,"[1.31, 2.67]",142,52,2.731,7.591e-11,0,2,1.313e-08,A higher
+"distillation, PA",PA+KD,PA,fresh hard,101,0.33,0.33,0.0,"[-0.99, 0.99]",1,1,1.0,1.0,0,0,1.0,no significant difference
+"distillation, PA",PA+KD,PA,fresh novel,61,1.64,1.09,0.55,"[0.00, 1.64]",2,1,2.0,1.0,0,0,1.0,no significant difference
+"distillation, PA",PA+KD,PA,fresh cross-corpus,1500,2.36,1.64,0.71,"[0.22, 1.20]",78,46,1.696,0.005161,0,1,0.6245,no significant difference
+"distillation, PA",PA+KD,PA,domestic (SUN RGB-D),1500,0.69,0.33,0.36,"[0.09, 0.64]",25,9,2.778,0.009041,0,1,1.0,no significant difference
+M-top vs L-ratio,M,L,hard,500,1.13,1.13,-0.0,"[-1.00, 0.93]",15,15,1.0,1.0,0,0,1.0,no significant difference
+M-top vs L-ratio,M,L,novel,196,1.53,4.25,-2.72,"[-4.59, -1.19]",3,19,0.158,0.0008554,1,0,0.1146,no significant difference
+M-top vs L-ratio,M,L,mining-dev,400,0.58,10.0,-9.42,"[-11.67, -7.25]",3,116,0.026,8.455e-31,3,0,1.699e-28,A lower
+M-top vs L-ratio,M,L,cross-corpus,1500,3.71,7.84,-4.13,"[-5.07, -3.27]",66,252,0.262,9.415e-27,3,0,1.864e-24,A lower
+M-top vs L-ratio,M,L,fresh hard,101,1.65,0.33,1.32,"[-0.33, 3.30]",5,1,5.0,0.2188,0,0,1.0,no significant difference
+M-top vs L-ratio,M,L,fresh novel,61,1.64,4.92,-3.28,"[-7.65, 0.56]",2,8,0.25,0.1094,0,0,1.0,no significant difference
+M-top vs L-ratio,M,L,fresh cross-corpus,1500,1.56,6.96,-5.4,"[-6.38, -4.49]",41,284,0.144,7.11e-46,3,0,1.472e-43,A lower
+M-top vs L-ratio,M,L,domestic (SUN RGB-D),1500,0.29,0.8,-0.51,"[-0.82, -0.22]",7,30,0.233,0.0001911,1,0,0.02694,A lower
+M-top vs random,M,R,hard,500,1.13,8.93,-7.8,"[-9.80, -5.93]",5,122,0.041,3.114e-30,3,0,6.228e-28,A lower
+M-top vs random,M,R,novel,196,1.53,5.78,-4.25,"[-6.80, -2.04]",2,27,0.074,1.624e-06,2,0,0.0002453,A lower
+M-top vs random,M,R,mining-dev,400,0.58,7.0,-6.42,"[-8.42, -4.50]",1,78,0.013,2.647e-22,3,0,5.135e-20,A lower
+M-top vs random,M,R,cross-corpus,1500,3.71,4.91,-1.2,"[-2.00, -0.38]",98,152,0.645,0.0007692,1,0,0.1038,no significant difference
+M-top vs random,M,R,fresh hard,101,1.65,23.76,-22.11,"[-29.37, -15.18]",3,70,0.043,1.374e-17,3,0,2.542e-15,A lower
+M-top vs random,M,R,fresh novel,61,1.64,6.01,-4.37,"[-9.29, -0.55]",2,10,0.2,0.03857,0,0,1.0,no significant difference
+M-top vs random,M,R,fresh cross-corpus,1500,1.56,4.53,-2.98,"[-3.69, -2.24]",35,169,0.207,2.938e-22,3,0,5.67e-20,A lower
+M-top vs random,M,R,domestic (SUN RGB-D),1500,0.29,0.76,-0.47,"[-0.76, -0.20]",8,29,0.276,0.0007529,2,0,0.1024,no significant difference
+L-ratio vs random,L,R,hard,500,1.13,8.93,-7.8,"[-9.93, -5.80]",9,126,0.071,1.544e-27,3,0,3.072e-25,A lower
+L-ratio vs random,L,R,novel,196,4.25,5.78,-1.53,"[-4.25, 1.02]",14,23,0.609,0.1877,1,0,1.0,no significant difference
+L-ratio vs random,L,R,mining-dev,400,10.0,7.0,3.0,"[0.83, 5.25]",85,49,1.735,0.002372,0,1,0.3131,no significant difference
+L-ratio vs random,L,R,cross-corpus,1500,7.84,4.91,2.93,"[1.98, 3.89]",244,112,2.179,2.16e-12,0,3,3.802e-10,A higher
+L-ratio vs random,L,R,fresh hard,101,0.33,23.76,-23.43,"[-30.69, -16.50]",0,71,0.0,8.47e-22,3,0,1.618e-19,A lower
+L-ratio vs random,L,R,fresh novel,61,4.92,6.01,-1.09,"[-6.01, 3.28]",5,7,0.714,0.7744,0,0,1.0,no significant difference
+L-ratio vs random,L,R,fresh cross-corpus,1500,6.96,4.53,2.42,"[1.53, 3.29]",226,117,1.932,4.103e-09,0,2,6.852e-07,A higher
+L-ratio vs random,L,R,domestic (SUN RGB-D),1500,0.8,0.76,0.04,"[-0.29, 0.38]",27,25,1.08,0.8899,0,0,1.0,no significant difference
+M-top vs coverage,M,C,hard,500,1.13,4.0,-2.87,"[-4.07, -1.73]",10,53,0.189,3.382e-08,3,0,5.479e-06,A lower
+M-top vs coverage,M,C,novel,196,1.53,3.4,-1.87,"[-3.23, -0.68]",2,13,0.154,0.007385,0,0,0.8567,no significant difference
+M-top vs coverage,M,C,mining-dev,400,0.58,1.83,-1.25,"[-2.17, -0.42]",3,18,0.167,0.00149,0,0,0.1981,no significant difference
+M-top vs coverage,M,C,cross-corpus,1500,3.71,3.82,-0.11,"[-0.71, 0.47]",78,83,0.94,0.7527,1,1,1.0,no significant difference
+M-top vs coverage,M,C,fresh hard,101,1.65,4.95,-3.3,"[-6.60, -0.33]",5,15,0.333,0.04139,0,0,1.0,no significant difference
+M-top vs coverage,M,C,fresh novel,61,1.64,2.73,-1.09,"[-3.83, 1.09]",2,4,0.5,0.6875,0,0,1.0,no significant difference
+M-top vs coverage,M,C,fresh cross-corpus,1500,1.56,1.73,-0.18,"[-0.64, 0.29]",46,54,0.852,0.4841,0,0,1.0,no significant difference
+M-top vs coverage,M,C,domestic (SUN RGB-D),1500,0.29,0.31,-0.02,"[-0.22, 0.18]",9,10,0.9,1.0,0,0,1.0,no significant difference
+Places-only vs L-ratio,P,L,hard,500,4.0,1.13,2.87,"[1.33, 4.40]",57,14,4.071,2.666e-07,0,3,4.106e-05,A higher
+Places-only vs L-ratio,P,L,novel,196,3.91,4.25,-0.34,"[-2.38, 1.53]",14,16,0.875,0.8555,1,0,1.0,no significant difference
+Places-only vs L-ratio,P,L,mining-dev,400,2.25,10.0,-7.75,"[-9.83, -5.58]",13,106,0.123,2.671e-19,3,0,5.048e-17,A lower
+Places-only vs L-ratio,P,L,cross-corpus,1500,3.22,7.84,-4.62,"[-5.49, -3.76]",52,260,0.2,2.034e-34,3,0,4.149e-32,A lower
+Places-only vs L-ratio,P,L,fresh hard,101,12.87,0.33,12.54,"[7.59, 17.82]",38,0,inf,7.276e-12,0,3,1.273e-09,A higher
+Places-only vs L-ratio,P,L,fresh novel,61,3.28,4.92,-1.64,"[-6.01, 2.19]",5,8,0.625,0.5811,0,0,1.0,no significant difference
+Places-only vs L-ratio,P,L,fresh cross-corpus,1500,1.33,6.96,-5.62,"[-6.56, -4.71]",30,283,0.106,8.833e-53,3,0,1.837e-50,A lower
+Places-only vs L-ratio,P,L,domestic (SUN RGB-D),1500,0.24,0.8,-0.56,"[-0.91, -0.24]",7,32,0.219,7.025e-05,2,0,0.01005,A lower
+Places-only vs random,P,R,hard,500,4.0,8.93,-4.93,"[-6.67, -3.27]",21,95,0.221,1.973e-12,3,0,3.492e-10,A lower
+Places-only vs random,P,R,novel,196,3.91,5.78,-1.87,"[-3.91, -0.00]",7,18,0.389,0.04329,1,0,1.0,no significant difference
+Places-only vs random,P,R,mining-dev,400,2.25,7.0,-4.75,"[-6.42, -3.00]",13,70,0.186,1.333e-10,3,0,2.267e-08,A lower
+Places-only vs random,P,R,cross-corpus,1500,3.22,4.91,-1.69,"[-2.44, -0.93]",74,150,0.493,4.236e-07,2,0,6.481e-05,A lower
+Places-only vs random,P,R,fresh hard,101,12.87,23.76,-10.89,"[-15.85, -6.27]",8,41,0.195,1.965e-06,2,0,0.0002947,A lower
+Places-only vs random,P,R,fresh novel,61,3.28,6.01,-2.73,"[-6.56, 0.56]",2,7,0.286,0.1797,0,0,1.0,no significant difference
+Places-only vs random,P,R,fresh cross-corpus,1500,1.33,4.53,-3.2,"[-3.93, -2.49]",35,179,0.196,1.761e-24,3,0,3.434e-22,A lower
+Places-only vs random,P,R,domestic (SUN RGB-D),1500,0.24,0.76,-0.51,"[-0.80, -0.24]",6,29,0.207,0.0001168,1,0,0.01659,A lower
+PA vs M-top,PA,M,hard,500,1.0,1.13,-0.13,"[-0.80, 0.53]",13,15,0.867,0.8506,0,0,1.0,no significant difference
+PA vs M-top,PA,M,novel,196,2.55,1.53,1.02,"[0.00, 2.21]",8,2,4.0,0.1094,0,0,1.0,no significant difference
+PA vs M-top,PA,M,mining-dev,400,1.83,0.58,1.25,"[0.33, 2.33]",19,4,4.75,0.002599,0,0,0.3353,no significant difference
+PA vs M-top,PA,M,cross-corpus,1500,2.67,3.71,-1.04,"[-1.67, -0.44]",61,108,0.565,0.0003721,2,0,0.05135,no significant difference
+PA vs M-top,PA,M,fresh hard,101,0.33,1.65,-1.32,"[-3.30, 0.33]",1,5,0.2,0.2188,0,0,1.0,no significant difference
+PA vs M-top,PA,M,fresh novel,61,1.09,1.64,-0.55,"[-3.28, 1.64]",1,2,0.5,1.0,0,0,1.0,no significant difference
+PA vs M-top,PA,M,fresh cross-corpus,1500,1.64,1.56,0.09,"[-0.38, 0.56]",51,47,1.085,0.762,0,0,1.0,no significant difference
+PA vs M-top,PA,M,domestic (SUN RGB-D),1500,0.33,0.29,0.04,"[-0.16, 0.24]",11,9,1.222,0.8238,0,0,1.0,no significant difference
+"union 3,276 vs union 1,638",U3276,U1638,hard,500,0.2,1.0,-0.8,"[-1.40, -0.27]",2,14,0.143,0.004181,1,0,0.5268,no significant difference
+"union 3,276 vs union 1,638",U3276,U1638,novel,196,1.02,1.87,-0.85,"[-1.87, 0.00]",3,8,0.375,0.2266,0,0,1.0,no significant difference
+"union 3,276 vs union 1,638",U3276,U1638,mining-dev,400,1.33,2.17,-0.83,"[-1.84, 0.08]",10,20,0.5,0.09874,0,0,1.0,no significant difference
+"union 3,276 vs union 1,638",U3276,U1638,cross-corpus,1500,3.02,3.71,-0.69,"[-1.16, -0.22]",42,73,0.575,0.004928,2,0,0.6012,no significant difference
+"union 3,276 vs union 1,638",U3276,U1638,fresh hard,101,0.33,0.33,0.0,"[-0.99, 0.99]",1,1,1.0,1.0,0,0,1.0,no significant difference
+"union 3,276 vs union 1,638",U3276,U1638,fresh novel,61,0.55,1.64,-1.09,"[-3.83, 1.09]",1,3,0.333,0.625,0,0,1.0,no significant difference
+"union 3,276 vs union 1,638",U3276,U1638,fresh cross-corpus,1500,1.64,1.98,-0.33,"[-0.78, 0.11]",54,69,0.783,0.2066,1,0,1.0,no significant difference
+"union 3,276 vs union 1,638",U3276,U1638,domestic (SUN RGB-D),1500,0.31,0.2,0.11,"[-0.09, 0.31]",12,7,1.714,0.3593,0,0,1.0,no significant difference
+"union+KD vs random 3,276+KD",U3276+KD,R3276+KD,hard,500,0.87,7.53,-6.67,"[-8.60, -4.87]",4,104,0.038,3.432e-26,3,0,6.762e-24,A lower
+"union+KD vs random 3,276+KD",U3276+KD,R3276+KD,novel,196,2.72,6.29,-3.57,"[-5.95, -1.53]",5,26,0.192,0.0001922,1,0,0.02694,A lower
+"union+KD vs random 3,276+KD",U3276+KD,R3276+KD,mining-dev,400,2.08,5.5,-3.42,"[-4.92, -2.00]",7,48,0.146,1.309e-08,3,0,2.133e-06,A lower
+"union+KD vs random 3,276+KD",U3276+KD,R3276+KD,cross-corpus,1500,2.24,4.07,-1.82,"[-2.47, -1.20]",57,139,0.41,4.332e-09,2,0,7.19e-07,A lower
+"union+KD vs random 3,276+KD",U3276+KD,R3276+KD,fresh hard,101,0.0,14.19,-14.19,"[-20.47, -8.58]",0,43,0.0,2.274e-13,3,0,4.07e-11,A lower
+"union+KD vs random 3,276+KD",U3276+KD,R3276+KD,fresh novel,61,2.73,4.37,-1.64,"[-4.37, 1.09]",1,4,0.25,0.375,0,0,1.0,no significant difference
+"union+KD vs random 3,276+KD",U3276+KD,R3276+KD,fresh cross-corpus,1500,1.93,3.89,-1.96,"[-2.64, -1.29]",51,139,0.367,1.29e-10,3,0,2.22e-08,A lower
+"union+KD vs random 3,276+KD",U3276+KD,R3276+KD,domestic (SUN RGB-D),1500,0.51,1.24,-0.73,"[-1.20, -0.33]",14,47,0.298,2.719e-05,1,0,0.003997,A lower
+random vs background 10%,R,BG10,hard,500,8.93,16.4,-7.47,"[-9.33, -5.60]",30,142,0.211,1.259e-18,3,0,2.354e-16,A lower
+random vs background 10%,R,BG10,novel,196,5.78,12.07,-6.29,"[-9.19, -3.74]",6,43,0.14,5.728e-08,2,0,9.107e-06,A lower
+random vs background 10%,R,BG10,mining-dev,400,7.0,13.08,-6.08,"[-8.33, -3.92]",35,108,0.324,7.381e-10,3,0,1.24e-07,A lower
+random vs background 10%,R,BG10,cross-corpus,1500,4.91,7.02,-2.11,"[-2.93, -1.31]",120,215,0.558,2.352e-07,3,0,3.669e-05,A lower
+random vs background 10%,R,BG10,fresh hard,101,23.76,30.69,-6.93,"[-11.88, -2.31]",15,36,0.417,0.004601,2,0,0.5681,no significant difference
+random vs background 10%,R,BG10,fresh novel,61,6.01,12.02,-6.01,"[-10.93, -1.64]",5,16,0.312,0.0266,0,0,1.0,no significant difference
+random vs background 10%,R,BG10,fresh cross-corpus,1500,4.53,6.33,-1.8,"[-2.60, -1.00]",109,190,0.574,3.263e-06,2,0,0.0004862,A lower
+random vs background 10%,R,BG10,domestic (SUN RGB-D),1500,0.76,1.93,-1.18,"[-1.64, -0.73]",17,70,0.243,8.351e-09,2,0,1.37e-06,A lower
+M-top vs random from the mining corpus,M,RC,hard,500,1.13,10.13,-9.0,"[-11.20, -6.93]",8,143,0.056,4.116e-33,3,0,8.315e-31,A lower
+M-top vs random from the mining corpus,M,RC,novel,196,1.53,8.67,-7.14,"[-10.20, -4.42]",3,45,0.067,1.313e-10,3,0,2.245e-08,A lower
+M-top vs random from the mining corpus,M,RC,mining-dev,400,0.58,6.0,-5.42,"[-7.25, -3.75]",4,69,0.058,2.442e-16,3,0,4.494e-14,A lower
+M-top vs random from the mining corpus,M,RC,cross-corpus,1500,3.71,5.58,-1.87,"[-2.58, -1.16]",78,162,0.481,6.249e-08,2,0,9.873e-06,A lower
+M-top vs random from the mining corpus,M,RC,fresh hard,101,1.65,17.16,-15.51,"[-21.45, -9.90]",2,49,0.041,1.179e-12,3,0,2.098e-10,A lower
+M-top vs random from the mining corpus,M,RC,fresh novel,61,1.64,5.46,-3.83,"[-7.65, -1.09]",1,8,0.125,0.03906,0,0,1.0,no significant difference
+M-top vs random from the mining corpus,M,RC,fresh cross-corpus,1500,1.56,4.13,-2.58,"[-3.27, -1.91]",35,151,0.232,2.272e-18,3,0,4.225e-16,A lower
+M-top vs random from the mining corpus,M,RC,domestic (SUN RGB-D),1500,0.29,0.4,-0.11,"[-0.33, 0.11]",9,14,0.643,0.4049,0,0,1.0,no significant difference
+random corpus vs random COCO,RC,R,hard,500,10.13,8.93,1.2,"[-0.40, 2.87]",72,54,1.333,0.1296,0,1,1.0,no significant difference
+random corpus vs random COCO,RC,R,novel,196,8.67,5.78,2.89,"[0.34, 5.78]",27,10,2.7,0.007632,0,1,0.8777,no significant difference
+random corpus vs random COCO,RC,R,mining-dev,400,6.0,7.0,-1.0,"[-2.75, 0.83]",41,53,0.774,0.2564,0,0,1.0,no significant difference
+random corpus vs random COCO,RC,R,cross-corpus,1500,5.58,4.91,0.67,"[-0.02, 1.36]",139,109,1.275,0.06533,0,1,1.0,no significant difference
+random corpus vs random COCO,RC,R,fresh hard,101,17.16,23.76,-6.6,"[-11.88, -1.98]",12,32,0.375,0.003658,0,0,0.4645,no significant difference
+random corpus vs random COCO,RC,R,fresh novel,61,5.46,6.01,-0.55,"[-4.37, 2.73]",5,6,0.833,1.0,0,0,1.0,no significant difference
+random corpus vs random COCO,RC,R,fresh cross-corpus,1500,4.13,4.53,-0.4,"[-1.13, 0.31]",118,136,0.868,0.2861,1,0,1.0,no significant difference
+random corpus vs random COCO,RC,R,domestic (SUN RGB-D),1500,0.4,0.76,-0.36,"[-0.67, -0.07]",12,28,0.429,0.01659,0,0,1.0,no significant difference
+L-ratio vs random corpus,L,RC,hard,500,1.13,10.13,-9.0,"[-11.27, -6.87]",4,139,0.029,3.083e-36,3,0,6.32e-34,A lower
+L-ratio vs random corpus,L,RC,novel,196,4.25,8.67,-4.42,"[-7.31, -1.70]",11,37,0.297,0.0002222,2,0,0.03089,A lower
+L-ratio vs random corpus,L,RC,mining-dev,400,10.0,6.0,4.0,"[1.83, 6.25]",90,42,2.143,3.574e-05,0,2,0.005217,A higher
+L-ratio vs random corpus,L,RC,cross-corpus,1500,7.84,5.58,2.27,"[1.42, 3.13]",222,120,1.85,3.775e-08,0,2,6.039e-06,A higher
+L-ratio vs random corpus,L,RC,fresh hard,101,0.33,17.16,-16.83,"[-23.10, -10.89]",1,52,0.019,1.199e-14,3,0,2.182e-12,A lower
+L-ratio vs random corpus,L,RC,fresh novel,61,4.92,5.46,-0.55,"[-4.92, 3.83]",6,7,0.857,1.0,0,0,1.0,no significant difference
+L-ratio vs random corpus,L,RC,fresh cross-corpus,1500,6.96,4.13,2.82,"[1.91, 3.80]",242,115,2.104,1.589e-11,0,2,2.765e-09,A higher
+L-ratio vs random corpus,L,RC,domestic (SUN RGB-D),1500,0.8,0.4,0.4,"[0.11, 0.71]",29,11,2.636,0.006427,0,1,0.7648,no significant difference
+Places-only vs random corpus,P,RC,hard,500,4.0,10.13,-6.13,"[-8.00, -4.40]",14,106,0.132,1.157e-18,3,0,2.175e-16,A lower
+Places-only vs random corpus,P,RC,novel,196,3.91,8.67,-4.76,"[-7.14, -2.55]",2,30,0.067,2.463e-07,3,0,3.818e-05,A lower
+Places-only vs random corpus,P,RC,mining-dev,400,2.25,6.0,-3.75,"[-5.33, -2.25]",12,57,0.211,3.742e-08,2,0,6.025e-06,A lower
+Places-only vs random corpus,P,RC,cross-corpus,1500,3.22,5.58,-2.36,"[-3.02, -1.71]",46,152,0.303,1.945e-14,2,0,3.521e-12,A lower
+Places-only vs random corpus,P,RC,fresh hard,101,12.87,17.16,-4.29,"[-8.25, -0.66]",13,26,0.5,0.05325,0,0,1.0,no significant difference
+Places-only vs random corpus,P,RC,fresh novel,61,3.28,5.46,-2.19,"[-6.56, 1.11]",4,8,0.5,0.3877,0,0,1.0,no significant difference
+Places-only vs random corpus,P,RC,fresh cross-corpus,1500,1.33,4.13,-2.8,"[-3.47, -2.18]",31,157,0.197,1.769e-21,3,0,3.36e-19,A lower
+Places-only vs random corpus,P,RC,domestic (SUN RGB-D),1500,0.24,0.4,-0.16,"[-0.38, 0.04]",7,14,0.5,0.1892,0,0,1.0,no significant difference
+audited M-top vs M-top,MC,M,hard,500,1.47,1.13,0.33,"[-0.33, 1.07]",16,11,1.455,0.4421,0,0,1.0,no significant difference
+audited M-top vs M-top,MC,M,novel,196,2.04,1.53,0.51,"[-0.51, 1.70]",6,3,2.0,0.5078,0,0,1.0,no significant difference
+audited M-top vs M-top,MC,M,mining-dev,400,1.67,0.58,1.08,"[0.25, 2.00]",17,4,4.25,0.007197,0,1,0.8493,no significant difference
+audited M-top vs M-top,MC,M,cross-corpus,1500,3.78,3.71,0.07,"[-0.47, 0.60]",82,79,1.038,0.8748,1,1,1.0,no significant difference
+audited M-top vs M-top,MC,M,fresh hard,101,0.66,1.65,-0.99,"[-2.97, 0.66]",2,5,0.4,0.4531,0,0,1.0,no significant difference
+audited M-top vs M-top,MC,M,fresh novel,61,1.64,1.64,0.0,"[-3.28, 3.28]",2,2,1.0,1.0,0,0,1.0,no significant difference
+audited M-top vs M-top,MC,M,fresh cross-corpus,1500,1.67,1.56,0.11,"[-0.33, 0.53]",56,51,1.098,0.6992,0,1,1.0,no significant difference
+audited M-top vs M-top,MC,M,domestic (SUN RGB-D),1500,0.31,0.29,0.02,"[-0.16, 0.20]",9,8,1.125,1.0,0,0,1.0,no significant difference
+audited M-top vs L-ratio,MC,L,hard,500,1.47,1.13,0.33,"[-0.67, 1.27]",19,14,1.357,0.4869,0,0,1.0,no significant difference
+audited M-top vs L-ratio,MC,L,novel,196,2.04,4.25,-2.21,"[-4.08, -0.51]",4,17,0.235,0.007197,1,0,0.8493,no significant difference
+audited M-top vs L-ratio,MC,L,mining-dev,400,1.67,10.0,-8.33,"[-10.67, -6.17]",11,111,0.099,5.847e-22,3,0,1.123e-19,A lower
+audited M-top vs L-ratio,MC,L,cross-corpus,1500,3.78,7.84,-4.07,"[-4.96, -3.20]",70,253,0.277,1.837e-25,3,0,3.601e-23,A lower
+audited M-top vs L-ratio,MC,L,fresh hard,101,0.66,0.33,0.33,"[0.00, 0.99]",1,0,inf,1.0,0,0,1.0,no significant difference
+audited M-top vs L-ratio,MC,L,fresh novel,61,1.64,4.92,-3.28,"[-6.56, -0.55]",0,6,0.0,0.03125,0,0,1.0,no significant difference
+audited M-top vs L-ratio,MC,L,fresh cross-corpus,1500,1.67,6.96,-5.29,"[-6.31, -4.33]",55,293,0.188,2.274e-40,3,0,4.685e-38,A lower
+audited M-top vs L-ratio,MC,L,domestic (SUN RGB-D),1500,0.31,0.8,-0.49,"[-0.80, -0.22]",9,31,0.29,0.0006795,2,0,0.0931,no significant difference
+audited M-top vs random corpus,MC,RC,hard,500,1.47,10.13,-8.67,"[-10.80, -6.67]",6,136,0.044,3.837e-33,3,0,7.789e-31,A lower
+audited M-top vs random corpus,MC,RC,novel,196,2.04,8.67,-6.63,"[-9.52, -4.08]",5,44,0.114,7.597e-09,2,0,1.254e-06,A lower
+audited M-top vs random corpus,MC,RC,mining-dev,400,1.67,6.0,-4.33,"[-6.17, -2.75]",10,62,0.161,2.689e-10,3,0,4.545e-08,A lower
+audited M-top vs random corpus,MC,RC,cross-corpus,1500,3.78,5.58,-1.8,"[-2.49, -1.18]",77,158,0.487,1.369e-07,2,0,2.15e-05,A lower
+audited M-top vs random corpus,MC,RC,fresh hard,101,0.66,17.16,-16.5,"[-22.77, -10.89]",2,52,0.038,1.65e-13,3,0,2.97e-11,A lower
+audited M-top vs random corpus,MC,RC,fresh novel,61,1.64,5.46,-3.83,"[-7.65, -1.09]",0,7,0.0,0.01563,0,0,1.0,no significant difference
+audited M-top vs random corpus,MC,RC,fresh cross-corpus,1500,1.67,4.13,-2.47,"[-3.16, -1.82]",41,152,0.27,3.386e-16,3,0,6.196e-14,A lower
+audited M-top vs random corpus,MC,RC,domestic (SUN RGB-D),1500,0.31,0.4,-0.09,"[-0.31, 0.11]",9,13,0.692,0.5235,0,0,1.0,no significant difference
+audited union vs union,UC,U3276,hard,500,0.4,0.2,0.2,"[-0.13, 0.60]",4,1,4.0,0.375,0,0,1.0,no significant difference
+audited union vs union,UC,U3276,novel,196,1.36,1.02,0.34,"[-0.51, 1.36]",4,2,2.0,0.6875,0,0,1.0,no significant difference
+audited union vs union,UC,U3276,mining-dev,400,0.92,1.33,-0.42,"[-1.17, 0.33]",6,11,0.545,0.3323,0,0,1.0,no significant difference
+audited union vs union,UC,U3276,cross-corpus,1500,3.42,3.02,0.4,"[-0.04, 0.84]",67,49,1.367,0.1141,0,0,1.0,no significant difference
+audited union vs union,UC,U3276,fresh hard,101,0.33,0.33,0.0,"[-0.99, 0.99]",1,1,1.0,1.0,0,0,1.0,no significant difference
+audited union vs union,UC,U3276,fresh novel,61,0.55,0.55,0.0,"[-1.64, 1.64]",1,1,1.0,1.0,0,0,1.0,no significant difference
+audited union vs union,UC,U3276,fresh cross-corpus,1500,2.02,1.64,0.38,"[-0.13, 0.87]",70,53,1.321,0.1488,0,1,1.0,no significant difference
+audited union vs union,UC,U3276,domestic (SUN RGB-D),1500,0.24,0.31,-0.07,"[-0.24, 0.11]",7,10,0.7,0.6291,0,0,1.0,no significant difference
+audited union+KD vs union+KD,UC+KD,U3276+KD,hard,500,0.87,0.87,-0.0,"[-0.47, 0.47]",6,6,1.0,1.0,0,0,1.0,no significant difference
+audited union+KD vs union+KD,UC+KD,U3276+KD,novel,196,1.36,2.72,-1.36,"[-2.72, -0.34]",3,11,0.273,0.05737,0,0,1.0,no significant difference
+audited union+KD vs union+KD,UC+KD,U3276+KD,mining-dev,400,2.17,2.08,0.08,"[-0.75, 1.00]",12,11,1.091,1.0,0,0,1.0,no significant difference
+audited union+KD vs union+KD,UC+KD,U3276+KD,cross-corpus,1500,2.09,2.24,-0.16,"[-0.62, 0.29]",57,64,0.891,0.5856,1,1,1.0,no significant difference
+audited union+KD vs union+KD,UC+KD,U3276+KD,fresh hard,101,0.0,0.0,0.0,"[0.00, 0.00]",0,0,n/a,1.0,0,0,1.0,no significant difference
+audited union+KD vs union+KD,UC+KD,U3276+KD,fresh novel,61,2.73,2.73,0.0,"[-1.64, 1.64]",1,1,1.0,1.0,0,0,1.0,no significant difference
+audited union+KD vs union+KD,UC+KD,U3276+KD,fresh cross-corpus,1500,2.16,1.93,0.22,"[-0.18, 0.64]",65,55,1.182,0.4114,0,1,1.0,no significant difference
+audited union+KD vs union+KD,UC+KD,U3276+KD,domestic (SUN RGB-D),1500,0.42,0.51,-0.09,"[-0.38, 0.18]",16,20,0.8,0.6177,1,1,1.0,no significant difference
+"distillation, audited union",UC+KD,UC,hard,500,0.87,0.4,0.47,"[-0.20, 1.13]",13,6,2.167,0.1671,0,0,1.0,no significant difference
+"distillation, audited union",UC+KD,UC,novel,196,1.36,1.36,0.0,"[-1.36, 1.36]",5,5,1.0,1.0,0,0,1.0,no significant difference
+"distillation, audited union",UC+KD,UC,mining-dev,400,2.17,0.92,1.25,"[0.42, 2.17]",19,4,4.75,0.002599,0,1,0.3353,no significant difference
+"distillation, audited union",UC+KD,UC,cross-corpus,1500,2.09,3.42,-1.33,"[-2.07, -0.60]",55,115,0.478,4.87e-06,2,0,0.0007208,A lower
+"distillation, audited union",UC+KD,UC,fresh hard,101,0.0,0.33,-0.33,"[-0.99, 0.00]",0,1,0.0,1.0,0,0,1.0,no significant difference
+"distillation, audited union",UC+KD,UC,fresh novel,61,2.73,0.55,2.19,"[0.00, 4.93]",4,0,inf,0.125,0,0,1.0,no significant difference
+"distillation, audited union",UC+KD,UC,fresh cross-corpus,1500,2.16,2.02,0.13,"[-0.49, 0.73]",79,73,1.082,0.6852,0,0,1.0,no significant difference
+"distillation, audited union",UC+KD,UC,domestic (SUN RGB-D),1500,0.42,0.24,0.18,"[-0.09, 0.44]",18,10,1.8,0.1849,0,1,1.0,no significant difference

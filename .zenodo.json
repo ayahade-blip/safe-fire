@@ -25,5 +25,5 @@
     "object detection",
     "benchmark"
   ],
-  "description": "Code, frozen evaluation records, trained weights and the records of every training run supporting a study of false alarm rates in indoor fire detection. Version 3.0.0 adds the extended study: 51 training runs in a factorial design, every earlier run re-scored with one protocol, a test suite frozen before any model was scored on it, negative-set manifests, per-image scores, threshold sweeps and the scripts that regenerate every table."
+  "description": "Code, frozen evaluation records, trained weights and the records of every training run supporting a study of false alarm rates in indoor fire detection. Version 3.1.0 adds round 2 of the extended study: a visual audit of the mined negatives, a random control drawn from the mining corpus, a domestic negative set, 12 further training runs (63 in all), seed-pooled statistics with multiplicity adjustment, bootstrap intervals for mAP, in-domain D-Fire curves and video at 16 frames per second."
 }

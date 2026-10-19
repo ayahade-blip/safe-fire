@@ -1,0 +1,17 @@
+﻿cluster,label,hits,in_M_top,removed_in_audit
+0,reflection or glare,775,96,0
+1,reflection or glare,1108,196,10
+2,orange vehicle or object,681,84,3
+3,bright window or indoor light,626,77,7
+4,red or orange flower,624,103,0
+5,person,871,118,8
+6,person,664,92,1
+7,person,693,106,5
+8,glowing screen or monitor,1092,175,27
+9,lamp or light fixture,636,66,3
+10,orange or red clothing,632,96,1
+11,orange vehicle or object,415,51,8
+12,orange vehicle or object,886,98,0
+13,person,833,95,10
+14,orange vehicle or object,922,117,21
+15,food or fruit,594,68,8

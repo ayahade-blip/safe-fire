@@ -1,0 +1,97 @@
+﻿model,run_id,rate,rule,hold_s,missing_files,negative_minutes,alarms,per_hour,per_day_of_this_footage,indoor_minutes,indoor_alarms,per_hour_indoor,per_hour_FIRESENSE,minutes_FIRESENSE,per_hour_KMU,minutes_KMU,FIRESENSE_neg_clips_with_alarm,neg_clips_with_alarm,positives_detected,missed_positives,median_tta_s,within_5s
+No negatives (paper),tournament__yolo26n__s42,native,1-of-1,0.0,0,32.18,433,807.4,19378.0,2.54,76,1798.1,1762.6,14.47,27.1,17.71,15/25,17/35,24/24,,0.0,22/23
+No negatives (paper),tournament__yolo26n__s42,native,3-of-5,0.0,0,32.18,88,164.1,3938.0,2.54,19,449.5,352.5,14.47,10.2,17.71,9/25,11/35,24/24,,0.08,22/23
+No negatives (paper),tournament__yolo26n__s42,native,3-of-5,30.0,0,32.18,12,22.4,537.0,2.54,3,71.0,41.5,14.47,6.8,17.71,9/25,11/35,24/24,,0.08,22/23
+No negatives (paper),tournament__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,294,548.4,13162.0,2.53,50,1184.2,1186.8,14.46,27.1,17.71,14/25,16/35,24/24,,0.0,22/23
+No negatives (paper),tournament__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,52,97.0,2328.0,2.53,8,189.5,207.5,14.46,6.8,17.71,9/25,11/35,24/24,,0.12,22/23
+No negatives (paper),tournament__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,13,24.3,582.0,2.53,3,71.1,45.6,14.46,6.8,17.71,9/25,11/35,24/24,,0.12,22/23
+Deployed kd6 (paper),kd__kd6__s42,native,1-of-1,0.0,0,32.18,116,216.3,5191.0,2.54,25,591.5,476.9,14.47,3.4,17.71,6/25,7/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.0,17/23
+Deployed kd6 (paper),kd__kd6__s42,native,3-of-5,0.0,0,32.18,17,31.7,761.0,2.54,6,142.0,66.4,14.47,3.4,17.71,5/25,6/35,20/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818 FS_smoke__testpos03.819,0.2,15/23
+Deployed kd6 (paper),kd__kd6__s42,native,3-of-5,30.0,0,32.18,7,13.1,313.0,2.54,2,47.3,24.9,14.47,3.4,17.71,5/25,6/35,20/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818 FS_smoke__testpos03.819,0.2,15/23
+Deployed kd6 (paper),kd__kd6__s42,16 fps,1-of-1,0.0,0,32.16,74,138.0,3313.0,2.53,14,331.6,302.9,14.46,3.4,17.71,6/25,7/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.0,17/23
+Deployed kd6 (paper),kd__kd6__s42,16 fps,3-of-5,0.0,0,32.16,8,14.9,358.0,2.53,0,0.0,33.2,14.46,0.0,17.71,4/25,4/35,20/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818 FS_smoke__testpos03.819,0.25,13/23
+Deployed kd6 (paper),kd__kd6__s42,16 fps,3-of-5,30.0,0,32.16,4,7.5,179.0,2.53,0,0.0,16.6,14.46,0.0,17.71,4/25,4/35,20/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818 FS_smoke__testpos03.819,0.25,13/23
+No negatives s42,N0__noKD__yolo26n__s42,native,1-of-1,0.0,0,32.18,549,1023.7,24570.0,2.54,63,1490.5,2169.0,14.47,88.1,17.71,19/25,23/35,24/24,,0.0,22/23
+No negatives s42,N0__noKD__yolo26n__s42,native,3-of-5,0.0,0,32.18,117,218.2,5236.0,2.54,14,331.2,447.9,14.47,30.5,17.71,15/25,19/35,24/24,,0.07,22/23
+No negatives s42,N0__noKD__yolo26n__s42,native,3-of-5,30.0,0,32.18,21,39.2,940.0,2.54,3,71.0,66.4,14.47,16.9,17.71,15/25,19/35,24/24,,0.07,22/23
+No negatives s42,N0__noKD__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,396,738.7,17729.0,2.53,38,900.0,1539.5,14.46,84.7,17.71,19/25,23/35,24/24,,0.0,22/23
+No negatives s42,N0__noKD__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,81,151.1,3626.0,2.53,9,213.2,294.6,14.46,33.9,17.71,15/25,19/35,24/24,,0.12,22/23
+No negatives s42,N0__noKD__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,22,41.0,985.0,2.53,3,71.1,70.5,14.46,16.9,17.71,15/25,19/35,24/24,,0.12,22/23
+L-ratio s42,L__noKD__yolo26n__s42,native,1-of-1,0.0,0,32.18,386,719.8,17275.0,2.54,24,567.8,1198.5,14.47,328.6,17.71,11/25,15/35,24/24,,0.0,22/23
+L-ratio s42,L__noKD__yolo26n__s42,native,3-of-5,0.0,0,32.18,75,139.9,3357.0,2.54,9,212.9,232.2,14.47,64.4,17.71,9/25,13/35,23/24,FS_fire__posVideo7.876,0.07,20/23
+L-ratio s42,L__noKD__yolo26n__s42,native,3-of-5,30.0,0,32.18,18,33.6,806.0,2.54,2,47.3,45.6,14.47,23.7,17.71,9/25,13/35,23/24,FS_fire__posVideo7.876,0.07,20/23
+L-ratio s42,L__noKD__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,262,488.7,11730.0,2.53,16,378.9,805.0,14.46,230.4,17.71,11/25,15/35,24/24,,0.0,22/23
+L-ratio s42,L__noKD__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,48,89.5,2149.0,2.53,6,142.1,145.2,14.46,44.1,17.71,9/25,12/35,23/24,FS_fire__posVideo7.876,0.12,20/23
+L-ratio s42,L__noKD__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,18,33.6,806.0,2.53,2,47.4,49.8,14.46,20.3,17.71,9/25,12/35,23/24,FS_fire__posVideo7.876,0.12,20/23
+M-top s42,M__noKD__yolo26n__s42,native,1-of-1,0.0,0,32.18,44,82.0,1969.0,2.54,13,307.6,182.5,14.47,0.0,17.71,10/25,10/35,21/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876,0.0,17/23
+M-top s42,M__noKD__yolo26n__s42,native,3-of-5,0.0,0,32.18,6,11.2,269.0,2.54,3,71.0,24.9,14.47,0.0,17.71,3/25,3/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.08,17/23
+M-top s42,M__noKD__yolo26n__s42,native,3-of-5,30.0,0,32.18,3,5.6,134.0,2.54,1,23.7,12.4,14.47,0.0,17.71,3/25,3/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.08,17/23
+M-top s42,M__noKD__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,31,57.8,1388.0,2.53,8,189.5,128.6,14.46,0.0,17.71,9/25,9/35,21/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876,0.0,17/23
+M-top s42,M__noKD__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,2,3.7,90.0,2.53,2,47.4,8.3,14.46,0.0,17.71,1/25,1/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.12,17/23
+M-top s42,M__noKD__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,1,1.9,45.0,2.53,1,23.7,4.1,14.46,0.0,17.71,1/25,1/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.12,17/23
+Positive-aware s42,PA__noKD__yolo26n__s42,native,1-of-1,0.0,0,32.18,138,257.3,6176.0,2.54,32,757.1,547.4,14.47,20.3,17.71,8/25,9/35,22/24,FS_fire__posVideo11.870 FS_smoke__testpos07.823,0.0,19/23
+Positive-aware s42,PA__noKD__yolo26n__s42,native,3-of-5,0.0,0,32.18,36,67.1,1611.0,2.54,12,283.9,132.7,14.47,13.6,17.71,4/25,5/35,20/24,FS_fire__posVideo11.870 FS_smoke__testpos02.818 FS_smoke__testpos06.822 FS_smoke__testpos07.823,0.13,17/23
+Positive-aware s42,PA__noKD__yolo26n__s42,native,3-of-5,30.0,0,32.18,5,9.3,224.0,2.54,3,71.0,16.6,14.47,3.4,17.71,4/25,5/35,20/24,FS_fire__posVideo11.870 FS_smoke__testpos02.818 FS_smoke__testpos06.822 FS_smoke__testpos07.823,0.13,17/23
+Positive-aware s42,PA__noKD__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,98,182.8,4387.0,2.53,21,497.4,390.1,14.46,13.6,17.71,8/25,9/35,22/24,FS_fire__posVideo11.870 FS_smoke__testpos07.823,0.0,19/23
+Positive-aware s42,PA__noKD__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,20,37.3,895.0,2.53,7,165.8,70.5,14.46,10.2,17.71,4/25,5/35,20/24,FS_fire__posVideo11.870 FS_smoke__testpos02.818 FS_smoke__testpos06.822 FS_smoke__testpos07.823,0.25,16/23
+Positive-aware s42,PA__noKD__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,7,13.1,313.0,2.53,3,71.1,24.9,14.46,3.4,17.71,4/25,5/35,20/24,FS_fire__posVideo11.870 FS_smoke__testpos02.818 FS_smoke__testpos06.822 FS_smoke__testpos07.823,0.25,16/23
+Positive-aware + KD s42,PA__KD__yolo26n__s42,native,1-of-1,0.0,0,32.18,79,147.3,3536.0,2.54,4,94.6,327.6,14.47,0.0,17.71,5/25,5/35,23/24,FS_fire__posVideo11.870,0.02,17/23
+Positive-aware + KD s42,PA__KD__yolo26n__s42,native,3-of-5,0.0,0,32.18,7,13.1,313.0,2.54,1,23.7,29.0,14.47,0.0,17.71,4/25,4/35,20/24,FS_fire__posVideo11.870 FS_fire__posVideo6.875 FS_smoke__testpos02.818 FS_smoke__testpos07.823,0.6,14/23
+Positive-aware + KD s42,PA__KD__yolo26n__s42,native,3-of-5,30.0,0,32.18,4,7.5,179.0,2.54,1,23.7,16.6,14.47,0.0,17.71,4/25,4/35,20/24,FS_fire__posVideo11.870 FS_fire__posVideo6.875 FS_smoke__testpos02.818 FS_smoke__testpos07.823,0.6,14/23
+Positive-aware + KD s42,PA__KD__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,45,83.9,2015.0,2.53,3,71.1,186.7,14.46,0.0,17.71,5/25,5/35,22/24,FS_fire__posVideo11.870 FS_smoke__testpos02.818,0.0,17/23
+Positive-aware + KD s42,PA__KD__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,3,5.6,134.0,2.53,0,0.0,12.4,14.46,0.0,17.71,1/25,1/35,20/24,FS_fire__posVideo11.870 FS_fire__posVideo6.875 FS_smoke__testpos02.818 FS_smoke__testpos07.823,0.6,13/23
+Positive-aware + KD s42,PA__KD__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,1,1.9,45.0,2.53,0,0.0,4.1,14.46,0.0,17.71,1/25,1/35,20/24,FS_fire__posVideo11.870 FS_fire__posVideo6.875 FS_smoke__testpos02.818 FS_smoke__testpos07.823,0.6,13/23
+Union + KD s42,U3276__KD__yolo26n__s42,native,1-of-1,0.0,0,32.18,85,158.5,3804.0,2.54,11,260.3,352.5,14.47,0.0,17.71,9/25,9/35,21/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876,0.0,18/23
+Union + KD s42,U3276__KD__yolo26n__s42,native,3-of-5,0.0,0,32.18,20,37.3,895.0,2.54,1,23.7,82.9,14.47,0.0,17.71,7/25,7/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.17,14/23
+Union + KD s42,U3276__KD__yolo26n__s42,native,3-of-5,30.0,0,32.18,7,13.1,313.0,2.54,1,23.7,29.0,14.47,0.0,17.71,7/25,7/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.17,14/23
+Union + KD s42,U3276__KD__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,59,110.1,2641.0,2.53,4,94.7,244.8,14.46,0.0,17.71,9/25,9/35,21/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876,0.0,18/23
+Union + KD s42,U3276__KD__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,11,20.5,492.0,2.53,1,23.7,45.6,14.46,0.0,17.71,5/25,5/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.25,13/23
+Union + KD s42,U3276__KD__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,5,9.3,224.0,2.53,1,23.7,20.7,14.46,0.0,17.71,5/25,5/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.25,13/23
+Union + KD s123,U3276__KD__yolo26n__s123,native,1-of-1,0.0,0,32.18,124,231.2,5549.0,2.54,13,307.6,514.3,14.47,0.0,17.71,11/25,11/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.0,19/23
+Union + KD s123,U3276__KD__yolo26n__s123,native,3-of-5,0.0,0,32.18,14,26.1,627.0,2.54,4,94.6,58.1,14.47,0.0,17.71,7/25,7/35,19/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818 FS_smoke__testpos03.819 FS_smoke__testpos06.822,0.12,16/23
+Union + KD s123,U3276__KD__yolo26n__s123,native,3-of-5,30.0,0,32.18,8,14.9,358.0,2.54,2,47.3,33.2,14.47,0.0,17.71,7/25,7/35,19/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818 FS_smoke__testpos03.819 FS_smoke__testpos06.822,0.12,16/23
+Union + KD s123,U3276__KD__yolo26n__s123,16 fps,1-of-1,0.0,0,32.16,87,162.3,3895.0,2.53,9,213.2,361.0,14.46,0.0,17.71,10/25,10/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.0,19/23
+Union + KD s123,U3276__KD__yolo26n__s123,16 fps,3-of-5,0.0,0,32.16,7,13.1,313.0,2.53,3,71.1,29.0,14.46,0.0,17.71,5/25,5/35,19/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818 FS_smoke__testpos03.819 FS_smoke__testpos06.822,0.19,16/23
+Union + KD s123,U3276__KD__yolo26n__s123,16 fps,3-of-5,30.0,0,32.16,5,9.3,224.0,2.53,2,47.4,20.7,14.46,0.0,17.71,5/25,5/35,19/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818 FS_smoke__testpos03.819 FS_smoke__testpos06.822,0.19,16/23
+Union + KD s2024,U3276__KD__yolo26n__s2024,native,1-of-1,0.0,0,32.18,100,186.5,4475.0,2.54,9,212.9,414.7,14.47,0.0,17.71,8/25,8/35,22/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870,0.03,15/23
+Union + KD s2024,U3276__KD__yolo26n__s2024,native,3-of-5,0.0,0,32.18,16,29.8,716.0,2.54,1,23.7,66.4,14.47,0.0,17.71,4/25,4/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos07.823,0.2,14/23
+Union + KD s2024,U3276__KD__yolo26n__s2024,native,3-of-5,30.0,0,32.18,4,7.5,179.0,2.54,1,23.7,16.6,14.47,0.0,17.71,4/25,4/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos07.823,0.2,14/23
+Union + KD s2024,U3276__KD__yolo26n__s2024,16 fps,1-of-1,0.0,0,32.16,67,125.0,3000.0,2.53,6,142.1,278.0,14.46,0.0,17.71,7/25,7/35,22/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870,0.06,15/23
+Union + KD s2024,U3276__KD__yolo26n__s2024,16 fps,3-of-5,0.0,0,32.16,6,11.2,269.0,2.53,1,23.7,24.9,14.46,0.0,17.71,3/25,3/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos07.823,0.25,13/23
+Union + KD s2024,U3276__KD__yolo26n__s2024,16 fps,3-of-5,30.0,0,32.16,3,5.6,134.0,2.53,1,23.7,12.4,14.46,0.0,17.71,3/25,3/35,20/24,FS_fire__posVideo10.869 FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos07.823,0.25,13/23
+Random corpus s42,RC__noKD__yolo26n__s42,native,1-of-1,0.0,0,32.18,241,449.4,10786.0,2.54,11,260.3,692.6,14.47,250.7,17.71,10/25,12/35,24/24,,0.0,20/23
+Random corpus s42,RC__noKD__yolo26n__s42,native,3-of-5,0.0,0,32.18,27,50.3,1208.0,2.54,3,71.0,95.4,14.47,13.6,17.71,6/25,8/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos07.823,0.08,20/23
+Random corpus s42,RC__noKD__yolo26n__s42,native,3-of-5,30.0,0,32.18,8,14.9,358.0,2.54,2,47.3,24.9,14.47,6.8,17.71,6/25,8/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos07.823,0.08,20/23
+Random corpus s42,RC__noKD__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,148,276.1,6626.0,2.53,6,142.1,423.3,14.46,155.9,17.71,9/25,11/35,24/24,,0.0,20/23
+Random corpus s42,RC__noKD__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,13,24.3,582.0,2.53,2,47.4,45.6,14.46,6.8,17.71,5/25,7/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos07.823,0.19,20/23
+Random corpus s42,RC__noKD__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,7,13.1,313.0,2.53,2,47.4,20.7,14.46,6.8,17.71,5/25,7/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos07.823,0.19,20/23
+Audited M-top s42,MC__noKD__yolo26n__s42,native,1-of-1,0.0,0,32.18,55,102.6,2461.0,2.54,9,212.9,228.1,14.47,0.0,17.71,6/25,6/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.0,18/23
+Audited M-top s42,MC__noKD__yolo26n__s42,native,3-of-5,0.0,0,32.18,13,24.2,582.0,2.54,3,71.0,53.9,14.47,0.0,17.71,4/25,4/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.07,18/23
+Audited M-top s42,MC__noKD__yolo26n__s42,native,3-of-5,30.0,0,32.18,5,9.3,224.0,2.54,1,23.7,20.7,14.47,0.0,17.71,4/25,4/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.07,18/23
+Audited M-top s42,MC__noKD__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,38,70.9,1701.0,2.53,8,189.5,157.7,14.46,0.0,17.71,6/25,6/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.0,18/23
+Audited M-top s42,MC__noKD__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,9,16.8,403.0,2.53,2,47.4,37.3,14.46,0.0,17.71,3/25,3/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.19,18/23
+Audited M-top s42,MC__noKD__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,3,5.6,134.0,2.53,1,23.7,12.4,14.46,0.0,17.71,3/25,3/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.19,18/23
+Audited union s42,UC__noKD__yolo26n__s42,native,1-of-1,0.0,0,32.18,62,115.6,2775.0,2.54,11,260.3,257.1,14.47,0.0,17.71,6/25,6/35,23/24,FS_fire__posVideo7.876,0.0,22/23
+Audited union s42,UC__noKD__yolo26n__s42,native,3-of-5,0.0,0,32.18,15,28.0,671.0,2.54,3,71.0,62.2,14.47,0.0,17.71,5/25,5/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.1,18/23
+Audited union s42,UC__noKD__yolo26n__s42,native,3-of-5,30.0,0,32.18,7,13.1,313.0,2.54,1,23.7,29.0,14.47,0.0,17.71,5/25,5/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.1,18/23
+Audited union s42,UC__noKD__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,45,83.9,2015.0,2.53,7,165.8,186.7,14.46,0.0,17.71,6/25,6/35,23/24,FS_fire__posVideo7.876,0.0,22/23
+Audited union s42,UC__noKD__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,7,13.1,313.0,2.53,3,71.1,29.0,14.46,0.0,17.71,3/25,3/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.19,18/23
+Audited union s42,UC__noKD__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,3,5.6,134.0,2.53,1,23.7,12.4,14.46,0.0,17.71,3/25,3/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos03.819,0.19,18/23
+Audited union + KD s42,UC__KD__yolo26n__s42,native,1-of-1,0.0,0,32.18,106,197.7,4744.0,2.54,12,283.9,439.6,14.47,0.0,17.71,8/25,8/35,22/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876,0.0,18/23
+Audited union + KD s42,UC__KD__yolo26n__s42,native,3-of-5,0.0,0,32.18,16,29.8,716.0,2.54,1,23.7,66.4,14.47,0.0,17.71,4/25,4/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818,0.15,18/23
+Audited union + KD s42,UC__KD__yolo26n__s42,native,3-of-5,30.0,0,32.18,5,9.3,224.0,2.54,1,23.7,20.7,14.47,0.0,17.71,4/25,4/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818,0.15,18/23
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,1-of-1,0.0,0,32.16,77,143.6,3447.0,2.53,8,189.5,319.5,14.46,0.0,17.71,8/25,8/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818,0.0,18/23
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,3-of-5,0.0,0,32.16,6,11.2,269.0,2.53,0,0.0,24.9,14.46,0.0,17.71,2/25,2/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818,0.19,18/23
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,3-of-5,30.0,0,32.16,2,3.7,90.0,2.53,0,0.0,8.3,14.46,0.0,17.71,2/25,2/35,21/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876 FS_smoke__testpos02.818,0.19,18/23
+Audited union + KD s123,UC__KD__yolo26n__s123,native,1-of-1,0.0,0,32.18,101,188.3,4520.0,2.54,10,236.6,418.9,14.47,0.0,17.71,9/25,9/35,23/24,FS_fire__posVideo7.876,0.0,19/23
+Audited union + KD s123,UC__KD__yolo26n__s123,native,3-of-5,0.0,0,32.18,19,35.4,850.0,2.54,1,23.7,78.8,14.47,0.0,17.71,6/25,6/35,22/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876,0.2,16/23
+Audited union + KD s123,UC__KD__yolo26n__s123,native,3-of-5,30.0,0,32.18,9,16.8,403.0,2.54,1,23.7,37.3,14.47,0.0,17.71,6/25,6/35,22/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876,0.2,16/23
+Audited union + KD s123,UC__KD__yolo26n__s123,16 fps,1-of-1,0.0,0,32.16,66,123.1,2955.0,2.53,6,142.1,273.9,14.46,0.0,17.71,8/25,8/35,23/24,FS_fire__posVideo7.876,0.0,19/23
+Audited union + KD s123,UC__KD__yolo26n__s123,16 fps,3-of-5,0.0,0,32.16,5,9.3,224.0,2.53,0,0.0,20.7,14.46,0.0,17.71,5/25,5/35,22/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876,0.25,16/23
+Audited union + KD s123,UC__KD__yolo26n__s123,16 fps,3-of-5,30.0,0,32.16,5,9.3,224.0,2.53,0,0.0,20.7,14.46,0.0,17.71,5/25,5/35,22/24,FS_fire__posVideo11.870 FS_fire__posVideo7.876,0.25,16/23
+Audited union + KD s2024,UC__KD__yolo26n__s2024,native,1-of-1,0.0,0,32.18,109,203.3,4878.0,2.54,17,402.2,447.9,14.47,3.4,17.71,13/25,14/35,23/24,FS_fire__posVideo7.876,0.0,19/23
+Audited union + KD s2024,UC__KD__yolo26n__s2024,native,3-of-5,0.0,0,32.18,14,26.1,627.0,2.54,4,94.6,53.9,14.47,3.4,17.71,7/25,8/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos05.821,0.28,17/23
+Audited union + KD s2024,UC__KD__yolo26n__s2024,native,3-of-5,30.0,0,32.18,9,16.8,403.0,2.54,4,94.6,33.2,14.47,3.4,17.71,7/25,8/35,22/24,FS_fire__posVideo7.876 FS_smoke__testpos05.821,0.28,17/23
+Audited union + KD s2024,UC__KD__yolo26n__s2024,16 fps,1-of-1,0.0,0,32.16,76,141.8,3403.0,2.53,11,260.5,311.2,14.46,3.4,17.71,12/25,13/35,23/24,FS_fire__posVideo7.876,0.0,19/23
+Audited union + KD s2024,UC__KD__yolo26n__s2024,16 fps,3-of-5,0.0,0,32.16,7,13.1,313.0,2.53,1,23.7,29.0,14.46,0.0,17.71,4/25,4/35,21/24,FS_fire__posVideo7.876 FS_smoke__testpos02.818 FS_smoke__testpos05.821,0.19,17/23
+Audited union + KD s2024,UC__KD__yolo26n__s2024,16 fps,3-of-5,30.0,0,32.16,4,7.5,179.0,2.53,1,23.7,16.6,14.46,0.0,17.71,4/25,4/35,21/24,FS_fire__posVideo7.876 FS_smoke__testpos02.818 FS_smoke__testpos05.821,0.19,17/23

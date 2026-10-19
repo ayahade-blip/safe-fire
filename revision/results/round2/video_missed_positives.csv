@@ -1,0 +1,12 @@
+﻿model,key,note,seconds,first_det_s,max_conf,frames,frames_ge_0.30,frames_ge_0.50
+Deployed kd6 (paper),FS_fire__posVideo11.870,small flames in a forest,11.8,0.133,0.686,178,18,2
+Deployed kd6 (paper),FS_fire__posVideo7.876,small fire in snow,54.6,,0.301,547,1,0
+Deployed kd6 (paper),FS_smoke__testpos02.818,building fire with smoke,57.62,3.203,0.773,1728,29,9
+Deployed kd6 (paper),FS_smoke__testpos03.819,low smoke on dry ground by a wall (re-encoded clip),21.4,,0.382,322,7,0
+Audited union + KD s42,FS_fire__posVideo11.870,small flames in a forest,11.8,,0.0,178,0,0
+Audited union + KD s42,FS_fire__posVideo7.876,small fire in snow,54.6,,0.295,547,0,0
+Audited union + KD s42,FS_smoke__testpos02.818,building fire with smoke,57.62,12.813,0.65,1728,4,1
+Audited union + KD s123,FS_fire__posVideo11.870,small flames in a forest,11.8,9.8,0.5,178,20,1
+Audited union + KD s123,FS_fire__posVideo7.876,small fire in snow,54.6,,0.365,547,2,0
+Audited union + KD s2024,FS_fire__posVideo7.876,small fire in snow,54.6,,0.485,547,4,0
+Audited union + KD s2024,FS_smoke__testpos05.821,warehouse camera; smoke not visible in the preview tiles,109.37,0.0,0.61,514,19,3

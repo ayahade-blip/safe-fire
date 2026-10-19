@@ -1,0 +1,16 @@
+﻿method,seeds,LAMR
+No negatives,3,0.265 ± 0.005
+Background 10% (433),3,0.209 ± 0.007
+"Random, 1,638",3,0.179 ± 0.001
+"L-ratio, 1,638",3,0.169 ± 0.022
+"M-top, 1,638",3,0.136 ± 0.016
+"Cluster coverage, 1,638",3,0.127 ± 0.014
+"Places365-only, 1,638",3,0.128 ± 0.003
+"Positive-aware, 1,638",3,0.114 ± 0.015
+"Union, 3,276",3,0.111 ± 0.009
+"Union, 3,276 + KD",3,0.117 ± 0.005
+"Random, 3,276 + KD",3,0.175 ± 0.001
+"Random from the mining corpus, 1,638",3,0.165 ± 0.008
+"M-top audited, 1,638",3,0.137 ± 0.010
+"Union audited, 3,276",3,0.136 ± 0.030
+"Union audited, 3,276 + KD",3,0.114 ± 0.005

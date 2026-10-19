@@ -1,0 +1,222 @@
+﻿suite,method,rule,seeds,thr,recall,small_recall,highest_subset,FPR_hn_holdout,FPR_novel,FPR_mined_dev,FPR_dfire_neg,FPR_F_hard,FPR_F_novel,FPR_F_cross,FPR_domestic
+"original suite (hard, novel, mining-dev, cross-corpus)",No negatives,pooled,3,0.91/0.91/0.93,0.222 ± 0.023,0.031 ± 0.021,novel 2/hard 1,1.60 ± 0.92,1.53 ± 0.88,1.17 ± 0.38,0.27 ± 0.07,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",No negatives,every subset,3,0.93/0.92/0.94,0.141 ± 0.045,0.010 ± 0.012,hard 2/mining-dev 1,0.73 ± 0.23,0.34 ± 0.29,0.42 ± 0.38,0.04 ± 0.08,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",No negatives,equal weight,3,0.92/0.92/0.93,0.185 ± 0.016,0.016 ± 0.009,novel 2/hard 1,0.80 ± 0.20,1.19 ± 0.78,0.58 ± 0.14,0.13 ± 0.07,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",Background 10% (433),pooled,3,0.89/0.91/0.89,0.319 ± 0.043,0.091 ± 0.031,novel 3,2.00 ± 0.40,2.38 ± 0.29,0.92 ± 0.52,0.33 ± 0.12,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",Background 10% (433),every subset,3,0.92/0.93/0.93,0.150 ± 0.025,0.008 ± 0.005,novel 2/hard 1,0.33 ± 0.23,0.51 ± 0.00,0.25 ± 0.00,0.09 ± 0.10,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",Background 10% (433),equal weight,3,0.91/0.93/0.91,0.210 ± 0.046,0.028 ± 0.016,novel 2/hard 1,0.60 ± 0.20,1.36 ± 0.78,0.42 ± 0.29,0.13 ± 0.07,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Random, 1,638",pooled,3,0.85/0.89/0.86,0.442 ± 0.064,0.207 ± 0.070,novel 2/hard 1,2.20 ± 0.92,2.55 ± 0.51,1.17 ± 0.58,0.13 ± 0.12,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Random, 1,638",every subset,3,0.93/0.94/0.92,0.121 ± 0.068,0.008 ± 0.009,hard 3,0.33 ± 0.42,0.17 ± 0.29,0.08 ± 0.14,0.00 ± 0.00,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Random, 1,638",equal weight,3,0.88/0.9/0.89,0.341 ± 0.027,0.108 ± 0.023,novel 2/hard 1,1.40 ± 0.40,1.53 ± 0.00,0.75 ± 0.25,0.07 ± 0.07,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","L-ratio, 1,638",pooled,3,0.83/0.86/0.87,0.501 ± 0.034,0.286 ± 0.011,mining-dev 3,0.13 ± 0.12,0.51 ± 0.51,1.75 ± 0.25,0.93 ± 0.20,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","L-ratio, 1,638",every subset,3,0.88/0.88/0.9,0.363 ± 0.045,0.135 ± 0.044,mining-dev 3,0.13 ± 0.12,0.17 ± 0.29,0.92 ± 0.14,0.33 ± 0.18,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","L-ratio, 1,638",equal weight,3,0.83/0.86/0.86,0.512 ± 0.052,0.303 ± 0.037,mining-dev 3,0.13 ± 0.12,0.51 ± 0.51,1.83 ± 0.29,0.96 ± 0.23,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","M-top, 1,638",pooled,3,0.76/0.78/0.76,0.685 ± 0.007,0.549 ± 0.004,cross-corpus 3,0.27 ± 0.12,0.68 ± 0.29,0.25 ± 0.25,1.40 ± 0.12,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","M-top, 1,638",every subset,3,0.79/0.89/0.79,0.554 ± 0.181,0.365 ± 0.231,cross-corpus 2/mining-dev 1,0.13 ± 0.12,0.34 ± 0.29,0.08 ± 0.14,0.64 ± 0.50,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","M-top, 1,638",equal weight,3,0.62/0.77/0.65,0.733 ± 0.038,0.627 ± 0.046,cross-corpus 3,0.60 ± 0.53,0.68 ± 0.29,0.42 ± 0.14,2.00 ± 0.52,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Cluster coverage, 1,638",pooled,3,0.81/0.81/0.82,0.639 ± 0.018,0.474 ± 0.037,hard 2/novel 1,1.47 ± 0.50,1.19 ± 0.29,0.50 ± 0.00,0.69 ± 0.14,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Cluster coverage, 1,638",every subset,3,0.93/0.84/0.91,0.335 ± 0.233,0.157 ± 0.216,hard 2/novel 1,0.40 ± 0.53,0.34 ± 0.29,0.17 ± 0.14,0.20 ± 0.24,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Cluster coverage, 1,638",equal weight,3,0.84/0.81/0.81,0.621 ± 0.058,0.449 ± 0.094,hard 2/cross-corpus 1,1.40 ± 0.40,1.19 ± 0.29,0.58 ± 0.14,0.62 ± 0.51,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Places365-only, 1,638",pooled,3,0.81/0.82/0.76,0.641 ± 0.054,0.490 ± 0.075,novel 2/hard 1,1.60 ± 0.53,1.87 ± 0.78,0.33 ± 0.38,0.69 ± 0.17,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Places365-only, 1,638",every subset,3,0.92/0.92/0.94,0.139 ± 0.039,0.011 ± 0.012,novel 2/hard 1,0.00 ± 0.00,0.34 ± 0.29,0.00 ± 0.00,0.00 ± 0.00,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Places365-only, 1,638",equal weight,3,0.81/0.82/0.85,0.584 ± 0.047,0.402 ± 0.083,novel 2/hard 1,1.27 ± 0.64,1.70 ± 0.59,0.17 ± 0.14,0.53 ± 0.42,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Positive-aware, 1,638",pooled,3,0.66/0.77/0.81,0.719 ± 0.056,0.600 ± 0.094,cross-corpus 1/novel 2,0.40 ± 0.20,1.36 ± 0.29,0.92 ± 0.29,1.09 ± 0.14,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Positive-aware, 1,638",every subset,3,0.81/0.86/0.85,0.578 ± 0.064,0.385 ± 0.080,novel 1/mining-dev 2,0.27 ± 0.12,0.51 ± 0.00,0.58 ± 0.29,0.13 ± 0.07,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Positive-aware, 1,638",equal weight,3,0.66/0.79/0.8,0.719 ± 0.054,0.602 ± 0.086,cross-corpus 1/novel 2,0.40 ± 0.00,1.36 ± 0.29,0.83 ± 0.14,1.02 ± 0.25,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union, 3,276",pooled,3,0.77/0.72/0.76,0.702 ± 0.007,0.578 ± 0.011,cross-corpus 3,0.00 ± 0.00,0.51 ± 0.51,0.25 ± 0.25,1.49 ± 0.10,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union, 3,276",every subset,3,0.84/0.77/0.78,0.631 ± 0.052,0.474 ± 0.079,cross-corpus 3,0.00 ± 0.00,0.34 ± 0.29,0.08 ± 0.14,0.76 ± 0.10,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union, 3,276",equal weight,3,0.51/0.67/0.62,0.786 ± 0.051,0.710 ± 0.085,cross-corpus 3,0.07 ± 0.12,0.68 ± 0.29,0.75 ± 0.43,2.33 ± 0.35,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union, 3,276 + KD",pooled,3,0.72/0.65/0.57,0.715 ± 0.038,0.614 ± 0.045,cross-corpus 2/mining-dev 1,0.40 ± 0.00,1.19 ± 0.29,1.33 ± 0.80,1.02 ± 0.25,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union, 3,276 + KD",every subset,3,0.83/0.79/0.59,0.613 ± 0.121,0.470 ± 0.163,novel 1/mining-dev 1/cross-corpus 1,0.13 ± 0.23,0.51 ± 0.00,0.58 ± 0.29,0.40 ± 0.53,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union, 3,276 + KD",equal weight,3,0.71/0.67/0.57,0.714 ± 0.034,0.612 ± 0.039,cross-corpus 2/novel 1,0.33 ± 0.12,1.19 ± 0.29,1.08 ± 0.38,1.07 ± 0.31,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Random, 3,276 + KD",pooled,3,0.82/0.83/0.82,0.529 ± 0.033,0.328 ± 0.040,novel 2/hard 1,1.93 ± 0.61,2.04 ± 0.51,1.25 ± 0.00,0.33 ± 0.12,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Random, 3,276 + KD",every subset,3,0.91/0.92/0.91,0.161 ± 0.026,0.021 ± 0.003,novel 3,0.27 ± 0.23,0.51 ± 0.00,0.25 ± 0.00,0.00 ± 0.00,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Random, 3,276 + KD",equal weight,3,0.84/0.87/0.86,0.426 ± 0.076,0.205 ± 0.097,novel 3,1.07 ± 0.23,1.70 ± 0.29,1.00 ± 0.00,0.13 ± 0.07,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Random from the mining corpus, 1,638",pooled,3,0.86/0.87/0.88,0.454 ± 0.050,0.245 ± 0.038,novel 2/hard 1,1.93 ± 0.61,2.21 ± 0.59,0.92 ± 0.14,0.38 ± 0.08,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Random from the mining corpus, 1,638",every subset,3,0.9/0.92/0.93,0.206 ± 0.090,0.039 ± 0.027,novel 2/hard 1,0.47 ± 0.50,0.34 ± 0.29,0.33 ± 0.29,0.02 ± 0.04,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Random from the mining corpus, 1,638",equal weight,3,0.88/0.9/0.89,0.352 ± 0.027,0.130 ± 0.038,novel 3,1.07 ± 0.12,1.70 ± 0.29,0.58 ± 0.14,0.22 ± 0.17,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","M-top audited, 1,638",pooled,3,0.81/0.77/0.78,0.650 ± 0.041,0.492 ± 0.056,cross-corpus 2/novel 1,0.40 ± 0.20,0.85 ± 0.59,0.42 ± 0.14,1.24 ± 0.08,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","M-top audited, 1,638",every subset,3,0.82/0.84/0.79,0.606 ± 0.009,0.420 ± 0.022,cross-corpus 3,0.40 ± 0.20,0.51 ± 0.00,0.33 ± 0.14,0.93 ± 0.12,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","M-top audited, 1,638",equal weight,3,0.73/0.75/0.73,0.703 ± 0.027,0.572 ± 0.050,cross-corpus 3,0.40 ± 0.20,1.02 ± 0.51,0.58 ± 0.38,1.96 ± 0.47,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union audited, 3,276",pooled,3,0.77/0.79/0.79,0.640 ± 0.024,0.490 ± 0.047,cross-corpus 2/novel 1,0.13 ± 0.12,0.85 ± 0.59,0.50 ± 0.25,1.31 ± 0.10,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union audited, 3,276",every subset,3,0.82/0.82/0.8,0.587 ± 0.040,0.411 ± 0.053,cross-corpus 3,0.13 ± 0.12,0.51 ± 0.00,0.42 ± 0.29,0.80 ± 0.12,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union audited, 3,276",equal weight,3,0.65/0.68/0.59,0.748 ± 0.031,0.651 ± 0.052,cross-corpus 3,0.20 ± 0.00,1.02 ± 0.51,0.58 ± 0.38,2.16 ± 0.14,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union audited, 3,276 + KD",pooled,3,0.6/0.65/0.66,0.726 ± 0.035,0.627 ± 0.045,mining-dev 2/novel 1,0.13 ± 0.12,1.02 ± 0.51,1.42 ± 0.29,1.09 ± 0.10,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union audited, 3,276 + KD",every subset,3,0.77/0.71/0.78,0.641 ± 0.061,0.508 ± 0.071,mining-dev 3,0.00 ± 0.00,0.51 ± 0.00,0.83 ± 0.14,0.40 ± 0.35,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)","Union audited, 3,276 + KD",equal weight,3,0.6/0.62/0.66,0.732 ± 0.037,0.636 ± 0.047,mining-dev 2/novel 1,0.27 ± 0.31,1.02 ± 0.51,1.50 ± 0.25,1.13 ± 0.18,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",Deployed kd6 (paper model),pooled,1,0.62,0.760 ± 0.000,0.674 ± 0.000,mining-dev 1,0.60 ± 0.00,1.02 ± 0.00,2.00 ± 0.00,0.73 ± 0.00,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",Deployed kd6 (paper model),every subset,1,0.84,0.501 ± 0.000,0.316 ± 0.000,mining-dev 1,0.00 ± 0.00,0.51 ± 0.00,0.75 ± 0.00,0.00 ± 0.00,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",Deployed kd6 (paper model),equal weight,1,0.65,0.735 ± 0.000,0.638 ± 0.000,mining-dev 1,0.60 ± 0.00,1.02 ± 0.00,1.75 ± 0.00,0.53 ± 0.00,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",No negatives (paper model),pooled,1,0.92,0.191 ± 0.000,0.015 ± 0.000,hard 1,1.60 ± 0.00,1.02 ± 0.00,1.00 ± 0.00,0.47 ± 0.00,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",No negatives (paper model),every subset,1,0.93,0.128 ± 0.000,0.005 ± 0.000,hard 1,0.80 ± 0.00,0.51 ± 0.00,0.25 ± 0.00,0.20 ± 0.00,,,,
+"original suite (hard, novel, mining-dev, cross-corpus)",No negatives (paper model),equal weight,1,0.93,0.128 ± 0.000,0.005 ± 0.000,hard 1,0.80 ± 0.00,0.51 ± 0.00,0.25 ± 0.00,0.20 ± 0.00,,,,
+original without mining-dev,No negatives,pooled,3,0.91/0.91/0.92,0.241 ± 0.016,0.036 ± 0.013,novel 2/hard 1,1.87 ± 0.50,1.87 ± 1.28,,0.38 ± 0.14,,,,
+original without mining-dev,No negatives,every subset,3,0.93/0.92/0.94,0.141 ± 0.045,0.010 ± 0.012,hard 3,0.73 ± 0.23,0.34 ± 0.29,,0.04 ± 0.08,,,,
+original without mining-dev,No negatives,equal weight,3,0.92/0.92/0.93,0.185 ± 0.016,0.016 ± 0.009,novel 2/hard 1,0.80 ± 0.20,1.19 ± 0.78,,0.13 ± 0.07,,,,
+original without mining-dev,Background 10% (433),pooled,3,0.89/0.91/0.89,0.319 ± 0.043,0.091 ± 0.031,novel 3,2.00 ± 0.40,2.38 ± 0.29,,0.33 ± 0.12,,,,
+original without mining-dev,Background 10% (433),every subset,3,0.92/0.93/0.93,0.150 ± 0.025,0.008 ± 0.005,novel 2/hard 1,0.33 ± 0.23,0.51 ± 0.00,,0.09 ± 0.10,,,,
+original without mining-dev,Background 10% (433),equal weight,3,0.91/0.93/0.91,0.210 ± 0.046,0.028 ± 0.016,novel 2/hard 1,0.60 ± 0.20,1.36 ± 0.78,,0.13 ± 0.07,,,,
+original without mining-dev,"Random, 1,638",pooled,3,0.85/0.88/0.87,0.444 ± 0.025,0.205 ± 0.027,novel 2/hard 1,2.47 ± 0.42,2.55 ± 0.51,,0.18 ± 0.10,,,,
+original without mining-dev,"Random, 1,638",every subset,3,0.93/0.94/0.92,0.121 ± 0.068,0.008 ± 0.009,hard 3,0.33 ± 0.42,0.17 ± 0.29,,0.00 ± 0.00,,,,
+original without mining-dev,"Random, 1,638",equal weight,3,0.88/0.9/0.9,0.320 ± 0.014,0.091 ± 0.013,novel 3,1.13 ± 0.23,1.53 ± 0.00,,0.07 ± 0.07,,,,
+original without mining-dev,"L-ratio, 1,638",pooled,3,0.83/0.85/0.86,0.524 ± 0.040,0.319 ± 0.025,novel 2/cross-corpus 1,0.13 ± 0.12,0.68 ± 0.59,,1.04 ± 0.14,,,,
+original without mining-dev,"L-ratio, 1,638",every subset,3,0.87/0.86/0.88,0.439 ± 0.078,0.215 ± 0.073,novel 1/cross-corpus 2,0.13 ± 0.12,0.34 ± 0.29,,0.62 ± 0.32,,,,
+original without mining-dev,"L-ratio, 1,638",equal weight,3,0.8/0.84/0.83,0.584 ± 0.062,0.408 ± 0.074,cross-corpus 3,0.20 ± 0.00,0.85 ± 0.29,,1.71 ± 0.43,,,,
+original without mining-dev,"M-top, 1,638",pooled,3,0.78/0.79/0.78,0.669 ± 0.004,0.524 ± 0.011,cross-corpus 2/novel 1,0.27 ± 0.12,0.68 ± 0.29,,1.11 ± 0.10,,,,
+original without mining-dev,"M-top, 1,638",every subset,3,0.79/0.89/0.79,0.554 ± 0.181,0.365 ± 0.231,cross-corpus 3,0.13 ± 0.12,0.34 ± 0.29,,0.64 ± 0.50,,,,
+original without mining-dev,"M-top, 1,638",equal weight,3,0.71/0.77/0.72,0.709 ± 0.017,0.586 ± 0.012,cross-corpus 3,0.47 ± 0.31,0.68 ± 0.29,,1.73 ± 0.24,,,,
+original without mining-dev,"Cluster coverage, 1,638",pooled,3,0.81/0.81/0.82,0.639 ± 0.018,0.474 ± 0.037,hard 2/novel 1,1.47 ± 0.50,1.19 ± 0.29,,0.69 ± 0.14,,,,
+original without mining-dev,"Cluster coverage, 1,638",every subset,3,0.93/0.84/0.91,0.335 ± 0.233,0.157 ± 0.216,hard 2/novel 1,0.40 ± 0.53,0.34 ± 0.29,,0.20 ± 0.24,,,,
+original without mining-dev,"Cluster coverage, 1,638",equal weight,3,0.85/0.83/0.82,0.590 ± 0.056,0.400 ± 0.087,hard 2/novel 1,1.20 ± 0.20,0.85 ± 0.29,,0.47 ± 0.37,,,,
+original without mining-dev,"Places365-only, 1,638",pooled,3,0.82/0.83/0.77,0.624 ± 0.066,0.463 ± 0.093,novel 2/hard 1,1.60 ± 0.53,1.87 ± 0.78,,0.22 ± 0.08,,,,
+original without mining-dev,"Places365-only, 1,638",every subset,3,0.92/0.92/0.94,0.139 ± 0.039,0.011 ± 0.012,novel 2/hard 1,0.00 ± 0.00,0.34 ± 0.29,,0.00 ± 0.00,,,,
+original without mining-dev,"Places365-only, 1,638",equal weight,3,0.83/0.84/0.85,0.554 ± 0.020,0.357 ± 0.044,novel 2/hard 1,1.00 ± 0.35,1.70 ± 0.59,,0.13 ± 0.07,,,,
+original without mining-dev,"Positive-aware, 1,638",pooled,3,0.66/0.77/0.82,0.711 ± 0.065,0.589 ± 0.110,cross-corpus 2/novel 1,0.40 ± 0.20,1.19 ± 0.29,,1.04 ± 0.10,,,,
+original without mining-dev,"Positive-aware, 1,638",every subset,3,0.81/0.86/0.85,0.578 ± 0.064,0.385 ± 0.080,novel 3,0.27 ± 0.12,0.51 ± 0.00,,0.13 ± 0.07,,,,
+original without mining-dev,"Positive-aware, 1,638",equal weight,3,0.66/0.78/0.81,0.715 ± 0.058,0.596 ± 0.095,cross-corpus 1/novel 2,0.33 ± 0.12,1.36 ± 0.29,,1.07 ± 0.18,,,,
+original without mining-dev,"Union, 3,276",pooled,3,0.82/0.74/0.77,0.665 ± 0.032,0.523 ± 0.054,cross-corpus 3,0.00 ± 0.00,0.51 ± 0.51,,1.24 ± 0.17,,,,
+original without mining-dev,"Union, 3,276",every subset,3,0.84/0.77/0.78,0.631 ± 0.052,0.474 ± 0.079,cross-corpus 3,0.00 ± 0.00,0.34 ± 0.29,,0.76 ± 0.10,,,,
+original without mining-dev,"Union, 3,276",equal weight,3,0.59/0.69/0.52,0.787 ± 0.059,0.711 ± 0.092,cross-corpus 3,0.00 ± 0.00,0.68 ± 0.29,,2.22 ± 0.25,,,,
+original without mining-dev,"Union, 3,276 + KD",pooled,3,0.73/0.62/0.57,0.719 ± 0.044,0.619 ± 0.054,cross-corpus 2/novel 1,0.40 ± 0.00,1.36 ± 0.59,,1.07 ± 0.12,,,,
+original without mining-dev,"Union, 3,276 + KD",every subset,3,0.83/0.78/0.59,0.616 ± 0.120,0.474 ± 0.162,novel 2/cross-corpus 1,0.13 ± 0.23,0.51 ± 0.00,,0.40 ± 0.53,,,,
+original without mining-dev,"Union, 3,276 + KD",equal weight,3,0.71/0.65/0.57,0.719 ± 0.032,0.619 ± 0.037,cross-corpus 2/novel 1,0.40 ± 0.00,1.19 ± 0.29,,1.07 ± 0.31,,,,
+original without mining-dev,"Random, 3,276 + KD",pooled,3,0.82/0.83/0.81,0.539 ± 0.020,0.341 ± 0.026,novel 2/hard 1,1.93 ± 0.61,2.04 ± 0.51,,0.36 ± 0.10,,,,
+original without mining-dev,"Random, 3,276 + KD",every subset,3,0.91/0.92/0.91,0.161 ± 0.026,0.021 ± 0.003,novel 3,0.27 ± 0.23,0.51 ± 0.00,,0.00 ± 0.00,,,,
+original without mining-dev,"Random, 3,276 + KD",equal weight,3,0.84/0.87/0.86,0.426 ± 0.076,0.205 ± 0.097,novel 3,1.07 ± 0.23,1.70 ± 0.29,,0.13 ± 0.07,,,,
+original without mining-dev,"Random from the mining corpus, 1,638",pooled,3,0.86/0.87/0.88,0.454 ± 0.050,0.245 ± 0.038,novel 2/hard 1,1.93 ± 0.61,2.21 ± 0.59,,0.38 ± 0.08,,,,
+original without mining-dev,"Random from the mining corpus, 1,638",every subset,3,0.9/0.92/0.93,0.206 ± 0.090,0.039 ± 0.027,novel 2/hard 1,0.47 ± 0.50,0.34 ± 0.29,,0.02 ± 0.04,,,,
+original without mining-dev,"Random from the mining corpus, 1,638",equal weight,3,0.88/0.9/0.9,0.330 ± 0.053,0.109 ± 0.036,novel 3,0.87 ± 0.42,1.53 ± 0.00,,0.18 ± 0.10,,,,
+original without mining-dev,"M-top audited, 1,638",pooled,3,0.82/0.78/0.79,0.633 ± 0.042,0.465 ± 0.057,cross-corpus 2/novel 1,0.40 ± 0.20,0.85 ± 0.59,,1.02 ± 0.04,,,,
+original without mining-dev,"M-top audited, 1,638",every subset,3,0.82/0.84/0.79,0.606 ± 0.009,0.420 ± 0.022,cross-corpus 3,0.40 ± 0.20,0.51 ± 0.00,,0.93 ± 0.12,,,,
+original without mining-dev,"M-top audited, 1,638",equal weight,3,0.76/0.78/0.73,0.684 ± 0.013,0.543 ± 0.031,cross-corpus 2/novel 1,0.40 ± 0.20,0.85 ± 0.59,,1.71 ± 0.58,,,,
+original without mining-dev,"Union audited, 3,276",pooled,3,0.8/0.8/0.79,0.620 ± 0.028,0.459 ± 0.041,cross-corpus 3,0.13 ± 0.12,0.68 ± 0.29,,1.18 ± 0.04,,,,
+original without mining-dev,"Union audited, 3,276",every subset,3,0.82/0.82/0.8,0.587 ± 0.040,0.411 ± 0.053,cross-corpus 3,0.13 ± 0.12,0.51 ± 0.00,,0.80 ± 0.12,,,,
+original without mining-dev,"Union audited, 3,276",equal weight,3,0.7/0.8/0.59,0.698 ± 0.092,0.577 ± 0.144,cross-corpus 3,0.20 ± 0.00,0.68 ± 0.29,,1.82 ± 0.56,,,,
+original without mining-dev,"Union audited, 3,276 + KD",pooled,3,0.56/0.63/0.66,0.736 ± 0.044,0.645 ± 0.061,cross-corpus 2/novel 1,0.13 ± 0.12,1.02 ± 0.51,,1.18 ± 0.10,,,,
+original without mining-dev,"Union audited, 3,276 + KD",every subset,3,0.77/0.67/0.78,0.649 ± 0.073,0.521 ± 0.088,novel 2/cross-corpus 1,0.07 ± 0.12,0.51 ± 0.00,,0.47 ± 0.47,,,,
+original without mining-dev,"Union audited, 3,276 + KD",equal weight,3,0.54/0.58/0.64,0.750 ± 0.041,0.664 ± 0.054,cross-corpus 2/novel 1,0.53 ± 0.42,1.02 ± 0.51,,1.29 ± 0.10,,,,
+original without mining-dev,Deployed kd6 (paper model),pooled,1,0.56,0.786 ± 0.000,0.715 ± 0.000,novel 1,0.80 ± 0.00,1.02 ± 0.00,,1.00 ± 0.00,,,,
+original without mining-dev,Deployed kd6 (paper model),every subset,1,0.84,0.501 ± 0.000,0.316 ± 0.000,novel 1,0.00 ± 0.00,0.51 ± 0.00,,0.00 ± 0.00,,,,
+original without mining-dev,Deployed kd6 (paper model),equal weight,1,0.55,0.789 ± 0.000,0.717 ± 0.000,cross-corpus 1,0.80 ± 0.00,1.02 ± 0.00,,1.07 ± 0.00,,,,
+original without mining-dev,No negatives (paper model),pooled,1,0.92,0.191 ± 0.000,0.015 ± 0.000,hard 1,1.60 ± 0.00,1.02 ± 0.00,,0.47 ± 0.00,,,,
+original without mining-dev,No negatives (paper model),every subset,1,0.93,0.128 ± 0.000,0.005 ± 0.000,hard 1,0.80 ± 0.00,0.51 ± 0.00,,0.20 ± 0.00,,,,
+original without mining-dev,No negatives (paper model),equal weight,1,0.93,0.128 ± 0.000,0.005 ± 0.000,hard 1,0.80 ± 0.00,0.51 ± 0.00,,0.20 ± 0.00,,,,
+"fresh suite (F_hard, F_novel, F_cross)",No negatives,pooled,3,0.89/0.9/0.92,0.295 ± 0.043,0.070 ± 0.052,fresh hard 3,,,,,4.29 ± 3.18,1.64 ± 1.64,0.42 ± 0.21,
+"fresh suite (F_hard, F_novel, F_cross)",No negatives,every subset,3,0.93/0.94/0.93,0.121 ± 0.068,0.004 ± 0.003,fresh hard 2/fresh cross-corpus 1,,,,,0.33 ± 0.57,0.00 ± 0.00,0.09 ± 0.15,
+"fresh suite (F_hard, F_novel, F_cross)",No negatives,equal weight,3,0.92/0.92/0.92,0.205 ± 0.045,0.021 ± 0.002,fresh novel 1/fresh hard 2,,,,,1.98 ± 0.99,0.55 ± 0.95,0.09 ± 0.15,
+"fresh suite (F_hard, F_novel, F_cross)",Background 10% (433),pooled,3,0.88/0.9/0.9,0.338 ± 0.044,0.106 ± 0.039,fresh hard 3,,,,,6.93 ± 1.71,1.09 ± 0.95,0.40 ± 0.07,
+"fresh suite (F_hard, F_novel, F_cross)",Background 10% (433),every subset,3,0.93/0.94/0.93,0.111 ± 0.014,0.005 ± 0.006,fresh hard 3,,,,,0.99 ± 0.00,0.00 ± 0.00,0.04 ± 0.04,
+"fresh suite (F_hard, F_novel, F_cross)",Background 10% (433),equal weight,3,0.93/0.94/0.92,0.135 ± 0.051,0.011 ± 0.015,fresh hard 2/fresh novel 1,,,,,0.99 ± 0.00,0.55 ± 0.95,0.04 ± 0.04,
+"fresh suite (F_hard, F_novel, F_cross)","Random, 1,638",pooled,3,0.84/0.87/0.84,0.506 ± 0.045,0.284 ± 0.052,fresh hard 3,,,,,9.24 ± 1.14,1.64 ± 0.00,0.31 ± 0.17,
+"fresh suite (F_hard, F_novel, F_cross)","Random, 1,638",every subset,3,0.94/0.94/0.93,0.085 ± 0.055,0.001 ± 0.001,fresh hard 3,,,,,0.33 ± 0.57,0.00 ± 0.00,0.00 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)","Random, 1,638",equal weight,3,0.93/0.93/0.91,0.161 ± 0.089,0.017 ± 0.019,fresh hard 3,,,,,2.64 ± 0.57,0.00 ± 0.00,0.00 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)","L-ratio, 1,638",pooled,3,0.8/0.86/0.84,0.555 ± 0.081,0.369 ± 0.089,fresh novel 2/fresh cross-corpus 1,,,,,0.00 ± 0.00,1.09 ± 0.95,0.98 ± 0.08,
+"fresh suite (F_hard, F_novel, F_cross)","L-ratio, 1,638",every subset,3,0.91/0.93/0.86,0.282 ± 0.251,0.126 ± 0.189,fresh hard 2/fresh cross-corpus 1,,,,,0.00 ± 0.00,0.00 ± 0.00,0.31 ± 0.54,
+"fresh suite (F_hard, F_novel, F_cross)","L-ratio, 1,638",equal weight,3,0.77/0.83/0.82,0.618 ± 0.055,0.456 ± 0.069,fresh novel 2/fresh cross-corpus 1,,,,,0.00 ± 0.00,1.09 ± 0.95,1.31 ± 0.10,
+"fresh suite (F_hard, F_novel, F_cross)","M-top, 1,638",pooled,3,0.63/0.66/0.57,0.769 ± 0.010,0.679 ± 0.020,fresh novel 2/fresh hard 1,,,,,0.99 ± 0.00,1.64 ± 1.64,0.91 ± 0.04,
+"fresh suite (F_hard, F_novel, F_cross)","M-top, 1,638",every subset,3,0.92/0.76/0.57,0.563 ± 0.304,0.430 ± 0.359,fresh hard 2/fresh cross-corpus 1,,,,,0.33 ± 0.57,0.00 ± 0.00,0.47 ± 0.47,
+"fresh suite (F_hard, F_novel, F_cross)","M-top, 1,638",equal weight,3,0.68/0.76/0.4,0.753 ± 0.062,0.654 ± 0.087,fresh novel 1/fresh cross-corpus 2,,,,,0.33 ± 0.57,0.55 ± 0.95,1.02 ± 0.74,
+"fresh suite (F_hard, F_novel, F_cross)","Cluster coverage, 1,638",pooled,3,0.63/0.69/0.75,0.755 ± 0.031,0.657 ± 0.051,fresh hard 2/fresh novel 1,,,,,2.64 ± 2.06,1.09 ± 0.95,0.84 ± 0.10,
+"fresh suite (F_hard, F_novel, F_cross)","Cluster coverage, 1,638",every subset,3,0.74/0.88/0.77,0.606 ± 0.168,0.441 ± 0.230,fresh hard 2/fresh cross-corpus 1,,,,,0.33 ± 0.57,0.00 ± 0.00,0.33 ± 0.33,
+"fresh suite (F_hard, F_novel, F_cross)","Cluster coverage, 1,638",equal weight,3,0.73/0.79/0.77,0.701 ± 0.010,0.574 ± 0.015,fresh hard 1/fresh novel 1/fresh cross-corpus 1,,,,,0.66 ± 1.14,0.55 ± 0.95,0.53 ± 0.18,
+"fresh suite (F_hard, F_novel, F_cross)","Places365-only, 1,638",pooled,3,0.68/0.72/0.58,0.762 ± 0.033,0.674 ± 0.050,fresh hard 3,,,,,7.92 ± 0.99,1.64 ± 1.64,0.47 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)","Places365-only, 1,638",every subset,3,0.9/0.92/0.92,0.214 ± 0.044,0.034 ± 0.020,fresh hard 3,,,,,0.66 ± 0.57,0.00 ± 0.00,0.00 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)","Places365-only, 1,638",equal weight,3,0.88/0.89/0.91,0.326 ± 0.047,0.098 ± 0.049,fresh novel 1/fresh hard 2,,,,,2.31 ± 1.14,0.55 ± 0.95,0.00 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)","Positive-aware, 1,638",pooled,3,0.66/0.61/0.59,0.800 ± 0.018,0.732 ± 0.030,fresh novel 2/fresh cross-corpus 1,,,,,0.33 ± 0.57,1.09 ± 0.95,0.98 ± 0.04,
+"fresh suite (F_hard, F_novel, F_cross)","Positive-aware, 1,638",every subset,3,0.9/0.84/0.59,0.576 ± 0.251,0.422 ± 0.343,fresh hard 1/fresh cross-corpus 2,,,,,0.00 ± 0.00,0.00 ± 0.00,0.42 ± 0.52,
+"fresh suite (F_hard, F_novel, F_cross)","Positive-aware, 1,638",equal weight,3,0.75/0.59/0.42,0.797 ± 0.070,0.725 ± 0.111,fresh novel 2/fresh cross-corpus 1,,,,,0.33 ± 0.57,1.09 ± 0.95,1.04 ± 0.71,
+"fresh suite (F_hard, F_novel, F_cross)","Union, 3,276",pooled,3,0.52/0.69/0.56,0.789 ± 0.060,0.715 ± 0.096,fresh novel 1/fresh cross-corpus 2,,,,,0.33 ± 0.57,0.55 ± 0.95,0.89 ± 0.10,
+"fresh suite (F_hard, F_novel, F_cross)","Union, 3,276",every subset,3,0.73/0.69/0.56,0.760 ± 0.051,0.665 ± 0.078,fresh cross-corpus 3,,,,,0.00 ± 0.00,0.00 ± 0.00,0.76 ± 0.27,
+"fresh suite (F_hard, F_novel, F_cross)","Union, 3,276",equal weight,3,0.73/0.42/0.41,0.810 ± 0.061,0.741 ± 0.093,fresh cross-corpus 3,,,,,0.33 ± 0.57,0.00 ± 0.00,1.80 ± 1.25,
+"fresh suite (F_hard, F_novel, F_cross)","Union, 3,276 + KD",pooled,3,0.62/0.64/0.6,0.739 ± 0.016,0.648 ± 0.027,fresh novel 3,,,,,0.00 ± 0.00,2.19 ± 0.95,0.98 ± 0.04,
+"fresh suite (F_hard, F_novel, F_cross)","Union, 3,276 + KD",every subset,3,0.81/0.89/0.91,0.331 ± 0.201,0.166 ± 0.199,fresh cross-corpus 1/fresh hard 2,,,,,0.00 ± 0.00,0.00 ± 0.00,0.02 ± 0.04,
+"fresh suite (F_hard, F_novel, F_cross)","Union, 3,276 + KD",equal weight,3,0.69/0.61/0.57,0.735 ± 0.022,0.641 ± 0.025,fresh novel 3,,,,,0.00 ± 0.00,1.64 ± 0.00,1.02 ± 0.48,
+"fresh suite (F_hard, F_novel, F_cross)","Random, 3,276 + KD",pooled,3,0.78/0.78/0.8,0.598 ± 0.042,0.425 ± 0.053,fresh hard 3,,,,,7.92 ± 0.99,1.64 ± 1.64,0.42 ± 0.08,
+"fresh suite (F_hard, F_novel, F_cross)","Random, 3,276 + KD",every subset,3,0.89/0.91/0.92,0.194 ± 0.075,0.040 ± 0.035,fresh cross-corpus 1/fresh hard 2,,,,,0.66 ± 0.57,0.00 ± 0.00,0.02 ± 0.04,
+"fresh suite (F_hard, F_novel, F_cross)","Random, 3,276 + KD",equal weight,3,0.86/0.88/0.91,0.309 ± 0.131,0.114 ± 0.101,fresh novel 1/fresh hard 2,,,,,1.65 ± 0.57,0.55 ± 0.95,0.07 ± 0.12,
+"fresh suite (F_hard, F_novel, F_cross)","Random from the mining corpus, 1,638",pooled,3,0.84/0.79/0.88,0.550 ± 0.150,0.386 ± 0.180,fresh hard 3,,,,,5.61 ± 2.49,1.09 ± 1.89,0.58 ± 0.15,
+"fresh suite (F_hard, F_novel, F_cross)","Random from the mining corpus, 1,638",every subset,3,0.9/0.93/0.9,0.242 ± 0.066,0.059 ± 0.038,fresh hard 3,,,,,0.99 ± 0.00,0.00 ± 0.00,0.11 ± 0.19,
+"fresh suite (F_hard, F_novel, F_cross)","Random from the mining corpus, 1,638",equal weight,3,0.89/0.92/0.89,0.302 ± 0.064,0.095 ± 0.059,fresh hard 3,,,,,2.31 ± 0.57,0.00 ± 0.00,0.16 ± 0.27,
+"fresh suite (F_hard, F_novel, F_cross)","M-top audited, 1,638",pooled,3,0.62/0.51/0.73,0.758 ± 0.075,0.660 ± 0.124,fresh hard 1/fresh novel 2,,,,,0.66 ± 1.14,1.09 ± 0.95,0.96 ± 0.04,
+"fresh suite (F_hard, F_novel, F_cross)","M-top audited, 1,638",every subset,3,0.7/0.72/0.88,0.620 ± 0.203,0.471 ± 0.271,fresh hard 1/fresh cross-corpus 2,,,,,0.33 ± 0.57,0.00 ± 0.00,0.33 ± 0.31,
+"fresh suite (F_hard, F_novel, F_cross)","M-top audited, 1,638",equal weight,3,0.62/0.45/0.68,0.774 ± 0.061,0.685 ± 0.103,fresh hard 1/fresh novel 2,,,,,0.66 ± 1.14,1.09 ± 0.95,1.18 ± 0.21,
+"fresh suite (F_hard, F_novel, F_cross)","Union audited, 3,276",pooled,3,0.61/0.6/0.6,0.766 ± 0.015,0.679 ± 0.031,fresh cross-corpus 3,,,,,0.00 ± 0.00,0.00 ± 0.00,1.00 ± 0.07,
+"fresh suite (F_hard, F_novel, F_cross)","Union audited, 3,276",every subset,3,0.62/0.6/0.6,0.765 ± 0.013,0.676 ± 0.028,fresh cross-corpus 3,,,,,0.00 ± 0.00,0.00 ± 0.00,0.98 ± 0.04,
+"fresh suite (F_hard, F_novel, F_cross)","Union audited, 3,276",equal weight,3,0.55/0.39/0.32,0.816 ± 0.031,0.747 ± 0.047,fresh cross-corpus 3,,,,,0.00 ± 0.00,0.00 ± 0.00,2.49 ± 0.83,
+"fresh suite (F_hard, F_novel, F_cross)","Union audited, 3,276 + KD",pooled,3,0.55/0.76/0.69,0.698 ± 0.071,0.588 ± 0.107,fresh novel 3,,,,,0.00 ± 0.00,1.64 ± 0.00,1.00 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)","Union audited, 3,276 + KD",every subset,3,0.88/0.81/0.9,0.368 ± 0.177,0.193 ± 0.163,fresh cross-corpus 2/fresh hard 1,,,,,0.00 ± 0.00,0.00 ± 0.00,0.20 ± 0.29,
+"fresh suite (F_hard, F_novel, F_cross)","Union audited, 3,276 + KD",equal weight,3,0.5/0.7/0.64,0.733 ± 0.054,0.637 ± 0.081,fresh novel 3,,,,,0.00 ± 0.00,1.64 ± 0.00,1.31 ± 0.04,
+"fresh suite (F_hard, F_novel, F_cross)",Deployed kd6 (paper model),pooled,1,0.51,0.803 ± 0.000,0.731 ± 0.000,fresh novel 1,,,,,0.00 ± 0.00,1.64 ± 0.00,0.93 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)",Deployed kd6 (paper model),every subset,1,0.61,0.764 ± 0.000,0.680 ± 0.000,fresh cross-corpus 1,,,,,0.00 ± 0.00,0.00 ± 0.00,0.87 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)",Deployed kd6 (paper model),equal weight,1,0.49,0.809 ± 0.000,0.739 ± 0.000,fresh novel 1,,,,,0.00 ± 0.00,1.64 ± 0.00,1.07 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)",No negatives (paper model),pooled,1,0.91,0.250 ± 0.000,0.038 ± 0.000,fresh hard 1,,,,,4.95 ± 0.00,1.64 ± 0.00,0.60 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)",No negatives (paper model),every subset,1,0.93,0.128 ± 0.000,0.005 ± 0.000,fresh cross-corpus 1,,,,,0.00 ± 0.00,0.00 ± 0.00,0.07 ± 0.00,
+"fresh suite (F_hard, F_novel, F_cross)",No negatives (paper model),equal weight,1,0.93,0.128 ± 0.000,0.005 ± 0.000,fresh cross-corpus 1,,,,,0.00 ± 0.00,0.00 ± 0.00,0.07 ± 0.00,
+domestic only,No negatives,pooled,3,0.84/0.82/0.81,0.599 ± 0.062,0.434 ± 0.079,domestic (SUN RGB-D) 3,,,,,,,,0.98 ± 0.04
+domestic only,Background 10% (433),pooled,3,0.79/0.65/0.61,0.729 ± 0.073,0.620 ± 0.108,domestic (SUN RGB-D) 3,,,,,,,,1.00 ± 0.00
+domestic only,"Random, 1,638",pooled,3,0.35/0.37/0.45,0.832 ± 0.017,0.772 ± 0.024,domestic (SUN RGB-D) 3,,,,,,,,0.98 ± 0.04
+domestic only,"L-ratio, 1,638",pooled,3,0.59/0.36/0.25,0.830 ± 0.069,0.769 ± 0.110,domestic (SUN RGB-D) 3,,,,,,,,1.00 ± 0.00
+domestic only,"M-top, 1,638",pooled,3,0.2/0.21/0.16,0.864 ± 0.021,0.825 ± 0.039,domestic (SUN RGB-D) 3,,,,,,,,0.96 ± 0.04
+domestic only,"Cluster coverage, 1,638",pooled,3,0.25/0.21/0.1,0.884 ± 0.023,0.857 ± 0.043,domestic (SUN RGB-D) 3,,,,,,,,1.00 ± 0.00
+domestic only,"Places365-only, 1,638",pooled,3,0.17/0.27/0.17,0.880 ± 0.008,0.852 ± 0.015,domestic (SUN RGB-D) 3,,,,,,,,0.96 ± 0.04
+domestic only,"Positive-aware, 1,638",pooled,3,0.15/0.27/0.16,0.885 ± 0.018,0.858 ± 0.023,domestic (SUN RGB-D) 3,,,,,,,,0.91 ± 0.15
+domestic only,"Union, 3,276",pooled,3,0.11/0.14/0.1,0.898 ± 0.014,0.878 ± 0.026,domestic (SUN RGB-D) 3,,,,,,,,0.96 ± 0.08
+domestic only,"Union, 3,276 + KD",pooled,3,0.39/0.38/0.23,0.834 ± 0.020,0.785 ± 0.024,domestic (SUN RGB-D) 3,,,,,,,,1.00 ± 0.00
+domestic only,"Random, 3,276 + KD",pooled,3,0.5/0.51/0.62,0.762 ± 0.029,0.666 ± 0.043,domestic (SUN RGB-D) 3,,,,,,,,1.00 ± 0.00
+domestic only,"Random from the mining corpus, 1,638",pooled,3,0.25/0.25/0.29,0.881 ± 0.010,0.856 ± 0.016,domestic (SUN RGB-D) 3,,,,,,,,1.00 ± 0.00
+domestic only,"M-top audited, 1,638",pooled,3,0.19/0.13/0.25,0.861 ± 0.017,0.820 ± 0.037,domestic (SUN RGB-D) 3,,,,,,,,0.96 ± 0.08
+domestic only,"Union audited, 3,276",pooled,3,0.14/0.18/0.19,0.864 ± 0.025,0.817 ± 0.055,domestic (SUN RGB-D) 3,,,,,,,,0.98 ± 0.04
+domestic only,"Union audited, 3,276 + KD",pooled,3,0.13/0.23/0.52,0.842 ± 0.059,0.791 ± 0.073,domestic (SUN RGB-D) 3,,,,,,,,0.82 ± 0.14
+domestic only,Deployed kd6 (paper model),pooled,1,0.33,0.856 ± 0.000,0.810 ± 0.000,domestic (SUN RGB-D) 1,,,,,,,,1.00 ± 0.00
+domestic only,No negatives (paper model),pooled,1,0.81,0.622 ± 0.000,0.462 ± 0.000,domestic (SUN RGB-D) 1,,,,,,,,1.00 ± 0.00
+fresh suite + domestic,No negatives,pooled,3,0.88/0.89/0.9,0.367 ± 0.024,0.126 ± 0.036,fresh hard 3,,,,,8.25 ± 2.49,3.83 ± 0.95,0.76 ± 0.37,0.33 ± 0.07
+fresh suite + domestic,No negatives,every subset,3,0.93/0.94/0.93,0.121 ± 0.068,0.004 ± 0.003,fresh hard 1/domestic (SUN RGB-D) 1/fresh cross-corpus 1,,,,,0.33 ± 0.57,0.00 ± 0.00,0.09 ± 0.15,0.09 ± 0.04
+fresh suite + domestic,No negatives,equal weight,3,0.91/0.92/0.92,0.224 ± 0.032,0.029 ± 0.011,fresh hard 3,,,,,2.31 ± 0.57,0.55 ± 0.95,0.16 ± 0.14,0.13 ± 0.07
+fresh suite + domestic,Background 10% (433),pooled,3,0.86/0.87/0.87,0.457 ± 0.026,0.220 ± 0.027,fresh hard 3,,,,,9.57 ± 3.02,1.64 ± 1.64,0.78 ± 0.17,0.38 ± 0.19
+fresh suite + domestic,Background 10% (433),every subset,3,0.93/0.94/0.93,0.111 ± 0.014,0.005 ± 0.006,fresh hard 3,,,,,0.99 ± 0.00,0.00 ± 0.00,0.04 ± 0.04,0.00 ± 0.00
+fresh suite + domestic,Background 10% (433),equal weight,3,0.92/0.93/0.92,0.174 ± 0.018,0.014 ± 0.013,fresh hard 2/fresh novel 1,,,,,2.31 ± 1.14,0.55 ± 0.95,0.04 ± 0.04,0.02 ± 0.04
+fresh suite + domestic,"Random, 1,638",pooled,3,0.79/0.82/0.77,0.635 ± 0.035,0.477 ± 0.052,fresh hard 3,,,,,12.87 ± 1.71,1.64 ± 0.00,0.87 ± 0.07,0.20 ± 0.07
+fresh suite + domestic,"Random, 1,638",every subset,3,0.94/0.94/0.93,0.085 ± 0.055,0.001 ± 0.001,fresh hard 3,,,,,0.33 ± 0.57,0.00 ± 0.00,0.00 ± 0.00,0.00 ± 0.00
+fresh suite + domestic,"Random, 1,638",equal weight,3,0.93/0.93/0.91,0.161 ± 0.089,0.017 ± 0.019,fresh hard 3,,,,,2.64 ± 0.57,0.00 ± 0.00,0.00 ± 0.00,0.02 ± 0.04
+fresh suite + domestic,"L-ratio, 1,638",pooled,3,0.77/0.78/0.8,0.658 ± 0.044,0.516 ± 0.056,fresh novel 1/fresh cross-corpus 2,,,,,0.00 ± 0.00,1.64 ± 0.00,1.60 ± 0.24,0.22 ± 0.15
+fresh suite + domestic,"L-ratio, 1,638",every subset,3,0.91/0.93/0.86,0.282 ± 0.251,0.126 ± 0.189,domestic (SUN RGB-D) 1/fresh hard 1/fresh cross-corpus 1,,,,,0.00 ± 0.00,0.00 ± 0.00,0.31 ± 0.54,0.02 ± 0.04
+fresh suite + domestic,"L-ratio, 1,638",equal weight,3,0.76/0.78/0.77,0.673 ± 0.058,0.541 ± 0.082,fresh novel 1/fresh cross-corpus 2,,,,,0.00 ± 0.00,1.64 ± 0.00,1.87 ± 0.31,0.27 ± 0.23
+fresh suite + domestic,"M-top, 1,638",pooled,3,0.49/0.56/0.43,0.813 ± 0.008,0.745 ± 0.018,fresh novel 1/fresh hard 1/fresh cross-corpus 1,,,,,1.65 ± 0.57,1.64 ± 1.64,1.56 ± 0.10,0.31 ± 0.15
+fresh suite + domestic,"M-top, 1,638",every subset,3,0.92/0.76/0.57,0.563 ± 0.304,0.430 ± 0.359,fresh hard 2/fresh cross-corpus 1,,,,,0.33 ± 0.57,0.00 ± 0.00,0.47 ± 0.47,0.13 ± 0.13
+fresh suite + domestic,"M-top, 1,638",equal weight,3,0.68/0.62/0.34,0.788 ± 0.046,0.703 ± 0.070,fresh novel 2/fresh cross-corpus 1,,,,,0.66 ± 0.57,1.09 ± 0.95,1.44 ± 0.91,0.27 ± 0.18
+fresh suite + domestic,"Cluster coverage, 1,638",pooled,3,0.49/0.61/0.62,0.806 ± 0.009,0.735 ± 0.013,fresh hard 2/fresh novel 1,,,,,4.29 ± 2.49,2.19 ± 0.95,1.36 ± 0.25,0.29 ± 0.15
+fresh suite + domestic,"Cluster coverage, 1,638",every subset,3,0.74/0.88/0.77,0.606 ± 0.168,0.441 ± 0.230,fresh hard 1/domestic (SUN RGB-D) 1/fresh cross-corpus 1,,,,,0.33 ± 0.57,0.00 ± 0.00,0.33 ± 0.33,0.09 ± 0.04
+fresh suite + domestic,"Cluster coverage, 1,638",equal weight,3,0.73/0.66/0.76,0.736 ± 0.044,0.626 ± 0.069,fresh hard 1/fresh novel 2,,,,,1.32 ± 0.57,1.09 ± 0.95,0.71 ± 0.37,0.13 ± 0.07
+fresh suite + domestic,"Places365-only, 1,638",pooled,3,0.57/0.61/0.47,0.813 ± 0.016,0.752 ± 0.033,fresh hard 3,,,,,11.88 ± 1.71,2.73 ± 0.95,0.96 ± 0.14,0.13 ± 0.12
+fresh suite + domestic,"Places365-only, 1,638",every subset,3,0.9/0.92/0.92,0.214 ± 0.044,0.034 ± 0.020,fresh hard 3,,,,,0.66 ± 0.57,0.00 ± 0.00,0.00 ± 0.00,0.00 ± 0.00
+fresh suite + domestic,"Places365-only, 1,638",equal weight,3,0.86/0.88/0.9,0.388 ± 0.069,0.155 ± 0.072,fresh hard 3,,,,,3.30 ± 1.14,0.55 ± 0.95,0.00 ± 0.00,0.00 ± 0.00
+fresh suite + domestic,"Positive-aware, 1,638",pooled,3,0.6/0.53/0.42,0.828 ± 0.029,0.775 ± 0.045,fresh novel 1/fresh cross-corpus 2,,,,,0.33 ± 0.57,1.09 ± 0.95,1.62 ± 0.08,0.33 ± 0.07
+fresh suite + domestic,"Positive-aware, 1,638",every subset,3,0.9/0.84/0.59,0.576 ± 0.251,0.422 ± 0.343,domestic (SUN RGB-D) 1/fresh cross-corpus 2,,,,,0.00 ± 0.00,0.00 ± 0.00,0.42 ± 0.52,0.11 ± 0.08
+fresh suite + domestic,"Positive-aware, 1,638",equal weight,3,0.66/0.48/0.42,0.824 ± 0.040,0.769 ± 0.062,fresh novel 1/fresh cross-corpus 2,,,,,0.33 ± 0.57,1.09 ± 0.95,1.51 ± 0.52,0.31 ± 0.08
+fresh suite + domestic,"Union, 3,276",pooled,3,0.39/0.6/0.47,0.824 ± 0.044,0.767 ± 0.072,fresh novel 1/fresh cross-corpus 2,,,,,0.33 ± 0.57,0.55 ± 0.95,1.60 ± 0.20,0.33 ± 0.13
+fresh suite + domestic,"Union, 3,276",every subset,3,0.73/0.69/0.56,0.760 ± 0.051,0.665 ± 0.078,fresh cross-corpus 3,,,,,0.00 ± 0.00,0.00 ± 0.00,0.76 ± 0.27,0.16 ± 0.10
+fresh suite + domestic,"Union, 3,276",equal weight,3,0.51/0.39/0.32,0.848 ± 0.026,0.803 ± 0.034,fresh novel 1/fresh cross-corpus 2,,,,,0.66 ± 0.57,0.55 ± 0.95,2.29 ± 1.16,0.33 ± 0.00
+fresh suite + domestic,"Union, 3,276 + KD",pooled,3,0.55/0.58/0.49,0.774 ± 0.019,0.698 ± 0.029,fresh novel 2/fresh cross-corpus 1,,,,,0.00 ± 0.00,2.73 ± 0.95,1.56 ± 0.15,0.38 ± 0.10
+fresh suite + domestic,"Union, 3,276 + KD",every subset,3,0.81/0.89/0.91,0.331 ± 0.201,0.166 ± 0.199,fresh cross-corpus 1/fresh hard 2,,,,,0.00 ± 0.00,0.00 ± 0.00,0.02 ± 0.04,0.00 ± 0.00
+fresh suite + domestic,"Union, 3,276 + KD",equal weight,3,0.69/0.59/0.47,0.750 ± 0.040,0.663 ± 0.052,fresh novel 2/fresh cross-corpus 1,,,,,0.00 ± 0.00,1.64 ± 0.00,1.29 ± 0.75,0.29 ± 0.04
+fresh suite + domestic,"Random, 3,276 + KD",pooled,3,0.74/0.73/0.76,0.647 ± 0.031,0.494 ± 0.041,fresh hard 3,,,,,8.25 ± 1.14,1.64 ± 1.64,0.93 ± 0.07,0.51 ± 0.04
+fresh suite + domestic,"Random, 3,276 + KD",every subset,3,0.89/0.91/0.92,0.194 ± 0.075,0.040 ± 0.035,domestic (SUN RGB-D) 1/fresh hard 2,,,,,0.66 ± 0.57,0.00 ± 0.00,0.02 ± 0.04,0.07 ± 0.07
+fresh suite + domestic,"Random, 3,276 + KD",equal weight,3,0.86/0.88/0.91,0.309 ± 0.131,0.114 ± 0.101,fresh novel 1/fresh hard 2,,,,,1.65 ± 0.57,0.55 ± 0.95,0.07 ± 0.12,0.11 ± 0.04
+fresh suite + domestic,"Random from the mining corpus, 1,638",pooled,3,0.76/0.72/0.85,0.661 ± 0.119,0.535 ± 0.161,fresh hard 3,,,,,7.59 ± 0.57,2.19 ± 1.89,1.16 ± 0.14,0.22 ± 0.08
+fresh suite + domestic,"Random from the mining corpus, 1,638",every subset,3,0.9/0.93/0.9,0.242 ± 0.066,0.059 ± 0.038,fresh hard 3,,,,,0.99 ± 0.00,0.00 ± 0.00,0.11 ± 0.19,0.04 ± 0.04
+fresh suite + domestic,"Random from the mining corpus, 1,638",equal weight,3,0.89/0.92/0.88,0.319 ± 0.085,0.112 ± 0.085,fresh hard 3,,,,,2.64 ± 0.57,0.00 ± 0.00,0.22 ± 0.38,0.11 ± 0.08
+fresh suite + domestic,"M-top audited, 1,638",pooled,3,0.5/0.38/0.61,0.802 ± 0.044,0.731 ± 0.075,fresh hard 1/fresh novel 1/fresh cross-corpus 1,,,,,0.99 ± 0.99,1.64 ± 0.00,1.58 ± 0.08,0.36 ± 0.04
+fresh suite + domestic,"M-top audited, 1,638",every subset,3,0.7/0.72/0.88,0.620 ± 0.203,0.471 ± 0.271,fresh hard 1/fresh cross-corpus 2,,,,,0.33 ± 0.57,0.00 ± 0.00,0.33 ± 0.31,0.11 ± 0.04
+fresh suite + domestic,"M-top audited, 1,638",equal weight,3,0.62/0.45/0.54,0.799 ± 0.026,0.724 ± 0.045,fresh hard 1/fresh novel 1/fresh cross-corpus 1,,,,,0.66 ± 1.14,1.09 ± 0.95,1.42 ± 0.54,0.27 ± 0.07
+fresh suite + domestic,"Union audited, 3,276",pooled,3,0.52/0.56/0.48,0.797 ± 0.027,0.722 ± 0.044,fresh cross-corpus 3,,,,,0.33 ± 0.57,0.55 ± 0.95,1.69 ± 0.20,0.22 ± 0.14
+fresh suite + domestic,"Union audited, 3,276",every subset,3,0.62/0.6/0.6,0.765 ± 0.013,0.676 ± 0.028,fresh cross-corpus 3,,,,,0.00 ± 0.00,0.00 ± 0.00,0.98 ± 0.04,0.13 ± 0.12
+fresh suite + domestic,"Union audited, 3,276",equal weight,3,0.55/0.32/0.31,0.821 ± 0.029,0.752 ± 0.043,fresh cross-corpus 3,,,,,0.00 ± 0.00,0.00 ± 0.00,2.76 ± 1.07,0.40 ± 0.31
+fresh suite + domestic,"Union audited, 3,276 + KD",pooled,3,0.46/0.61/0.62,0.758 ± 0.045,0.674 ± 0.060,fresh cross-corpus 1/fresh novel 2,,,,,0.33 ± 0.57,2.19 ± 0.95,1.69 ± 0.14,0.24 ± 0.19
+fresh suite + domestic,"Union audited, 3,276 + KD",every subset,3,0.88/0.81/0.9,0.368 ± 0.177,0.193 ± 0.163,fresh cross-corpus 2/fresh hard 1,,,,,0.00 ± 0.00,0.00 ± 0.00,0.20 ± 0.29,0.00 ± 0.00
+fresh suite + domestic,"Union audited, 3,276 + KD",equal weight,3,0.5/0.64/0.6,0.755 ± 0.035,0.671 ± 0.050,fresh novel 1/fresh cross-corpus 2,,,,,0.00 ± 0.00,1.64 ± 0.00,1.56 ± 0.19,0.20 ± 0.23
+fresh suite + domestic,Deployed kd6 (paper model),pooled,1,0.43,0.827 ± 0.000,0.762 ± 0.000,fresh novel 1,,,,,0.00 ± 0.00,4.92 ± 0.00,1.27 ± 0.00,0.53 ± 0.00
+fresh suite + domestic,Deployed kd6 (paper model),every subset,1,0.61,0.764 ± 0.000,0.680 ± 0.000,fresh cross-corpus 1,,,,,0.00 ± 0.00,0.00 ± 0.00,0.87 ± 0.00,0.20 ± 0.00
+fresh suite + domestic,Deployed kd6 (paper model),equal weight,1,0.49,0.809 ± 0.000,0.739 ± 0.000,fresh novel 1,,,,,0.00 ± 0.00,1.64 ± 0.00,1.07 ± 0.00,0.47 ± 0.00
+fresh suite + domestic,No negatives (paper model),pooled,1,0.89,0.344 ± 0.000,0.101 ± 0.000,fresh hard 1,,,,,6.93 ± 0.00,1.64 ± 0.00,0.93 ± 0.00,0.27 ± 0.00
+fresh suite + domestic,No negatives (paper model),every subset,1,0.93,0.128 ± 0.000,0.005 ± 0.000,fresh cross-corpus 1,,,,,0.00 ± 0.00,0.00 ± 0.00,0.07 ± 0.00,0.07 ± 0.00
+fresh suite + domestic,No negatives (paper model),equal weight,1,0.92,0.191 ± 0.000,0.015 ± 0.000,fresh hard 1,,,,,1.98 ± 0.00,1.64 ± 0.00,0.20 ± 0.00,0.13 ± 0.00

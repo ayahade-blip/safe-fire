@@ -52,3 +52,9 @@ FS_smoke__testpos10.826,outdoor,0,smoke on soil
 FS_smoke__testpos11.827,outdoor,1,smoke from a barrel
 FS_smoke__testpos12.828,outdoor,0,smoke near a fence
 FS_smoke__testpos13.829,outdoor,0,smoke in a garden
+FS_fire__negsVideo10.1072,indoor,,office with a person carrying an orange bag (re-encoded clip)
+FS_fire__negsVideo11.1073,outdoor,,red car passing a fence (re-encoded clip)
+FS_fire__negsVideo13.1075,indoor,,crowded station concourse (re-encoded clip)
+FS_fire__negsVideo14.1076,outdoor,,train arriving at a platform (re-encoded clip)
+FS_fire__negsVideo15.1078,outdoor,,motorway bridge with a truck (re-encoded clip)
+FS_smoke__testpos03.819,outdoor,0,low smoke on dry ground by a wall (re-encoded clip)
