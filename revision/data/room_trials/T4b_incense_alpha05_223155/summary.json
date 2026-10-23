@@ -1,0 +1,314 @@
+{
+  "config": {
+    "alpha": 0.05,
+    "iou_min": 0.3,
+    "k": 3,
+    "n": 5,
+    "threshold": 0.0842
+  },
+  "derived": {
+    "alarm_after_first_box_s": 0.19,
+    "note": "times after the action prompt include the time the person took to act, so they are upper bounds"
+  },
+  "duration_s": 181.9,
+  "frames": 2311,
+  "images": {
+    "contact_sheet": "contact_sheet.jpg",
+    "dropped": 0,
+    "written": {
+      "events": 42,
+      "root": 1,
+      "snaps": 158
+    }
+  },
+  "levels": {
+    "first_reached_s": {
+      "ALERT": 1.65,
+      "NORMAL": 0.0,
+      "WATCH": 108.33
+    },
+    "time_in_level_s": {
+      "ALERT": 13.0,
+      "NORMAL": 141.56,
+      "WATCH": 27.34
+    },
+    "transitions": [
+      [
+        0.0,
+        null,
+        "NORMAL"
+      ],
+      [
+        1.65,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        3.0,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        4.45,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        5.76,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        42.45,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        43.63,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        51.18,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        52.94,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        55.31,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        56.78,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        71.23,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        73.26,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        74.97,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        76.5,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        86.65,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        88.06,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        96.43,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        97.38,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        108.33,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        109.36,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        110.37,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        111.35,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        112.39,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        113.41,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        124.53,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        125.79,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        126.69,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        129.64,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        137.74,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        138.77,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        154.89,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        155.93,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        156.96,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        158.96,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        163.06,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        164.01,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        165.81,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        170.13,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        171.12,
+        "NORMAL",
+        "WATCH"
+      ]
+    ]
+  },
+  "node": {
+    "ambient_c_max": 23.19,
+    "cal_age_s_at_start": null,
+    "first_elevated_s": 108.33,
+    "gas_ratio_min": 0.7895,
+    "ir_drop_mv_max": 2,
+    "levels_seen": [
+      "NORMAL",
+      "WATCH"
+    ],
+    "reader_stats": {
+      "bad": 0,
+      "comments": 10,
+      "lines": 190,
+      "parsed": 180
+    },
+    "samples": 177,
+    "surface_rise_c_max": 2.09
+  },
+  "protocol": [
+    {
+      "planned_s": 0,
+      "shown_s": 0.0,
+      "step": "Incense already smoking in the basin since T4_incense; same scene at the conformal threshold (alpha 0.05)."
+    }
+  ],
+  "publisher": {
+    "dropped": 1,
+    "errors": 0,
+    "last_error": null,
+    "last_rtt_ms": 585.4,
+    "writes": 109
+  },
+  "started_local": "2026-09-18 22:32:06",
+  "timing": {
+    "first_frame_ms": 1510.3,
+    "fps_from_mean": 15.87,
+    "mean_ms": 63.0,
+    "median_ms": 61.5,
+    "note": "first frame excluded; recording was on, so this is not a benchmark",
+    "p95_ms": 64.5,
+    "p99_ms": 136.1
+  },
+  "trial": "T4b_incense_alpha05",
+  "vision": {
+    "alarm_times_s": [
+      1.65,
+      4.45,
+      42.45,
+      51.18,
+      52.14,
+      55.31,
+      71.23,
+      74.97,
+      86.65,
+      96.43
+    ],
+    "alarms_raised": 10,
+    "first_box_at_threshold": {
+      "class": "SMOKE",
+      "conf": 0.0911,
+      "frame": 7,
+      "t_s": 1.46
+    },
+    "frames_with_box": {
+      "FLAME": 0,
+      "SMOKE": 81
+    },
+    "peak": {
+      "FLAME": null,
+      "SMOKE": {
+        "conf": 0.5254,
+        "t_s": 51.18
+      }
+    }
+  }
+}

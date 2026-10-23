@@ -1,0 +1,13 @@
+﻿model,rate,hold_s,positive_clips,detected,within_5s,between_5_and_30s,after_30s,median_latency_s,max_latency_s,missed
+"Baseline, no negatives",native,0.0,24,24,22,2,0,0.11,17.8,0
+"Baseline, no negatives",native,30.0,24,24,22,2,0,0.11,17.8,0
+"Baseline, no negatives",16 fps,0.0,24,24,22,2,0,0.16,17.8,0
+"Baseline, no negatives",16 fps,30.0,24,24,22,2,0,0.16,17.8,0
+Deployed model,native,0.0,24,20,16,3,1,0.2,66.2,4
+Deployed model,native,30.0,24,20,16,3,1,0.2,66.2,4
+Deployed model,16 fps,0.0,24,20,14,5,1,0.34,66.2,4
+Deployed model,16 fps,30.0,24,20,14,5,1,0.34,66.2,4
+Audited union + KD s42,native,0.0,24,21,19,1,1,0.17,66.4,3
+Audited union + KD s42,native,30.0,24,21,19,1,1,0.17,66.4,3
+Audited union + KD s42,16 fps,0.0,24,21,19,1,1,0.2,66.4,3
+Audited union + KD s42,16 fps,30.0,24,21,19,1,1,0.2,66.4,3

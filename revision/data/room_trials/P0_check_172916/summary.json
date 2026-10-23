@@ -1,0 +1,92 @@
+{
+  "config": {
+    "alpha": null,
+    "iou_min": 0.3,
+    "k": 3,
+    "n": 5,
+    "threshold": 0.5
+  },
+  "derived": {
+    "note": "times after the action prompt include the time the person took to act, so they are upper bounds"
+  },
+  "duration_s": 26.34,
+  "frames": 149,
+  "images": {
+    "contact_sheet": "contact_sheet.jpg",
+    "dropped": 0,
+    "written": {
+      "events": 1,
+      "snaps": 10
+    }
+  },
+  "levels": {
+    "first_reached_s": {
+      "NORMAL": 15.07
+    },
+    "time_in_level_s": {
+      "NORMAL": 11.27
+    },
+    "transitions": [
+      [
+        15.07,
+        null,
+        "NORMAL"
+      ]
+    ]
+  },
+  "node": {
+    "ambient_c_max": 21.31,
+    "cal_age_s_at_start": null,
+    "first_elevated_s": null,
+    "gas_ratio_min": 0.9312,
+    "ir_drop_mv_max": -135,
+    "levels_seen": [
+      "NORMAL"
+    ],
+    "reader_stats": {
+      "bad": 0,
+      "comments": 10,
+      "lines": 35,
+      "parsed": 25
+    },
+    "samples": 11,
+    "surface_rise_c_max": -10.39
+  },
+  "protocol": [
+    {
+      "planned_s": 0,
+      "shown_s": 15.07,
+      "step": "System check. Nothing to do."
+    }
+  ],
+  "publisher": {
+    "dropped": 0,
+    "errors": 0,
+    "last_error": null,
+    "last_rtt_ms": 431.1,
+    "writes": 7
+  },
+  "started_local": "2026-09-18 17:29:51",
+  "timing": {
+    "fps_from_mean": 6.15,
+    "mean_ms": 162.7,
+    "median_ms": 61.2,
+    "note": "recording was on; not a benchmark",
+    "p95_ms": 62.9,
+    "p99_ms": 113.5
+  },
+  "trial": "P0_check",
+  "vision": {
+    "alarm_times_s": [],
+    "alarms_raised": 0,
+    "first_box_at_threshold": null,
+    "frames_with_box": {
+      "FLAME": 0,
+      "SMOKE": 0
+    },
+    "peak": {
+      "FLAME": null,
+      "SMOKE": null
+    }
+  }
+}

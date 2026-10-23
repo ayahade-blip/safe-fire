@@ -1,0 +1,166 @@
+﻿training_set,evaluation_set,n_train,n_eval,identical_sha256,near_duplicate_training_images_dhash_le4,near_duplicate_pairs_dhash_le4,evaluation_images_with_a_near_duplicate
+"Positives, home_fire training split (3,900)",hard (500),3900,500,0,5,6,2
+"Positives, home_fire training split (3,900)",novel (196),3900,196,0,0,0,0
+"Positives, home_fire training split (3,900)",mining-dev (400),3900,400,0,0,0,0
+"Positives, home_fire training split (3,900)","cross-corpus (1,500)",3900,1500,0,4,11,5
+"Positives, home_fire training split (3,900)",frozen hard (101),3900,101,0,0,0,0
+"Positives, home_fire training split (3,900)",frozen novel (61),3900,61,0,0,0,0
+"Positives, home_fire training split (3,900)","frozen cross-corpus (1,500)",3900,1500,0,0,0,0
+"Positives, home_fire training split (3,900)","domestic (1,500)",3900,1500,0,0,0,0
+"Positives, home_fire training split (3,900)","home_fire validation split (1,300)",3900,1300,0,1796,7412,775
+"Positives, home_fire training split (3,900)","home_fire test split (1,300)",3900,1300,0,1509,4536,634
+"Positives, home_fire training split (3,900)","D-Fire fire images (2,301)",3900,2301,0,6,6,3
+"L-ratio (1,638)",hard (500),1638,500,0,4,4,2
+"L-ratio (1,638)",novel (196),1638,196,0,0,0,0
+"L-ratio (1,638)",mining-dev (400),1638,400,0,3,3,2
+"L-ratio (1,638)","cross-corpus (1,500)",1638,1500,0,9,32,17
+"L-ratio (1,638)",frozen hard (101),1638,101,0,0,0,0
+"L-ratio (1,638)",frozen novel (61),1638,61,0,0,0,0
+"L-ratio (1,638)","frozen cross-corpus (1,500)",1638,1500,0,0,0,0
+"L-ratio (1,638)","domestic (1,500)",1638,1500,0,3,3,1
+"L-ratio (1,638)","home_fire validation split (1,300)",1638,1300,0,3,4,4
+"L-ratio (1,638)","home_fire test split (1,300)",1638,1300,0,3,9,9
+"L-ratio (1,638)","D-Fire fire images (2,301)",1638,2301,0,4,5,5
+"M-top (1,638)",hard (500),1638,500,0,3,3,1
+"M-top (1,638)",novel (196),1638,196,0,2,2,1
+"M-top (1,638)",mining-dev (400),1638,400,0,1,1,1
+"M-top (1,638)","cross-corpus (1,500)",1638,1500,0,7,23,16
+"M-top (1,638)",frozen hard (101),1638,101,0,0,0,0
+"M-top (1,638)",frozen novel (61),1638,61,0,0,0,0
+"M-top (1,638)","frozen cross-corpus (1,500)",1638,1500,0,0,0,0
+"M-top (1,638)","domestic (1,500)",1638,1500,0,1,1,1
+"M-top (1,638)","home_fire validation split (1,300)",1638,1300,0,2,4,3
+"M-top (1,638)","home_fire test split (1,300)",1638,1300,0,2,13,12
+"M-top (1,638)","D-Fire fire images (2,301)",1638,2301,0,3,3,2
+"M-top, audited (1,638)",hard (500),1638,500,0,2,2,1
+"M-top, audited (1,638)",novel (196),1638,196,0,2,2,1
+"M-top, audited (1,638)",mining-dev (400),1638,400,0,1,1,1
+"M-top, audited (1,638)","cross-corpus (1,500)",1638,1500,0,5,21,15
+"M-top, audited (1,638)",frozen hard (101),1638,101,0,0,0,0
+"M-top, audited (1,638)",frozen novel (61),1638,61,0,0,0,0
+"M-top, audited (1,638)","frozen cross-corpus (1,500)",1638,1500,0,0,0,0
+"M-top, audited (1,638)","domestic (1,500)",1638,1500,0,1,1,1
+"M-top, audited (1,638)","home_fire validation split (1,300)",1638,1300,0,2,4,3
+"M-top, audited (1,638)","home_fire test split (1,300)",1638,1300,0,2,13,12
+"M-top, audited (1,638)","D-Fire fire images (2,301)",1638,2301,0,3,3,2
+"Cluster coverage (1,638)",hard (500),1638,500,0,3,4,2
+"Cluster coverage (1,638)",novel (196),1638,196,0,2,2,1
+"Cluster coverage (1,638)",mining-dev (400),1638,400,0,1,1,1
+"Cluster coverage (1,638)","cross-corpus (1,500)",1638,1500,0,6,19,7
+"Cluster coverage (1,638)",frozen hard (101),1638,101,0,0,0,0
+"Cluster coverage (1,638)",frozen novel (61),1638,61,0,0,0,0
+"Cluster coverage (1,638)","frozen cross-corpus (1,500)",1638,1500,0,0,0,0
+"Cluster coverage (1,638)","domestic (1,500)",1638,1500,0,0,0,0
+"Cluster coverage (1,638)","home_fire validation split (1,300)",1638,1300,0,4,12,5
+"Cluster coverage (1,638)","home_fire test split (1,300)",1638,1300,0,3,55,39
+"Cluster coverage (1,638)","D-Fire fire images (2,301)",1638,2301,0,2,3,2
+"Places365-only (1,638)",hard (500),1638,500,0,3,4,2
+"Places365-only (1,638)",novel (196),1638,196,0,2,2,1
+"Places365-only (1,638)",mining-dev (400),1638,400,0,0,0,0
+"Places365-only (1,638)","cross-corpus (1,500)",1638,1500,0,4,23,13
+"Places365-only (1,638)",frozen hard (101),1638,101,0,0,0,0
+"Places365-only (1,638)",frozen novel (61),1638,61,0,0,0,0
+"Places365-only (1,638)","frozen cross-corpus (1,500)",1638,1500,0,0,0,0
+"Places365-only (1,638)","domestic (1,500)",1638,1500,0,1,1,1
+"Places365-only (1,638)","home_fire validation split (1,300)",1638,1300,0,3,9,5
+"Places365-only (1,638)","home_fire test split (1,300)",1638,1300,0,3,52,40
+"Places365-only (1,638)","D-Fire fire images (2,301)",1638,2301,0,2,3,2
+"Positive-aware (1,638)",hard (500),1638,500,0,4,6,3
+"Positive-aware (1,638)",novel (196),1638,196,0,3,3,1
+"Positive-aware (1,638)",mining-dev (400),1638,400,0,1,1,1
+"Positive-aware (1,638)","cross-corpus (1,500)",1638,1500,0,6,27,16
+"Positive-aware (1,638)",frozen hard (101),1638,101,0,0,0,0
+"Positive-aware (1,638)",frozen novel (61),1638,61,0,0,0,0
+"Positive-aware (1,638)","frozen cross-corpus (1,500)",1638,1500,0,0,0,0
+"Positive-aware (1,638)","domestic (1,500)",1638,1500,0,1,1,1
+"Positive-aware (1,638)","home_fire validation split (1,300)",1638,1300,0,3,9,5
+"Positive-aware (1,638)","home_fire test split (1,300)",1638,1300,0,4,54,40
+"Positive-aware (1,638)","D-Fire fire images (2,301)",1638,2301,0,4,5,3
+"Random COCO (1,638)",hard (500),1638,500,0,0,0,0
+"Random COCO (1,638)",novel (196),1638,196,0,0,0,0
+"Random COCO (1,638)",mining-dev (400),1638,400,0,0,0,0
+"Random COCO (1,638)","cross-corpus (1,500)",1638,1500,0,0,0,0
+"Random COCO (1,638)",frozen hard (101),1638,101,0,0,0,0
+"Random COCO (1,638)",frozen novel (61),1638,61,0,0,0,0
+"Random COCO (1,638)","frozen cross-corpus (1,500)",1638,1500,0,0,0,0
+"Random COCO (1,638)","domestic (1,500)",1638,1500,0,0,0,0
+"Random COCO (1,638)","home_fire validation split (1,300)",1638,1300,0,0,0,0
+"Random COCO (1,638)","home_fire test split (1,300)",1638,1300,0,0,0,0
+"Random COCO (1,638)","D-Fire fire images (2,301)",1638,2301,0,0,0,0
+"Random COCO (3,276)",hard (500),3276,500,0,0,0,0
+"Random COCO (3,276)",novel (196),3276,196,0,0,0,0
+"Random COCO (3,276)",mining-dev (400),3276,400,0,0,0,0
+"Random COCO (3,276)","cross-corpus (1,500)",3276,1500,0,1,1,1
+"Random COCO (3,276)",frozen hard (101),3276,101,0,0,0,0
+"Random COCO (3,276)",frozen novel (61),3276,61,0,0,0,0
+"Random COCO (3,276)","frozen cross-corpus (1,500)",3276,1500,0,0,0,0
+"Random COCO (3,276)","domestic (1,500)",3276,1500,0,0,0,0
+"Random COCO (3,276)","home_fire validation split (1,300)",3276,1300,0,0,0,0
+"Random COCO (3,276)","home_fire test split (1,300)",3276,1300,0,0,0,0
+"Random COCO (3,276)","D-Fire fire images (2,301)",3276,2301,0,0,0,0
+Background 10% (433),hard (500),433,500,0,0,0,0
+Background 10% (433),novel (196),433,196,0,0,0,0
+Background 10% (433),mining-dev (400),433,400,0,0,0,0
+Background 10% (433),"cross-corpus (1,500)",433,1500,0,0,0,0
+Background 10% (433),frozen hard (101),433,101,0,0,0,0
+Background 10% (433),frozen novel (61),433,61,0,0,0,0
+Background 10% (433),"frozen cross-corpus (1,500)",433,1500,0,0,0,0
+Background 10% (433),"domestic (1,500)",433,1500,0,0,0,0
+Background 10% (433),"home_fire validation split (1,300)",433,1300,0,0,0,0
+Background 10% (433),"home_fire test split (1,300)",433,1300,0,0,0,0
+Background 10% (433),"D-Fire fire images (2,301)",433,2301,0,0,0,0
+"Random, mining corpus (1,638)",hard (500),1638,500,0,0,0,0
+"Random, mining corpus (1,638)",novel (196),1638,196,0,0,0,0
+"Random, mining corpus (1,638)",mining-dev (400),1638,400,0,0,0,0
+"Random, mining corpus (1,638)","cross-corpus (1,500)",1638,1500,0,0,0,0
+"Random, mining corpus (1,638)",frozen hard (101),1638,101,0,0,0,0
+"Random, mining corpus (1,638)",frozen novel (61),1638,61,0,0,0,0
+"Random, mining corpus (1,638)","frozen cross-corpus (1,500)",1638,1500,0,0,0,0
+"Random, mining corpus (1,638)","domestic (1,500)",1638,1500,0,1,1,1
+"Random, mining corpus (1,638)","home_fire validation split (1,300)",1638,1300,0,1,1,1
+"Random, mining corpus (1,638)","home_fire test split (1,300)",1638,1300,0,0,0,0
+"Random, mining corpus (1,638)","D-Fire fire images (2,301)",1638,2301,0,1,1,1
+"Union, subsampled (1,638)",hard (500),1638,500,0,3,3,2
+"Union, subsampled (1,638)",novel (196),1638,196,0,1,1,1
+"Union, subsampled (1,638)",mining-dev (400),1638,400,0,1,1,1
+"Union, subsampled (1,638)","cross-corpus (1,500)",1638,1500,0,4,18,14
+"Union, subsampled (1,638)",frozen hard (101),1638,101,0,0,0,0
+"Union, subsampled (1,638)",frozen novel (61),1638,61,0,0,0,0
+"Union, subsampled (1,638)","frozen cross-corpus (1,500)",1638,1500,0,0,0,0
+"Union, subsampled (1,638)","domestic (1,500)",1638,1500,0,1,1,1
+"Union, subsampled (1,638)","home_fire validation split (1,300)",1638,1300,0,1,1,1
+"Union, subsampled (1,638)","home_fire test split (1,300)",1638,1300,0,2,5,5
+"Union, subsampled (1,638)","D-Fire fire images (2,301)",1638,2301,0,4,5,4
+"Union (3,276)",hard (500),3276,500,0,7,7,2
+"Union (3,276)",novel (196),3276,196,0,2,2,1
+"Union (3,276)",mining-dev (400),3276,400,0,4,4,2
+"Union (3,276)","cross-corpus (1,500)",3276,1500,0,16,55,20
+"Union (3,276)",frozen hard (101),3276,101,0,0,0,0
+"Union (3,276)",frozen novel (61),3276,61,0,0,0,0
+"Union (3,276)","frozen cross-corpus (1,500)",3276,1500,0,0,0,0
+"Union (3,276)","domestic (1,500)",3276,1500,0,4,4,1
+"Union (3,276)","home_fire validation split (1,300)",3276,1300,0,5,8,4
+"Union (3,276)","home_fire test split (1,300)",3276,1300,0,5,22,12
+"Union (3,276)","D-Fire fire images (2,301)",3276,2301,0,7,8,6
+"Union, audited (3,276)",hard (500),3276,500,0,6,6,2
+"Union, audited (3,276)",novel (196),3276,196,0,2,2,1
+"Union, audited (3,276)",mining-dev (400),3276,400,0,4,4,2
+"Union, audited (3,276)","cross-corpus (1,500)",3276,1500,0,14,53,20
+"Union, audited (3,276)",frozen hard (101),3276,101,0,0,0,0
+"Union, audited (3,276)",frozen novel (61),3276,61,0,0,0,0
+"Union, audited (3,276)","frozen cross-corpus (1,500)",3276,1500,0,0,0,0
+"Union, audited (3,276)","domestic (1,500)",3276,1500,0,4,4,1
+"Union, audited (3,276)","home_fire validation split (1,300)",3276,1300,0,5,8,4
+"Union, audited (3,276)","home_fire test split (1,300)",3276,1300,0,5,22,12
+"Union, audited (3,276)","D-Fire fire images (2,301)",3276,2301,0,7,8,6
+"E1.8 negatives (1,671)",hard (500),1671,500,0,0,0,0
+"E1.8 negatives (1,671)",novel (196),1671,196,0,0,0,0
+"E1.8 negatives (1,671)",mining-dev (400),1671,400,32,34,34,33
+"E1.8 negatives (1,671)","cross-corpus (1,500)",1671,1500,0,4,12,11
+"E1.8 negatives (1,671)",frozen hard (101),1671,101,0,0,0,0
+"E1.8 negatives (1,671)",frozen novel (61),1671,61,0,0,0,0
+"E1.8 negatives (1,671)","frozen cross-corpus (1,500)",1671,1500,0,0,0,0
+"E1.8 negatives (1,671)","domestic (1,500)",1671,1500,0,1,1,1
+"E1.8 negatives (1,671)","home_fire validation split (1,300)",1671,1300,0,0,0,0
+"E1.8 negatives (1,671)","home_fire test split (1,300)",1671,1300,0,1,1,1
+"E1.8 negatives (1,671)","D-Fire fire images (2,301)",1671,2301,0,3,3,3

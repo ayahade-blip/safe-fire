@@ -1,0 +1,221 @@
+{
+  "config": {
+    "alpha": null,
+    "iou_min": 0.3,
+    "k": 3,
+    "n": 5,
+    "threshold": 0.5
+  },
+  "derived": {
+    "alarm_after_first_box_s": 54.37,
+    "note": "times after the action prompt include the time the person took to act, so they are upper bounds"
+  },
+  "duration_s": 361.45,
+  "frames": 5295,
+  "images": {
+    "contact_sheet": "contact_sheet.jpg",
+    "dropped": 0,
+    "written": {
+      "events": 22,
+      "root": 2,
+      "snaps": 324
+    }
+  },
+  "levels": {
+    "first_reached_s": {
+      "ALERT": 254.85,
+      "CONFIRMED": 297.8,
+      "NORMAL": 0.0,
+      "WATCH": 190.38
+    },
+    "time_in_level_s": {
+      "ALERT": 15.2,
+      "CONFIRMED": 1.3,
+      "NORMAL": 340.89,
+      "WATCH": 4.06
+    },
+    "transitions": [
+      [
+        0.0,
+        null,
+        "NORMAL"
+      ],
+      [
+        190.38,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        192.43,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        198.52,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        200.54,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        254.85,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        256.35,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        259.73,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        261.42,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        287.09,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        288.72,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        295.97,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        297.8,
+        "ALERT",
+        "CONFIRMED"
+      ],
+      [
+        299.1,
+        "CONFIRMED",
+        "ALERT"
+      ],
+      [
+        301.04,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        317.96,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        319.53,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        331.24,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        333.06,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        339.67,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        342.88,
+        "ALERT",
+        "NORMAL"
+      ]
+    ]
+  },
+  "node": {
+    "ambient_c_max": 21.31,
+    "cal_age_s_at_start": null,
+    "first_elevated_s": 190.38,
+    "gas_ratio_min": 0.966,
+    "ir_drop_mv_max": 276,
+    "levels_seen": [
+      "NORMAL",
+      "WATCH"
+    ],
+    "reader_stats": {
+      "bad": 0,
+      "comments": 10,
+      "lines": 367,
+      "parsed": 357
+    },
+    "samples": 347,
+    "surface_rise_c_max": 0.73
+  },
+  "protocol": [
+    {
+      "planned_s": 0,
+      "shown_s": 0.0,
+      "step": "Scene before the incense. It is put in the basin when the chat says so."
+    }
+  ],
+  "publisher": {
+    "dropped": 0,
+    "errors": 0,
+    "last_error": null,
+    "last_rtt_ms": 572.2,
+    "writes": 119
+  },
+  "started_local": "2026-09-18 22:25:10",
+  "timing": {
+    "first_frame_ms": 1489.8,
+    "fps_from_mean": 16.17,
+    "mean_ms": 61.8,
+    "median_ms": 61.4,
+    "note": "first frame excluded; recording was on, so this is not a benchmark",
+    "p95_ms": 62.6,
+    "p99_ms": 70.2
+  },
+  "trial": "T4_incense",
+  "vision": {
+    "alarm_times_s": [
+      254.85,
+      259.73,
+      287.09,
+      295.97,
+      317.96,
+      331.24,
+      339.67
+    ],
+    "alarms_raised": 7,
+    "first_box_at_threshold": {
+      "class": "SMOKE",
+      "conf": 0.562,
+      "frame": 3174,
+      "t_s": 200.48
+    },
+    "frames_with_box": {
+      "FLAME": 2,
+      "SMOKE": 60
+    },
+    "peak": {
+      "FLAME": {
+        "conf": 0.6772,
+        "t_s": 203.28
+      },
+      "SMOKE": {
+        "conf": 0.7646,
+        "t_s": 230.08
+      }
+    }
+  }
+}

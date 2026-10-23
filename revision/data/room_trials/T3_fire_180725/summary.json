@@ -1,0 +1,38 @@
+{
+  "reconstructed": true,
+  "why": "The Jetson lost power briefly after this run (about 18:10-18:13) and rebooted on its own. Files still in the write cache were lost: summary.json, contact_sheet.jpg, peak_flame.jpg and the last four snaps came back empty, and node.csv stops after 89 of about 176 rows. The numbers below are copied from console.log, which is complete. contact_sheet.jpg and peak_flame.jpg were restored from copies fetched from the Jetson at 18:10, before the power loss. frames.csv is complete (2605 rows) and carries the node reading in force on every frame, so the sensor series can be rebuilt from it.",
+  "trial": "T3_fire",
+  "note_on_start": "The paper was lit before the first frame, during engine start-up, so this run has no scene before the fire and cannot give a time from ignition. T3_fire_181345 is the repeat that does.",
+  "duration_s": 181.8,
+  "frames": 2605,
+  "config": {"threshold": 0.5, "k": 3, "n": 5, "iou_min": 0.3, "alpha": null},
+  "levels": {
+    "first_reached_s": {"WATCH": 0.0, "CONFIRMED": 1.0, "NORMAL": 51.7},
+    "transitions": [
+      [0.0, null, "WATCH"], [1.0, "WATCH", "CONFIRMED"], [5.3, "CONFIRMED", "WATCH"],
+      [7.2, "WATCH", "CONFIRMED"], [9.0, "CONFIRMED", "WATCH"], [11.2, "WATCH", "CONFIRMED"],
+      [12.6, "CONFIRMED", "WATCH"], [15.3, "WATCH", "CONFIRMED"], [35.1, "CONFIRMED", "WATCH"],
+      [36.6, "WATCH", "CONFIRMED"], [39.1, "CONFIRMED", "WATCH"], [41.9, "WATCH", "CONFIRMED"],
+      [43.6, "CONFIRMED", "WATCH"], [44.8, "WATCH", "CONFIRMED"], [47.7, "CONFIRMED", "WATCH"],
+      [51.7, "WATCH", "NORMAL"], [136.7, "NORMAL", "WATCH"], [137.8, "WATCH", "NORMAL"]
+    ]
+  },
+  "vision": {
+    "alarms_raised": 7,
+    "alarm_times_s": [0.96, 7.16, 11.16, 15.34, 36.64, 41.88, 44.77],
+    "first_box_at_threshold": {"class": "FLAME", "conf": 0.82, "t_s": 0.0},
+    "frames_with_flame_at_or_above_0.5": 359,
+    "last_flame_at_or_above_0.5_s": 47.3,
+    "peak": {"FLAME": {"conf": 0.92, "t_s": 2.0}, "SMOKE": null}
+  },
+  "node": {
+    "levels_seen": ["WATCH", "NORMAL"],
+    "gas_ratio_min": 0.972,
+    "surface_rise_c_max": 1.68,
+    "ir_drop_mv_max": 2210
+  },
+  "timing": {"mean_ms": 62.4, "median_ms": 61.3, "p95_ms": 62.7, "p99_ms": 75.0,
+             "fps": 16.02, "note": "from safefire_run's own summary line; recording was on"},
+  "publisher": {"writes": 76, "errors": 0, "dropped": 0, "last_rtt_ms": 426.5},
+  "stream": {"accepted": 551, "served": 552, "peak_clients": 2}
+}

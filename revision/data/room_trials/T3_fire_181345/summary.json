@@ -1,0 +1,199 @@
+{
+  "config": {
+    "alpha": null,
+    "iou_min": 0.3,
+    "k": 3,
+    "n": 5,
+    "threshold": 0.5
+  },
+  "derived": {
+    "alarm_after_first_box_s": 0.25,
+    "note": "times after the action prompt include the time the person took to act, so they are upper bounds"
+  },
+  "duration_s": 181.2,
+  "frames": 2697,
+  "images": {
+    "contact_sheet": "contact_sheet.jpg",
+    "dropped": 0,
+    "written": {
+      "events": 20,
+      "root": 1,
+      "snaps": 169
+    }
+  },
+  "levels": {
+    "first_reached_s": {
+      "ALERT": 39.79,
+      "CONFIRMED": 44.8,
+      "NORMAL": 0.0,
+      "WATCH": 42.01
+    },
+    "time_in_level_s": {
+      "ALERT": 3.14,
+      "CONFIRMED": 43.16,
+      "NORMAL": 129.66,
+      "WATCH": 5.25
+    },
+    "transitions": [
+      [
+        0.0,
+        null,
+        "NORMAL"
+      ],
+      [
+        39.79,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        41.12,
+        "ALERT",
+        "NORMAL"
+      ],
+      [
+        42.01,
+        "NORMAL",
+        "WATCH"
+      ],
+      [
+        42.83,
+        "WATCH",
+        "NORMAL"
+      ],
+      [
+        43.88,
+        "NORMAL",
+        "ALERT"
+      ],
+      [
+        44.8,
+        "ALERT",
+        "CONFIRMED"
+      ],
+      [
+        46.32,
+        "CONFIRMED",
+        "WATCH"
+      ],
+      [
+        47.32,
+        "WATCH",
+        "CONFIRMED"
+      ],
+      [
+        53.82,
+        "CONFIRMED",
+        "WATCH"
+      ],
+      [
+        54.85,
+        "WATCH",
+        "CONFIRMED"
+      ],
+      [
+        66.4,
+        "CONFIRMED",
+        "WATCH"
+      ],
+      [
+        67.88,
+        "WATCH",
+        "CONFIRMED"
+      ],
+      [
+        89.88,
+        "CONFIRMED",
+        "WATCH"
+      ],
+      [
+        90.78,
+        "WATCH",
+        "CONFIRMED"
+      ],
+      [
+        92.39,
+        "CONFIRMED",
+        "ALERT"
+      ],
+      [
+        93.28,
+        "ALERT",
+        "NORMAL"
+      ]
+    ]
+  },
+  "node": {
+    "ambient_c_max": 20.87,
+    "cal_age_s_at_start": 9,
+    "first_elevated_s": 42.01,
+    "gas_ratio_min": 0.9094,
+    "ir_drop_mv_max": 2810,
+    "levels_seen": [
+      "NORMAL",
+      "WATCH"
+    ],
+    "reader_stats": {
+      "bad": 0,
+      "comments": 10,
+      "lines": 205,
+      "parsed": 195
+    },
+    "samples": 178,
+    "surface_rise_c_max": 1.7
+  },
+  "protocol": [
+    {
+      "planned_s": 0,
+      "shown_s": 0.0,
+      "step": "Scene before the fire. Half a sheet of paper is lit when the chat says so."
+    }
+  ],
+  "publisher": {
+    "dropped": 0,
+    "errors": 0,
+    "last_error": null,
+    "last_rtt_ms": 429.4,
+    "writes": 74
+  },
+  "started_local": "2026-09-18 18:14:51",
+  "timing": {
+    "first_frame_ms": 17430.6,
+    "fps_from_mean": 16.22,
+    "mean_ms": 61.7,
+    "median_ms": 61.2,
+    "note": "first frame excluded; recording was on, so this is not a benchmark",
+    "p95_ms": 62.5,
+    "p99_ms": 69.2
+  },
+  "trial": "T3_fire",
+  "vision": {
+    "alarm_times_s": [
+      39.79,
+      40.68,
+      43.88,
+      47.32,
+      54.85,
+      67.88,
+      90.78,
+      92.08
+    ],
+    "alarms_raised": 8,
+    "first_box_at_threshold": {
+      "class": "FLAME",
+      "conf": 0.5254,
+      "frame": 627,
+      "t_s": 39.54
+    },
+    "frames_with_box": {
+      "FLAME": 510,
+      "SMOKE": 0
+    },
+    "peak": {
+      "FLAME": {
+        "conf": 0.9229,
+        "t_s": 72.82
+      },
+      "SMOKE": null
+    }
+  }
+}

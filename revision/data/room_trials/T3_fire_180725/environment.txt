@@ -1,0 +1,15 @@
+trial        T3_fire
+folder       /home/aya5/room_demo/2026-09-18/T3_fire_180725
+started      2026-09-18 18:07:25 +03
+host         Jetson  kernel 4.9.253-tegra
+power mode   pmode:0000 fmode:fanNull
+length       180 s   extra: none
+clock sync   System clock synchronized: yes
+
+86ac55555615d82fb5c2b552498651f5  safefire_run_rec.py
+144298922301e58decb8bb3a2af37bc2  safefire_run.py
+936150334491988e4b71704e72c92d6d  trial_recorder.py
+73ba939353ae494f1795817aa2180ad7  node_reader.py
+9f8350e5d7918fcf684f37ce2631c09c  publish.py
+30b6a75e5f01b1e530b6231cd6b9eb96  stream_server.py
+34fafb624073ff5f3af4f9620bd6d686  kd6_fp16.engine

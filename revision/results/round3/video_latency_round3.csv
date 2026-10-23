@@ -1,0 +1,289 @@
+﻿model,run_id,rate,hold_s,clip,scene,content,seconds,fps,onset_s,first_detection_s,first_alarm_s,latency_s,detected
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,0.0,0.6,0.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo10.869,outdoor,forest fire,7.81,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,0.0,0.2,0.2,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.98,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo3.872,outdoor,brush fire,12.68,29.97,0.0,0.0,0.3,0.3,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo5.874,indoor,fireplace,80.25,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.0,0.4,-1.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,16.7,17.8,17.8,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.08,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_fire__posVideo9.878,outdoor,fire pit,22.09,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.92,24.0,1.0,0.917,1.042,0.04,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.62,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,0.133,0.267,0.27,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.52,25.0,0.0,0.0,0.08,0.08,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,5.543,5.97,5.97,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.3,0.3,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,0.8,2.6,2.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,0.267,2.4,1.4,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.57,30.0,0.0,0.033,0.133,0.13,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.98,29.97,0.0,0.134,0.334,0.33,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.04,25.0,1.0,0.24,0.4,-0.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.06,29.94,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,0.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.42,29.97,0.0,0.067,0.134,0.13,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,0.0,0.6,0.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo10.869,outdoor,forest fire,7.81,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,0.0,0.2,0.2,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.98,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo3.872,outdoor,brush fire,12.68,29.97,0.0,0.0,0.3,0.3,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo5.874,indoor,fireplace,80.25,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.0,0.4,-1.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,16.7,17.8,17.8,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.08,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_fire__posVideo9.878,outdoor,fire pit,22.09,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.92,24.0,1.0,0.917,1.042,0.04,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.62,29.97,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,0.133,0.267,0.27,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.52,25.0,0.0,0.0,0.08,0.08,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,5.543,5.97,5.97,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.3,0.3,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,0.8,2.6,2.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,0.267,2.4,1.4,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.57,30.0,0.0,0.033,0.133,0.13,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.98,29.97,0.0,0.134,0.334,0.33,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.04,25.0,1.0,0.24,0.4,-0.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.06,29.94,0.0,0.0,0.067,0.07,yes
+"Baseline, no negatives",tournament__yolo26n__s42,native,30.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.42,29.97,0.0,0.067,0.134,0.13,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,0.0,0.6,0.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo10.869,outdoor,forest fire,7.75,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,0.0,0.2,0.2,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.94,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo3.872,outdoor,brush fire,12.62,29.97,0.0,0.0,1.312,1.31,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo5.874,indoor,fireplace,80.19,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.0,0.4,-1.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,16.7,17.8,17.8,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.06,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_fire__posVideo9.878,outdoor,fire pit,22.06,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.88,24.0,1.0,0.938,1.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.56,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,0.133,0.267,0.27,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.5,25.0,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,5.543,5.97,5.97,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.3,0.3,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,0.8,2.6,2.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,0.267,2.4,1.4,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.56,30.0,0.0,0.062,0.312,0.31,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.94,29.97,0.0,0.25,0.438,0.44,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.0,25.0,1.0,0.25,0.438,-0.56,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.0,29.94,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,0.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.38,29.97,0.0,0.125,0.25,0.25,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,0.0,0.6,0.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo10.869,outdoor,forest fire,7.75,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,0.0,0.2,0.2,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.94,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo3.872,outdoor,brush fire,12.62,29.97,0.0,0.0,1.312,1.31,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo5.874,indoor,fireplace,80.19,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.0,0.4,-1.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,16.7,17.8,17.8,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.06,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_fire__posVideo9.878,outdoor,fire pit,22.06,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.88,24.0,1.0,0.938,1.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.56,29.97,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,0.133,0.267,0.27,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.5,25.0,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,5.543,5.97,5.97,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.3,0.3,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,0.8,2.6,2.6,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,0.267,2.4,1.4,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.56,30.0,0.0,0.062,0.312,0.31,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.94,29.97,0.0,0.25,0.438,0.44,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.0,25.0,1.0,0.25,0.438,-0.56,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.0,29.94,0.0,0.0,0.125,0.12,yes
+"Baseline, no negatives",tournament__yolo26n__s42,16 fps,30.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.38,29.97,0.0,0.125,0.25,0.25,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,8.2,23.1,23.1,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo10.869,outdoor,forest fire,7.81,29.97,0.0,0.0,0.2,0.2,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,0.133,,,no
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.98,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo3.872,outdoor,brush fire,12.68,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo5.874,indoor,fireplace,80.25,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.1,0.5,-1.5,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,,,,no
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.08,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_fire__posVideo9.878,outdoor,fire pit,22.09,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.92,24.0,1.0,6.667,6.75,5.75,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.62,29.97,0.0,3.203,,,no
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,,,,no
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.52,25.0,0.0,3.04,3.16,3.16,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,1.706,2.132,2.13,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.2,0.2,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,45.1,66.2,66.2,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,8.067,8.333,7.33,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.57,30.0,0.0,0.133,0.367,0.37,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.98,29.97,0.0,2.736,3.103,3.1,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.04,25.0,1.0,0.84,0.92,-0.08,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.06,29.94,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,0.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.42,29.97,0.0,0.067,0.434,0.43,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,8.2,23.1,23.1,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo10.869,outdoor,forest fire,7.81,29.97,0.0,0.0,0.2,0.2,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,0.133,,,no
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.98,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo3.872,outdoor,brush fire,12.68,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo5.874,indoor,fireplace,80.25,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.1,0.5,-1.5,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,,,,no
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.08,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_fire__posVideo9.878,outdoor,fire pit,22.09,29.97,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.92,24.0,1.0,6.667,6.75,5.75,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.62,29.97,0.0,3.203,,,no
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,,,,no
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.52,25.0,0.0,3.04,3.16,3.16,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,1.706,2.132,2.13,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.2,0.2,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,45.1,66.2,66.2,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,8.067,8.333,7.33,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.57,30.0,0.0,0.133,0.367,0.37,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.98,29.97,0.0,2.736,3.103,3.1,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.04,25.0,1.0,0.84,0.92,-0.08,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.06,29.94,0.0,0.0,0.067,0.07,yes
+Deployed model,kd__kd6__s42,native,30.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.42,29.97,0.0,0.067,0.434,0.43,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,8.2,23.1,23.1,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo10.869,outdoor,forest fire,7.75,29.97,0.0,0.0,0.25,0.25,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,0.133,,,no
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.94,29.97,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo3.872,outdoor,brush fire,12.62,29.97,0.0,0.0,0.188,0.19,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo5.874,indoor,fireplace,80.19,29.97,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.1,0.5,-1.5,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,,,,no
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.06,29.97,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_fire__posVideo9.878,outdoor,fire pit,22.06,29.97,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.88,24.0,1.0,6.688,6.812,5.81,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.56,29.97,0.0,3.25,,,no
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,,,,no
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.5,25.0,0.0,3.062,12.438,12.44,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,1.706,2.132,2.13,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.2,0.2,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,45.1,66.2,66.2,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,8.067,8.333,7.33,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.56,30.0,0.0,0.312,0.438,0.44,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.94,29.97,0.0,2.75,3.188,3.19,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.0,25.0,1.0,0.875,12.438,11.44,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.0,29.94,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,0.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.38,29.97,0.0,0.375,0.5,0.5,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,8.2,23.1,23.1,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo10.869,outdoor,forest fire,7.75,29.97,0.0,0.0,0.25,0.25,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,0.133,,,no
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.94,29.97,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo3.872,outdoor,brush fire,12.62,29.97,0.0,0.0,0.188,0.19,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo5.874,indoor,fireplace,80.19,29.97,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.1,0.5,-1.5,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,,,,no
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.06,29.97,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_fire__posVideo9.878,outdoor,fire pit,22.06,29.97,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.88,24.0,1.0,6.688,6.812,5.81,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.56,29.97,0.0,3.25,,,no
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,,,,no
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.5,25.0,0.0,3.062,12.438,12.44,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,1.706,2.132,2.13,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.2,0.2,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,45.1,66.2,66.2,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,8.067,8.333,7.33,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.56,30.0,0.0,0.312,0.438,0.44,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.94,29.97,0.0,2.75,3.188,3.19,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.0,25.0,1.0,0.875,12.438,11.44,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.0,29.94,0.0,0.0,0.125,0.12,yes
+Deployed model,kd__kd6__s42,16 fps,30.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.38,29.97,0.0,0.375,0.5,0.5,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,0.5,0.7,0.7,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo10.869,outdoor,forest fire,7.81,29.97,0.0,0.2,0.267,0.27,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.98,29.97,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo3.872,outdoor,brush fire,12.68,29.97,0.0,0.0,0.134,0.13,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo5.874,indoor,fireplace,80.25,29.97,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.0,0.9,-1.1,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.08,29.97,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_fire__posVideo9.878,outdoor,fire pit,22.09,29.97,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.92,24.0,1.0,1.0,5.958,4.96,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.62,29.97,0.0,12.813,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,2.2,2.4,2.4,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.52,25.0,0.0,3.04,4.0,4.0,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,3.198,3.624,3.62,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.2,0.2,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,44.8,66.4,66.4,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,8.6,8.733,7.73,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.57,30.0,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.98,29.97,0.0,3.036,3.136,3.14,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.04,25.0,1.0,0.44,0.52,-0.48,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.06,29.94,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,0.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.42,29.97,0.0,0.067,0.167,0.17,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,0.5,0.7,0.7,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo10.869,outdoor,forest fire,7.81,29.97,0.0,0.2,0.267,0.27,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.98,29.97,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo3.872,outdoor,brush fire,12.68,29.97,0.0,0.0,0.134,0.13,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo5.874,indoor,fireplace,80.25,29.97,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.0,0.9,-1.1,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.08,29.97,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_fire__posVideo9.878,outdoor,fire pit,22.09,29.97,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.92,24.0,1.0,1.0,5.958,4.96,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.62,29.97,0.0,12.813,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,2.2,2.4,2.4,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.52,25.0,0.0,3.04,4.0,4.0,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,3.198,3.624,3.62,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.2,0.2,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,44.8,66.4,66.4,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,8.6,8.733,7.73,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.57,30.0,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.98,29.97,0.0,3.036,3.136,3.14,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.04,25.0,1.0,0.44,0.52,-0.48,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.06,29.94,0.0,0.0,0.067,0.07,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,native,30.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.42,29.97,0.0,0.067,0.167,0.17,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,0.5,0.7,0.7,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo10.869,outdoor,forest fire,7.75,29.97,0.0,0.25,0.375,0.38,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.94,29.97,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo3.872,outdoor,brush fire,12.62,29.97,0.0,0.0,0.188,0.19,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo5.874,indoor,fireplace,80.19,29.97,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.0,0.9,-1.1,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.06,29.97,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_fire__posVideo9.878,outdoor,fire pit,22.06,29.97,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.88,24.0,1.0,1.0,6.0,5.0,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.56,29.97,0.0,,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,2.2,2.4,2.4,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.5,25.0,0.0,3.062,4.062,4.06,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,3.198,3.624,3.62,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.2,0.2,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,44.8,66.4,66.4,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,8.6,8.733,7.73,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.56,30.0,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.94,29.97,0.0,3.062,3.188,3.19,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.0,25.0,1.0,0.5,0.688,-0.31,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.0,29.94,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,0.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.38,29.97,0.0,0.188,0.375,0.38,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo1.868,outdoor,tyre fire,29.2,10.0,0.0,0.5,0.7,0.7,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo10.869,outdoor,forest fire,7.75,29.97,0.0,0.25,0.375,0.38,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo11.870,outdoor,small flames in a forest,11.8,15.0,0.0,,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo2.871,indoor,kitchen sink fire,16.94,29.97,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo3.872,outdoor,brush fire,12.62,29.97,0.0,0.0,0.188,0.19,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo4.873,indoor,fireplace,55.19,29.97,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo5.874,indoor,fireplace,80.19,29.97,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo6.875,outdoor,fire lit in a field,25.7,10.0,2.0,0.0,0.9,-1.1,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo7.876,outdoor,small fire in snow,54.6,10.0,0.0,,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo8.877,outdoor,close flames at night,17.06,29.97,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_fire__posVideo9.878,outdoor,fire pit,22.06,29.97,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos01.817,outdoor,smoke grenade on grass,16.88,24.0,1.0,1.0,6.0,5.0,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos02.818,outdoor,building fire with smoke,57.56,29.97,0.0,,,,no
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos03.819,outdoor,low smoke on dry ground by a wall (re-encoded clip),21.4,15.0,0.0,2.2,2.4,2.4,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos04.820,outdoor,smoke grenade,78.5,25.0,0.0,3.062,4.062,4.06,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos05.821,indoor,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame),109.37,4.691,0.0,3.198,3.624,3.62,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos06.822,outdoor,smoke from a bucket,20.0,10.0,0.0,0.0,0.2,0.2,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos07.823,outdoor,smoke from a bucket,70.0,10.0,0.0,44.8,66.4,66.4,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos08.824,outdoor,smoke grenade in a garden,24.13,15.0,1.0,8.6,8.733,7.73,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos09.825,outdoor,smoke on grass,27.56,30.0,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos10.826,outdoor,smoke on soil,48.94,29.97,0.0,3.062,3.188,3.19,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos11.827,outdoor,smoke from a barrel,27.0,25.0,1.0,0.5,0.688,-0.31,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos12.828,outdoor,smoke near a fence,12.0,29.94,0.0,0.0,0.125,0.12,yes
+Audited union + KD s42,UC__KD__yolo26n__s42,16 fps,30.0,FS_smoke__testpos13.829,outdoor,smoke in a garden,15.38,29.97,0.0,0.188,0.375,0.38,yes

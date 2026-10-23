@@ -1,5 +1,23 @@
 # Changelog
 
+## 3.2.0 (2026-10-23)
+
+- `revision/notebooks/SFS_08_hashes_and_frames.ipynb`: SHA-256 and dHash fingerprints of the frozen suite, the domestic set,
+  the random-corpus pool and the extra COCO images (`revision/data/round2/hashes/`); frames of two clips for a visual check.
+- `revision/analysis/analysis_round3.py` and `revision/results/round3/`: recall at a 1% budget without the mining-development
+  subset (pooled 2,196 negatives; equal weight and every subset on the same three subsets; the 3,358 negatives no decision
+  consulted); LAMR, FPPI curves and recall by size on the 2,196 pool; every condition with the new pooled columns; the
+  vision-language verifier on the new pools; in-domain D-Fire detection for every condition with one threshold rule (grid
+  0.001) in tables and bootstrap contrasts, on both D-Fire subsets and on each alone; first-alarm latency of every positive
+  clip; the room-trial logs replayed at four thresholds; mAP of the audited union with and without seed 123; the complete
+  overlap audit (15 training sets against 11 evaluation sets, SHA-256 and dHash) with the pair list; the yolo26n runs of the
+  backbone selection beside the no-negatives runs of the factorial study.
+- `revision/results/round3/dfire_fire_images_hashes.csv`: fingerprints of the 2,301 D-Fire fire images.
+- `revision/data/room_trials/`: per-frame scores, node readings and run summaries of the six room-trial runs (no images).
+- `revision/data/manifests/sm_manifest__round0_selected.json`: the 1,671 earlier negatives of the replication.
+- `revision/analysis/video_tags.csv`: the onset of clip FS_smoke__testpos05 set to 0 s after a frame-by-frame check.
+- Supplementary list: Table S2 now complete; Tables S5c and S9b added.
+
 ## 3.1.0 (2026-10-19)
 
 - `revision/notebooks/SFS_06_round2.ipynb` and `sfs_r2.py`: visual-audit contact sheets of the mined set; a random control

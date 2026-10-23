@@ -7,7 +7,7 @@ model, the records they wrote, and the analysis that turns those records into ta
 
 | Path | What |
 |---|---|
-| `notebooks/` | `SFS_01` to `SFS_07`, `sfs_lib.py` and `sfs_r2.py`, the libraries the notebooks write to `/content/sfs/` and import |
+| `notebooks/` | `SFS_01` to `SFS_08`, `sfs_lib.py` and `sfs_r2.py`, the libraries the notebooks write to `/content/sfs/` and import |
 | `analysis/analysis_results.py` | regenerates every table value from `data/` into `results/` |
 | `analysis/export_sweeps.py` | writes the full threshold sweeps behind every "R at FPR 1%" value |
 | `analysis/video_tags.csv` | scene (indoor or outdoor) and annotated fire onset of each video clip |
@@ -67,7 +67,7 @@ python revision/analysis/export_sweeps.py           # the threshold sweeps
 
 ## Re-running the experiments
 
-The notebooks run on Google Colab in the order SFS_01 -> SFS_02 -> SFS_03 and SFS_04 -> SFS_05 -> SFS_06 -> SFS_07. They read the prepared
+The notebooks run on Google Colab in the order SFS_01 -> SFS_02 -> SFS_03 and SFS_04 -> SFS_05 -> SFS_06 -> SFS_07 -> SFS_08. They read the prepared
 datasets from `SFS_SRC` (default `/content/drive/MyDrive/SAFE_FIRE`) and write every output to `SFS_OUT` (default
 `/content/drive/MyDrive/SAFE_FIRE_SCOPUS`); both can be changed with environment variables. Interrupted notebooks resume
 where they stopped.
@@ -115,4 +115,29 @@ resampling to 16 frames per second.
 
 ```
 python revision/analysis/analysis_round2.py          # every round-2 table, into revision/results/round2/
+```
+
+## Round 3
+
+| Path | What |
+|---|---|
+| `notebooks/SFS_08_hashes_and_frames.ipynb` | fingerprints of the frozen suite, the domestic set, the random-corpus pool and the extra COCO images; frames of two clips |
+| `analysis/analysis_round3.py` | every round-3 table, into `results/round3/` (parts: budget, lamr, cond, verifier, dfire, video, room, map, overlap, t1t2) |
+| `data/round2/hashes/*.csv` | SHA-256 and dHash of every image of those sets |
+| `results/round3/dfire_fire_images_hashes.csv` | the same for the 2,301 D-Fire fire images |
+| `results/round3/overlap_round3.csv`, `overlap_pairs_round3.csv` | the complete overlap audit and every near-duplicate pair |
+| `results/round3/budget_round3.csv`, `lamr_round3.csv`, `fppi_curves_round3.csv`, `fig6_recall_by_size_round3.csv` | budgets without the mining-development subset; curves on the 2,196 pool |
+| `results/round3/dfire_round3.csv`, `dfire_contrasts_round3.csv` | in-domain D-Fire detection for every condition, one threshold rule |
+| `results/round3/video_latency_round3.csv`, `video_latency_summary_round3.csv` | first alarm on every positive clip |
+| `results/round3/room_threshold_replay_round3.csv` | the room-trial logs replayed at 0.50, 0.0931, 0.0842 and 0.0484 |
+| `results/round3/map_audited_union_round3.csv` | mAP of the audited union against no negatives, with and without seed 123 |
+| `results/round3/table1_vs_table2_round3.csv` | the backbone-selection yolo26n runs beside the factorial no-negatives runs |
+| `data/room_trials/<run>/frames.csv`, `node.csv`, `summary.json`, `environment.txt` | the six room-trial runs (per-frame scores, levels and node readings; no images) |
+| `data/manifests/sm_manifest__round0_selected.json` | the 1,671 earlier negatives of the replication |
+
+Round 3 trains nothing: every value is recomputed from the released score files. The overlap part needs NumPy 2.0 or later
+(`numpy.bitwise_count`); the D-Fire fire images are not redistributed, their fingerprints are in `results/round3/`.
+
+```
+python revision/analysis/analysis_round3.py          # every round-3 table, into revision/results/round3/
 ```

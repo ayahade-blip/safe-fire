@@ -1,0 +1,100 @@
+{
+  "config": {
+    "alpha": null,
+    "iou_min": 0.3,
+    "k": 3,
+    "n": 5,
+    "threshold": 0.5
+  },
+  "derived": {
+    "note": "times after the action prompt include the time the person took to act, so they are upper bounds"
+  },
+  "duration_s": 151.43,
+  "frames": 2408,
+  "images": {
+    "contact_sheet": "contact_sheet.jpg",
+    "dropped": 0,
+    "written": {
+      "events": 1,
+      "root": 2,
+      "snaps": 143
+    }
+  },
+  "levels": {
+    "first_reached_s": {
+      "NORMAL": 0.0
+    },
+    "time_in_level_s": {
+      "NORMAL": 151.43
+    },
+    "transitions": [
+      [
+        0.0,
+        null,
+        "NORMAL"
+      ]
+    ]
+  },
+  "node": {
+    "ambient_c_max": 21.0,
+    "cal_age_s_at_start": null,
+    "first_elevated_s": null,
+    "gas_ratio_min": 1.0348,
+    "ir_drop_mv_max": 4,
+    "levels_seen": [
+      "NORMAL"
+    ],
+    "reader_stats": {
+      "bad": 0,
+      "comments": 10,
+      "lines": 160,
+      "parsed": 150
+    },
+    "samples": 149,
+    "surface_rise_c_max": -0.08
+  },
+  "protocol": [
+    {
+      "planned_s": 0,
+      "shown_s": 0.0,
+      "step": "Room light off. A phone flashlight is put in the basin, facing the camera, when the chat says so."
+    }
+  ],
+  "publisher": {
+    "dropped": 0,
+    "errors": 0,
+    "last_error": null,
+    "last_rtt_ms": 513.7,
+    "writes": 40
+  },
+  "started_local": "2026-09-18 18:01:43",
+  "timing": {
+    "first_frame_ms": 1562.7,
+    "fps_from_mean": 16.3,
+    "mean_ms": 61.4,
+    "median_ms": 61.3,
+    "note": "first frame excluded; recording was on, so this is not a benchmark",
+    "p95_ms": 62.4,
+    "p99_ms": 63.6
+  },
+  "trial": "T2_flashlight",
+  "vision": {
+    "alarm_times_s": [],
+    "alarms_raised": 0,
+    "first_box_at_threshold": null,
+    "frames_with_box": {
+      "FLAME": 0,
+      "SMOKE": 0
+    },
+    "peak": {
+      "FLAME": {
+        "conf": 0.3469,
+        "t_s": 68.35
+      },
+      "SMOKE": {
+        "conf": 0.4746,
+        "t_s": 40.7
+      }
+    }
+  }
+}

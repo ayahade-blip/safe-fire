@@ -43,7 +43,7 @@ FS_fire__posVideo9.878,outdoor,0,fire pit
 FS_smoke__testpos01.817,outdoor,1,smoke grenade on grass
 FS_smoke__testpos02.818,outdoor,0,building fire with smoke
 FS_smoke__testpos04.820,outdoor,0,smoke grenade
-FS_smoke__testpos05.821,indoor,,warehouse camera; smoke not visible in the preview tiles
+FS_smoke__testpos05.821,indoor,0,warehouse camera; a smoke plume rises at the right from the first frame (checked frame by frame)
 FS_smoke__testpos06.822,outdoor,0,smoke from a bucket
 FS_smoke__testpos07.823,outdoor,0,smoke from a bucket
 FS_smoke__testpos08.824,outdoor,1,smoke grenade in a garden

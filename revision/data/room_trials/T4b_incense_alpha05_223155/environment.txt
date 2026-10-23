@@ -1,0 +1,15 @@
+trial        T4b_incense_alpha05
+folder       /home/aya5/room_demo/2026-09-18/T4b_incense_alpha05_223155
+started      2026-09-18 22:31:55 +03
+host         Jetson  kernel 4.9.253-tegra
+power mode   pmode:0000 fmode:fanNull
+length       180 s   extra: --alpha 0.05
+clock sync   System clock synchronized: yes
+
+86ac55555615d82fb5c2b552498651f5  safefire_run_rec.py
+144298922301e58decb8bb3a2af37bc2  safefire_run.py
+d6b0ab67ed0a69bf5d77e4617a3585b6  trial_recorder.py
+73ba939353ae494f1795817aa2180ad7  node_reader.py
+9f8350e5d7918fcf684f37ce2631c09c  publish.py
+30b6a75e5f01b1e530b6231cd6b9eb96  stream_server.py
+34fafb624073ff5f3af4f9620bd6d686  kd6_fp16.engine
